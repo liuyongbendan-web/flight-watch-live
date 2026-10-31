@@ -1,0 +1,73 @@
+{
+  "updated": "2026-10-24T21:49:45",
+  "entries": [
+    {
+      "origin": "CNX",
+      "destination": "SYD",
+      "from": "2026-12-06",
+      "to": "2026-12-06",
+      "max_price": 540,
+      "max_stops": 1,
+      "allow_self_transfer": true,
+      "need_bag": false,
+      "adults": 1,
+      "enabled": true,
+      "auto_prepare": false,
+      "exclude": [],
+      "depart_slots": [],
+      "promo_code": "",
+      "snipe_at": "",
+      "note": "UTMB Chiang Mai 赛后回程（默认监测）",
+      "id": "79e0e2"
+    },
+    {
+      "origin": "BKK",
+      "destination": "SYD",
+      "from": "2026-12-06",
+      "to": "2026-12-06",
+      "max_price": 370,
+      "max_stops": 1,
+      "allow_self_transfer": false,
+      "need_bag": false,
+      "adults": 1,
+      "enabled": true,
+      "auto_prepare": false,
+      "exclude": [],
+      "depart_slots": [],
+      "promo_code": "",
+      "snipe_at": "",
+      "note": "UTMB Chiang Mai 赛后回程 经曼谷转机（默认监测）",
+      "id": "4b5cae",
+      "transfer_pref": "cheap",
+      "low_margin": 5,
+      "max_duration_h": null,
+      "max_layover_h": null,
+      "stopover_city": "",
+      "stopover_min_h": 12,
+      "stopover_max_h": 48
+    },
+    {
+      "origin": "CNX",
+      "destination": "SYD",
+      "from": "2026-12-06",
+      "to": "2026-12-09",
+      "max_price": 350,
+      "max_stops": 1,
+      "allow_self_transfer": false,
+      "need_bag": false,
+      "adults": 1,
+      "enabled": true,
+      "auto_prepare": false,
+      "exclude": [],
+      "depart_slots": [],
+      "promo_code": "",
+      "snipe_at": "",
+      "note": "",
+      "id": "e591da"
+    }
+  ],
+  "settings": {
+    "interval_minutes": 30,
+    "report_hour": 21
+  }
+}
