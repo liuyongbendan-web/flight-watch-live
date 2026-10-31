@@ -3050,3 +3050,8 @@ checked_at,route,depart_date,price,airlines,flights,stops,self_transfer,checked_
 2026-11-01T00:43,CNX-SYD,2026-12-06,312,VietJet Air,VJ1884 VJ085,1,False,False,actual,e591da
 2026-11-01T00:43,CNX-SYD,2026-12-08,495,Scoot,TR699 TR042,1,False,False,actual,e591da
 2026-11-01T00:43,CNX-SYD,2026-12-09,314,VietJet Air,VJ1884 VJ085,1,False,False,actual,e591da
+2026-11-01T09:46,CNX-SYD,2026-12-06,312,VietJet Air,VJ1884 VJ085,1,False,False,actual,79e0e2
+2026-11-01T09:47,BKK-SYD,2026-12-06,337,Scoot,TR621 TR042,1,False,False,actual,4b5cae
+2026-11-01T09:48,CNX-SYD,2026-12-06,312,VietJet Air,VJ1884 VJ085,1,False,False,actual,e591da
+2026-11-01T09:48,CNX-SYD,2026-12-08,496,Scoot,TR699 TR042,1,False,False,actual,e591da
+2026-11-01T09:48,CNX-SYD,2026-12-09,314,VietJet Air,VJ1884 VJ085,1,False,False,actual,e591da

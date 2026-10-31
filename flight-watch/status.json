@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-01T08:35:45",
-  "source": "mac",
+  "generated_at": "2026-11-01T09:48:07",
+  "source": "cloud",
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-01T08:34",
+      "checked_at": "2026-11-01T09:46",
       "status": "ok",
       "error": null,
       "best": {
@@ -74,7 +74,7 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-01T08:34",
+      "checked_at": "2026-11-01T09:47",
       "status": "ok",
       "error": null,
       "best": {
@@ -162,7 +162,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-01T08:35",
+      "checked_at": "2026-11-01T09:48",
       "status": "ok",
       "error": null,
       "best": {
@@ -188,7 +188,7 @@
           "price": 444,
           "currency": "AUD",
           "airlines": "Thai AirAsia/VietJet Air",
-          "flights": "FD4101 VJ800 VJ085",
+          "flights": "FD4101 VJ804 VJ085",
           "depart": "2026-12-08 08:55",
           "arrive": "2026-12-09 10:00",
           "duration": "21h05m",
@@ -229,7 +229,7 @@
         },
         {
           "date": "2026-12-08",
-          "price": 480
+          "price": 429
         },
         {
           "date": "2026-12-09",
@@ -255,7 +255,7 @@
       }
     }
   },
-  "last_cycle": "2026-11-01T08:35:38",
+  "last_cycle": "2026-11-01T09:48:07",
   "last_error": null,
   "trip_ok": true,
   "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [337, \"2026-12-06\", {\"connecting\": 337, \"direct\": 735, \"self_transfer\": 410}, null], \"79e0e2\": [312, \"2026-12-06\", {\"connecting\": 312, \"self_transfer\": 885}, null], \"e591da\": [312, \"2026-12-06\", {\"connecting\": 312, \"self_transfer\": 444}, null]}}"
