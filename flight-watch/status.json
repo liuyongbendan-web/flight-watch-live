@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-01T22:02:39",
+  "generated_at": "2026-11-01T23:02:46",
   "source": "cloud",
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-01T22:01",
+      "checked_at": "2026-11-01T23:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -43,7 +43,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 885,
+          "price": 876,
           "currency": "AUD",
           "airlines": "Qantas Airways/Thai Vietjet Air",
           "flights": "VZ119 QF024",
@@ -74,7 +74,7 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-01T22:01",
+      "checked_at": "2026-11-01T23:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -162,7 +162,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-01T22:02",
+      "checked_at": "2026-11-01T23:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -255,8 +255,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-01T22:02:39",
+  "last_cycle": "2026-11-01T23:02:46",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [337, \"2026-12-06\", {\"connecting\": 337, \"direct\": 735, \"self_transfer\": 411}, null], \"79e0e2\": [312, \"2026-12-06\", {\"connecting\": 312, \"self_transfer\": 885}, null], \"e591da\": [312, \"2026-12-06\", {\"connecting\": 312, \"self_transfer\": 448}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [337, \"2026-12-06\", {\"connecting\": 337, \"direct\": 735, \"self_transfer\": 411}, null], \"79e0e2\": [312, \"2026-12-06\", {\"connecting\": 312, \"self_transfer\": 876}, null], \"e591da\": [312, \"2026-12-06\", {\"connecting\": 312, \"self_transfer\": 448}, null]}}"
 }

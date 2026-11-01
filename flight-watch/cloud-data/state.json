@@ -1,7 +1,7 @@
 {
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-01T22:01",
+      "checked_at": "2026-11-01T23:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -65,7 +65,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 885,
+          "price": 876,
           "currency": "AUD",
           "airlines": "Qantas Airways/Thai Vietjet Air",
           "flights": "VZ119 QF024",
@@ -83,7 +83,7 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-01T22:01",
+      "checked_at": "2026-11-01T23:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -182,7 +182,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-01T22:02",
+      "checked_at": "2026-11-01T23:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -310,6 +310,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-01T22:02:39",
+  "last_cycle": "2026-11-01T23:02:46",
   "report_sent": "2026-11-01"
 }
