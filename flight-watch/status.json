@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-01T09:48:07",
-  "source": "cloud",
+  "generated_at": "2026-11-01T12:58:07",
+  "source": "mac",
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-01T09:46",
+      "checked_at": "2026-11-01T12:56",
       "status": "ok",
       "error": null,
       "best": {
@@ -74,12 +74,12 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-01T09:47",
+      "checked_at": "2026-11-01T12:57",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-06",
-        "price": 337,
+        "price": 335,
         "currency": "AUD",
         "airlines": "Scoot",
         "flights": "TR621 TR042",
@@ -97,7 +97,7 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-06",
-          "price": 337,
+          "price": 335,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR621 TR042",
@@ -114,18 +114,18 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 410,
+          "price": 407,
           "currency": "AUD",
-          "airlines": "Jetstar Airways/Nokair",
-          "flights": "DD536 JQ028",
-          "depart": "2026-12-06 22:05",
+          "airlines": "Jetstar Airways/Thai AirAsia",
+          "flights": "FD4419 JQ028",
+          "depart": "2026-12-06 20:10",
           "arrive": "2026-12-08 10:50",
-          "duration": "32h45m",
+          "duration": "34h40m",
           "stops": 1,
           "via": "HKT",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 6,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=bkk&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
@@ -150,19 +150,19 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 322
+          "price": 320
         }
       ],
       "per_day": {
         "2026-12-06": {
-          "price": 337,
+          "price": 335,
           "airlines": "Scoot",
           "depart": "2026-12-06 22:20"
         }
       }
     },
     "e591da": {
-      "checked_at": "2026-11-01T09:48",
+      "checked_at": "2026-11-01T12:57",
       "status": "ok",
       "error": null,
       "best": {
@@ -188,7 +188,7 @@
           "price": 444,
           "currency": "AUD",
           "airlines": "Thai AirAsia/VietJet Air",
-          "flights": "FD4101 VJ804 VJ085",
+          "flights": "FD4101 VJ800 VJ085",
           "depart": "2026-12-08 08:55",
           "arrive": "2026-12-09 10:00",
           "duration": "21h05m",
@@ -255,8 +255,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-01T09:48:07",
+  "last_cycle": "2026-11-01T12:58:00",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [337, \"2026-12-06\", {\"connecting\": 337, \"direct\": 735, \"self_transfer\": 410}, null], \"79e0e2\": [312, \"2026-12-06\", {\"connecting\": 312, \"self_transfer\": 885}, null], \"e591da\": [312, \"2026-12-06\", {\"connecting\": 312, \"self_transfer\": 444}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [335, \"2026-12-06\", {\"connecting\": 335, \"direct\": 735, \"self_transfer\": 407}, null], \"79e0e2\": [312, \"2026-12-06\", {\"connecting\": 312, \"self_transfer\": 885}, null], \"e591da\": [312, \"2026-12-06\", {\"connecting\": 312, \"self_transfer\": 444}, null]}}"
 }
