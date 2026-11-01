@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-01T15:02:34",
+  "generated_at": "2026-11-01T16:02:52",
   "source": "cloud",
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-01T15:01",
+      "checked_at": "2026-11-01T16:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -74,7 +74,7 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-01T15:01",
+      "checked_at": "2026-11-01T16:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -162,7 +162,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-01T15:02",
+      "checked_at": "2026-11-01T16:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -229,7 +229,7 @@
         },
         {
           "date": "2026-12-08",
-          "price": 429
+          "price": 374
         },
         {
           "date": "2026-12-09",
@@ -248,14 +248,14 @@
           "depart": "2026-12-06 16:30"
         },
         "2026-12-09": {
-          "price": 314,
+          "price": 313,
           "airlines": "VietJet Air",
           "depart": "2026-12-09 16:30"
         }
       }
     }
   },
-  "last_cycle": "2026-11-01T15:02:34",
+  "last_cycle": "2026-11-01T16:02:52",
   "last_error": null,
   "trip_ok": true,
   "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [335, \"2026-12-06\", {\"connecting\": 335, \"direct\": 716, \"self_transfer\": 402}, null], \"79e0e2\": [312, \"2026-12-06\", {\"connecting\": 312, \"self_transfer\": 857}, null], \"e591da\": [312, \"2026-12-06\", {\"connecting\": 312, \"self_transfer\": 444}, null]}}"
