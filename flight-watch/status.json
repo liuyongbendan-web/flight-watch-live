@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-02T06:02:47",
+  "generated_at": "2026-11-02T07:02:45",
   "source": "cloud",
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-02T06:01",
+      "checked_at": "2026-11-02T07:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -19,7 +19,7 @@
         "via": "SGN",
         "self_transfer": false,
         "checked_baggage": false,
-        "seats_left": 5,
+        "seats_left": 9,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
@@ -37,21 +37,21 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 9,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 919,
+          "price": 693,
           "currency": "AUD",
-          "airlines": "Qantas Airways/Thai AirAsia",
-          "flights": "FD4105 QF024",
-          "depart": "2026-12-06 12:30",
-          "arrive": "2026-12-07 07:35",
-          "duration": "15h05m",
+          "airlines": "AirAsia Berhad (Malaysia)/Batik Air Malaysia",
+          "flights": "AK855 OD121",
+          "depart": "2026-12-06 09:10",
+          "arrive": "2026-12-07 07:10",
+          "duration": "18h00m",
           "stops": 1,
-          "via": "BKK",
+          "via": "KUL",
           "self_transfer": true,
           "checked_baggage": false,
           "seats_left": 9,
@@ -74,7 +74,7 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-02T06:01",
+      "checked_at": "2026-11-02T07:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -114,15 +114,15 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 408,
+          "price": 438,
           "currency": "AUD",
-          "airlines": "Jetstar Airways/Thai AirAsia",
-          "flights": "FD4419 JQ028",
-          "depart": "2026-12-06 20:10",
-          "arrive": "2026-12-08 10:50",
-          "duration": "34h40m",
+          "airlines": "Batik Air Malaysia/Thai Lion Air",
+          "flights": "SL258 OD171",
+          "depart": "2026-12-06 08:30",
+          "arrive": "2026-12-07 06:30",
+          "duration": "18h00m",
           "stops": 1,
-          "via": "HKT",
+          "via": "DPS",
           "self_transfer": true,
           "checked_baggage": false,
           "seats_left": 6,
@@ -162,7 +162,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-02T06:02",
+      "checked_at": "2026-11-02T07:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -178,14 +178,14 @@
         "via": "SGN",
         "self_transfer": false,
         "checked_baggage": false,
-        "seats_left": 5,
+        "seats_left": 9,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
       "by_type": {
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 444,
+          "price": 443,
           "currency": "AUD",
           "airlines": "Thai AirAsia/VietJet Air",
           "flights": "FD4101 VJ804 VJ085",
@@ -213,7 +213,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 9,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -255,8 +255,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-02T06:02:47",
+  "last_cycle": "2026-11-02T07:02:45",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [341, \"2026-12-06\", {\"connecting\": 341, \"direct\": 745, \"self_transfer\": 408}, null], \"79e0e2\": [315, \"2026-12-06\", {\"connecting\": 315, \"self_transfer\": 919}, null], \"e591da\": [313, \"2026-12-09\", {\"connecting\": 313, \"self_transfer\": 444}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [341, \"2026-12-06\", {\"connecting\": 341, \"direct\": 745, \"self_transfer\": 438}, null], \"79e0e2\": [315, \"2026-12-06\", {\"connecting\": 315, \"self_transfer\": 693}, null], \"e591da\": [313, \"2026-12-09\", {\"connecting\": 313, \"self_transfer\": 443}, null]}}"
 }
