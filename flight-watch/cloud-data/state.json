@@ -1,7 +1,7 @@
 {
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-02T15:01",
+      "checked_at": "2026-11-02T16:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -65,10 +65,10 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 931,
+          "price": 877,
           "currency": "AUD",
-          "airlines": "Emirates/Thai AirAsia",
-          "flights": "FD4105 EK5151",
+          "airlines": "Qantas Airways/Thai AirAsia",
+          "flights": "FD4105 QF024",
           "depart": "2026-12-06 12:30",
           "arrive": "2026-12-07 07:35",
           "duration": "15h05m",
@@ -83,7 +83,7 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-02T15:01",
+      "checked_at": "2026-11-02T16:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -147,18 +147,18 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 438,
+          "price": 440,
           "currency": "AUD",
-          "airlines": "Batik Air Malaysia/Thai Lion Air",
-          "flights": "SL258 OD171",
-          "depart": "2026-12-06 08:30",
-          "arrive": "2026-12-07 06:30",
-          "duration": "18h00m",
+          "airlines": "Thai AirAsia/VietJet Air",
+          "flights": "FD656 VJ085",
+          "depart": "2026-12-06 07:25",
+          "arrive": "2026-12-07 10:00",
+          "duration": "22h35m",
           "stops": 1,
-          "via": "DPS",
+          "via": "SGN",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 9,
+          "seats_left": 8,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=bkk&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
@@ -182,7 +182,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-02T15:02",
+      "checked_at": "2026-11-02T16:02",
       "status": "ok",
       "best": {
         "date": "2026-12-09",
@@ -204,7 +204,7 @@
       "per_day": {
         "2026-12-08": {
           "date": "2026-12-08",
-          "price": 500,
+          "price": 501,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR699 TR042",
@@ -310,6 +310,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-02T15:02:43",
+  "last_cycle": "2026-11-02T16:02:40",
   "report_sent": "2026-11-01"
 }
