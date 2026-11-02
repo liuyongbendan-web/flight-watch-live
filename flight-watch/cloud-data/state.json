@@ -1,7 +1,7 @@
 {
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-02T11:01",
+      "checked_at": "2026-11-02T12:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -65,7 +65,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 876,
+          "price": 885,
           "currency": "AUD",
           "airlines": "Qantas Airways/Thai Vietjet Air",
           "flights": "VZ119 QF024",
@@ -83,11 +83,11 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-02T11:01",
+      "checked_at": "2026-11-02T12:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
-        "price": 341,
+        "price": 339,
         "currency": "AUD",
         "airlines": "Scoot",
         "flights": "TR621 TR042",
@@ -105,7 +105,7 @@
       "per_day": {
         "2026-12-06": {
           "date": "2026-12-06",
-          "price": 341,
+          "price": 339,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR621 TR042",
@@ -130,7 +130,7 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-06",
-          "price": 341,
+          "price": 339,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR621 TR042",
@@ -147,24 +147,24 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 457,
+          "price": 407,
           "currency": "AUD",
-          "airlines": "Jetstar Airways",
-          "flights": "JQ066 JQ825",
-          "depart": "2026-12-06 20:55",
-          "arrive": "2026-12-07 21:15",
-          "duration": "20h20m",
-          "stops": 1,
-          "via": "BNE",
+          "airlines": "Thai AirAsia/VietJet Air",
+          "flights": "FD3441 VJ1884 VJ085",
+          "depart": "2026-12-06 12:00",
+          "arrive": "2026-12-07 10:00",
+          "duration": "18h00m",
+          "stops": 2,
+          "via": "CNX/SGN",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 3,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=bkk&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "direct": {
           "date": "2026-12-06",
-          "price": 746,
+          "price": 745,
           "currency": "AUD",
           "airlines": "Qantas Airways",
           "flights": "QF024",
@@ -182,11 +182,11 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-02T11:02",
+      "checked_at": "2026-11-02T12:02",
       "status": "ok",
       "best": {
         "date": "2026-12-09",
-        "price": 314,
+        "price": 313,
         "currency": "AUD",
         "airlines": "VietJet Air",
         "flights": "VJ1884 VJ085",
@@ -197,7 +197,7 @@
         "via": "SGN",
         "self_transfer": false,
         "checked_baggage": false,
-        "seats_left": 5,
+        "seats_left": 9,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
@@ -221,7 +221,7 @@
         },
         "2026-12-09": {
           "date": "2026-12-09",
-          "price": 314,
+          "price": 313,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -232,7 +232,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 9,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
@@ -265,7 +265,7 @@
         },
         {
           "date": "2026-12-08",
-          "price": 429
+          "price": 428
         },
         {
           "date": "2026-12-09",
@@ -292,7 +292,7 @@
         },
         "connecting": {
           "date": "2026-12-09",
-          "price": 314,
+          "price": 313,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -303,13 +303,13 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 9,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       }
     }
   },
-  "last_cycle": "2026-11-02T11:02:38",
+  "last_cycle": "2026-11-02T12:02:37",
   "report_sent": "2026-11-01"
 }
