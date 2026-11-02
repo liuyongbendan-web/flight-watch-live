@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-03T03:03:00",
+  "generated_at": "2026-11-03T04:02:48",
   "source": "cloud",
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-03T03:01",
+      "checked_at": "2026-11-03T04:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -40,29 +40,12 @@
           "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
-        },
-        "self_transfer": {
-          "date": "2026-12-06",
-          "price": 864,
-          "currency": "AUD",
-          "airlines": "Qantas Airways/Thai Vietjet Air",
-          "flights": "VZ103 QF024",
-          "depart": "2026-12-06 12:35",
-          "arrive": "2026-12-07 07:35",
-          "duration": "15h00m",
-          "stops": 1,
-          "via": "BKK",
-          "self_transfer": true,
-          "checked_baggage": false,
-          "seats_left": 6,
-          "complete": true,
-          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       },
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 301
+          "price": 299
         }
       ],
       "per_day": {
@@ -74,7 +57,7 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-03T03:01",
+      "checked_at": "2026-11-03T04:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -114,18 +97,18 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 438,
+          "price": 415,
           "currency": "AUD",
-          "airlines": "Batik Air Malaysia/Thai Lion Air",
-          "flights": "SL258 OD171",
-          "depart": "2026-12-06 08:30",
-          "arrive": "2026-12-07 06:30",
-          "duration": "18h00m",
+          "airlines": "Jetstar Airways/Nokair",
+          "flights": "DD536 JQ028",
+          "depart": "2026-12-06 22:05",
+          "arrive": "2026-12-08 10:50",
+          "duration": "32h45m",
           "stops": 1,
-          "via": "DPS",
+          "via": "HKT",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 6,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=bkk&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
@@ -147,7 +130,12 @@
           "url": "https://au.trip.com/flights/showfarefirst?dcity=bkk&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       },
-      "calendar": [],
+      "calendar": [
+        {
+          "date": "2026-12-06",
+          "price": 327
+        }
+      ],
       "per_day": {
         "2026-12-06": {
           "price": 342,
@@ -157,7 +145,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-03T03:02",
+      "checked_at": "2026-11-03T04:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -224,11 +212,11 @@
         },
         {
           "date": "2026-12-08",
-          "price": 430
+          "price": 425
         },
         {
           "date": "2026-12-09",
-          "price": 300
+          "price": 299
         }
       ],
       "per_day": {
@@ -250,8 +238,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-03T03:03:00",
+  "last_cycle": "2026-11-03T04:02:48",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [342, \"2026-12-06\", {\"connecting\": 342, \"direct\": 738, \"self_transfer\": 438}, null], \"79e0e2\": [314, \"2026-12-06\", {\"connecting\": 314, \"self_transfer\": 864}, null], \"e591da\": [314, \"2026-12-06\", {\"connecting\": 314, \"self_transfer\": 440}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [342, \"2026-12-06\", {\"connecting\": 342, \"direct\": 738, \"self_transfer\": 415}, null], \"79e0e2\": [314, \"2026-12-06\", {\"connecting\": 314}, null], \"e591da\": [314, \"2026-12-06\", {\"connecting\": 314, \"self_transfer\": 440}, null]}}"
 }
