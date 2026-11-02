@@ -1,7 +1,7 @@
 {
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-03T07:01",
+      "checked_at": "2026-11-03T08:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -65,10 +65,10 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 878,
+          "price": 866,
           "currency": "AUD",
-          "airlines": "Emirates/Thai Vietjet Air",
-          "flights": "VZ103 EK5151",
+          "airlines": "Qantas Airways/Thai Vietjet Air",
+          "flights": "VZ103 QF024",
           "depart": "2026-12-06 12:35",
           "arrive": "2026-12-07 07:35",
           "duration": "15h00m",
@@ -83,7 +83,7 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-03T07:02",
+      "checked_at": "2026-11-03T08:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -124,7 +124,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 328
+          "price": 327
         }
       ],
       "by_type": {
@@ -182,7 +182,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-03T07:02",
+      "checked_at": "2026-11-03T08:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -310,6 +310,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-03T07:02:58",
+  "last_cycle": "2026-11-03T08:02:34",
   "report_sent": "2026-11-02"
 }

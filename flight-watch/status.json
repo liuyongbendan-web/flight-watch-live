@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-03T07:02:58",
+  "generated_at": "2026-11-03T08:02:34",
   "source": "cloud",
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-03T07:01",
+      "checked_at": "2026-11-03T08:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -43,10 +43,10 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 878,
+          "price": 866,
           "currency": "AUD",
-          "airlines": "Emirates/Thai Vietjet Air",
-          "flights": "VZ103 EK5151",
+          "airlines": "Qantas Airways/Thai Vietjet Air",
+          "flights": "VZ103 QF024",
           "depart": "2026-12-06 12:35",
           "arrive": "2026-12-07 07:35",
           "duration": "15h00m",
@@ -74,7 +74,7 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-03T07:02",
+      "checked_at": "2026-11-03T08:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -150,7 +150,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 328
+          "price": 327
         }
       ],
       "per_day": {
@@ -162,7 +162,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-03T07:02",
+      "checked_at": "2026-11-03T08:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -255,8 +255,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-03T07:02:58",
+  "last_cycle": "2026-11-03T08:02:34",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [343, \"2026-12-06\", {\"connecting\": 343, \"direct\": 740, \"self_transfer\": 445}, null], \"79e0e2\": [315, \"2026-12-06\", {\"connecting\": 315, \"self_transfer\": 878}, null], \"e591da\": [315, \"2026-12-06\", {\"connecting\": 315, \"self_transfer\": 441}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [343, \"2026-12-06\", {\"connecting\": 343, \"direct\": 740, \"self_transfer\": 445}, null], \"79e0e2\": [315, \"2026-12-06\", {\"connecting\": 315, \"self_transfer\": 866}, null], \"e591da\": [315, \"2026-12-06\", {\"connecting\": 315, \"self_transfer\": 441}, null]}}"
 }
