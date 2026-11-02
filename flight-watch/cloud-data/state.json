@@ -1,7 +1,7 @@
 {
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-03T08:01",
+      "checked_at": "2026-11-03T09:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -65,7 +65,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 866,
+          "price": 867,
           "currency": "AUD",
           "airlines": "Qantas Airways/Thai Vietjet Air",
           "flights": "VZ103 QF024",
@@ -83,7 +83,7 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-03T08:01",
+      "checked_at": "2026-11-03T09:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -124,7 +124,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 327
+          "price": 328
         }
       ],
       "by_type": {
@@ -182,7 +182,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-03T08:02",
+      "checked_at": "2026-11-03T09:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -275,7 +275,7 @@
       "by_type": {
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 441,
+          "price": 442,
           "currency": "AUD",
           "airlines": "Thai AirAsia/VietJet Air",
           "flights": "FD4101 VJ804 VJ085",
@@ -310,6 +310,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-03T08:02:34",
+  "last_cycle": "2026-11-03T09:02:47",
   "report_sent": "2026-11-02"
 }
