@@ -1,7 +1,7 @@
 {
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-03T09:01",
+      "checked_at": "2026-11-03T10:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -83,7 +83,7 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-03T09:01",
+      "checked_at": "2026-11-03T10:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -182,7 +182,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-03T09:02",
+      "checked_at": "2026-11-03T10:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -249,7 +249,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 9,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -310,6 +310,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-03T09:02:47",
+  "last_cycle": "2026-11-03T10:02:41",
   "report_sent": "2026-11-02"
 }

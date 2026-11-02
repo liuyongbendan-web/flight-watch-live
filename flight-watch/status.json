@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-03T09:02:47",
+  "generated_at": "2026-11-03T10:02:42",
   "source": "cloud",
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-03T09:01",
+      "checked_at": "2026-11-03T10:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -74,7 +74,7 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-03T09:01",
+      "checked_at": "2026-11-03T10:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -162,7 +162,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-03T09:02",
+      "checked_at": "2026-11-03T10:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -255,7 +255,7 @@
       }
     }
   },
-  "last_cycle": "2026-11-03T09:02:47",
+  "last_cycle": "2026-11-03T10:02:41",
   "last_error": null,
   "trip_ok": true,
   "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [343, \"2026-12-06\", {\"connecting\": 343, \"direct\": 740, \"self_transfer\": 445}, null], \"79e0e2\": [315, \"2026-12-06\", {\"connecting\": 315, \"self_transfer\": 867}, null], \"e591da\": [315, \"2026-12-06\", {\"connecting\": 315, \"self_transfer\": 442}, null]}}"
