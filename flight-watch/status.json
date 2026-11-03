@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-03T13:02:25",
+  "generated_at": "2026-11-03T14:03:04",
   "source": "cloud",
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-03T13:01",
+      "checked_at": "2026-11-03T14:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -62,7 +62,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 300
+          "price": 299
         }
       ],
       "per_day": {
@@ -74,7 +74,7 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-03T13:01",
+      "checked_at": "2026-11-03T14:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -114,7 +114,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 444,
+          "price": 443,
           "currency": "AUD",
           "airlines": "Thai AirAsia/VietJet Air",
           "flights": "FD654 VJ085",
@@ -131,7 +131,7 @@
         },
         "direct": {
           "date": "2026-12-06",
-          "price": 720,
+          "price": 721,
           "currency": "AUD",
           "airlines": "Qantas Airways",
           "flights": "QF024",
@@ -162,7 +162,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-03T13:02",
+      "checked_at": "2026-11-03T14:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -225,15 +225,15 @@
         },
         {
           "date": "2026-12-07",
-          "price": 423
+          "price": 422
         },
         {
           "date": "2026-12-08",
-          "price": 382
+          "price": 425
         },
         {
           "date": "2026-12-09",
-          "price": 300
+          "price": 299
         }
       ],
       "per_day": {
@@ -248,15 +248,15 @@
           "depart": "2026-12-06 16:30"
         },
         "2026-12-09": {
-          "price": 314,
+          "price": 315,
           "airlines": "VietJet Air",
           "depart": "2026-12-09 16:30"
         }
       }
     }
   },
-  "last_cycle": "2026-11-03T13:02:25",
+  "last_cycle": "2026-11-03T14:03:04",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [340, \"2026-12-06\", {\"connecting\": 340, \"direct\": 720, \"self_transfer\": 444}, null], \"79e0e2\": [314, \"2026-12-06\", {\"connecting\": 314, \"self_transfer\": 839}, null], \"e591da\": [314, \"2026-12-06\", {\"connecting\": 314, \"self_transfer\": 440}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [340, \"2026-12-06\", {\"connecting\": 340, \"direct\": 721, \"self_transfer\": 443}, null], \"79e0e2\": [314, \"2026-12-06\", {\"connecting\": 314, \"self_transfer\": 839}, null], \"e591da\": [314, \"2026-12-06\", {\"connecting\": 314, \"self_transfer\": 440}, null]}}"
 }
