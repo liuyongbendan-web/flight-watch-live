@@ -1,7 +1,7 @@
 {
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-04T08:01",
+      "checked_at": "2026-11-04T09:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -16,7 +16,7 @@
         "via": "SGN",
         "self_transfer": false,
         "checked_baggage": false,
-        "seats_left": 5,
+        "seats_left": 6,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
@@ -34,7 +34,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 6,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -59,7 +59,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 6,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
@@ -83,7 +83,7 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-04T08:01",
+      "checked_at": "2026-11-04T09:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -124,7 +124,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 328
+          "price": 327
         }
       ],
       "by_type": {
@@ -182,7 +182,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-04T08:02",
+      "checked_at": "2026-11-04T09:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -197,7 +197,7 @@
         "via": "SGN",
         "self_transfer": false,
         "checked_baggage": false,
-        "seats_left": 5,
+        "seats_left": 6,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
@@ -232,7 +232,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 6,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
@@ -249,7 +249,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 6,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -303,13 +303,13 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 6,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       }
     }
   },
-  "last_cycle": "2026-11-04T08:02:30",
+  "last_cycle": "2026-11-04T09:02:37",
   "report_sent": "2026-11-03"
 }
