@@ -1,7 +1,7 @@
 {
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-04T09:01",
+      "checked_at": "2026-11-04T10:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -65,17 +65,17 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 778,
+          "price": 773,
           "currency": "AUD",
-          "airlines": "Bangkok Airways/Thai Vietjet Air",
-          "flights": "VZ103 PG4529",
-          "depart": "2026-12-06 12:35",
+          "airlines": "Bangkok Airways/Thai Airways",
+          "flights": "TG101 PG4529",
+          "depart": "2026-12-06 08:05",
           "arrive": "2026-12-07 07:35",
-          "duration": "15h00m",
+          "duration": "19h30m",
           "stops": 1,
           "via": "BKK",
           "self_transfer": true,
-          "checked_baggage": false,
+          "checked_baggage": true,
           "seats_left": 4,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
@@ -83,7 +83,7 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-04T09:01",
+      "checked_at": "2026-11-04T10:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -182,7 +182,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-04T09:02",
+      "checked_at": "2026-11-04T10:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -310,6 +310,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-04T09:02:37",
+  "last_cycle": "2026-11-04T10:02:36",
   "report_sent": "2026-11-03"
 }
