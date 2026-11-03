@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-04T04:02:44",
+  "generated_at": "2026-11-04T05:02:36",
   "source": "cloud",
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-04T04:01",
+      "checked_at": "2026-11-04T05:01",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-06",
-        "price": 317,
+        "price": 321,
         "currency": "AUD",
         "airlines": "VietJet Air",
         "flights": "VJ1884 VJ085",
@@ -26,7 +26,7 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-06",
-          "price": 317,
+          "price": 321,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -36,23 +36,6 @@
           "stops": 1,
           "via": "SGN",
           "self_transfer": false,
-          "checked_baggage": false,
-          "seats_left": 6,
-          "complete": true,
-          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
-        },
-        "self_transfer": {
-          "date": "2026-12-06",
-          "price": 869,
-          "currency": "AUD",
-          "airlines": "Qantas Airways/Thai Vietjet Air",
-          "flights": "VZ103 QF024",
-          "depart": "2026-12-06 12:35",
-          "arrive": "2026-12-07 07:35",
-          "duration": "15h00m",
-          "stops": 1,
-          "via": "BKK",
-          "self_transfer": true,
           "checked_baggage": false,
           "seats_left": 6,
           "complete": true,
@@ -67,14 +50,14 @@
       ],
       "per_day": {
         "2026-12-06": {
-          "price": 317,
+          "price": 321,
           "airlines": "VietJet Air",
           "depart": "2026-12-06 16:30"
         }
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-04T04:01",
+      "checked_at": "2026-11-04T05:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -131,7 +114,7 @@
         },
         "direct": {
           "date": "2026-12-06",
-          "price": 742,
+          "price": 741,
           "currency": "AUD",
           "airlines": "Qantas Airways",
           "flights": "QF024",
@@ -150,7 +133,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 328
+          "price": 327
         }
       ],
       "per_day": {
@@ -162,7 +145,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-04T04:02",
+      "checked_at": "2026-11-04T05:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -255,8 +238,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-04T04:02:44",
+  "last_cycle": "2026-11-04T05:02:36",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [342, \"2026-12-06\", {\"connecting\": 342, \"direct\": 742, \"self_transfer\": 446}, null], \"79e0e2\": [317, \"2026-12-06\", {\"connecting\": 317, \"self_transfer\": 869}, null], \"e591da\": [317, \"2026-12-06\", {\"connecting\": 317, \"self_transfer\": 442}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [342, \"2026-12-06\", {\"connecting\": 342, \"direct\": 741, \"self_transfer\": 446}, null], \"79e0e2\": [321, \"2026-12-06\", {\"connecting\": 321}, null], \"e591da\": [317, \"2026-12-06\", {\"connecting\": 317, \"self_transfer\": 442}, null]}}"
 }
