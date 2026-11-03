@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-04T06:02:46",
+  "generated_at": "2026-11-04T07:02:49",
   "source": "cloud",
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-04T06:01",
+      "checked_at": "2026-11-04T07:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -43,10 +43,10 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 868,
+          "price": 778,
           "currency": "AUD",
-          "airlines": "Qantas Airways/Thai Vietjet Air",
-          "flights": "VZ103 QF024",
+          "airlines": "Bangkok Airways/Thai Vietjet Air",
+          "flights": "VZ103 PG4529",
           "depart": "2026-12-06 12:35",
           "arrive": "2026-12-07 07:35",
           "duration": "15h00m",
@@ -54,7 +54,7 @@
           "via": "BKK",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 6,
+          "seats_left": 4,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -74,12 +74,12 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-04T06:01",
+      "checked_at": "2026-11-04T07:01",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-06",
-        "price": 342,
+        "price": 343,
         "currency": "AUD",
         "airlines": "Scoot",
         "flights": "TR621 TR042",
@@ -97,7 +97,7 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-06",
-          "price": 342,
+          "price": 343,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR621 TR042",
@@ -114,7 +114,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 413,
+          "price": 414,
           "currency": "AUD",
           "airlines": "Jetstar Airways/Nokair",
           "flights": "DD536 JQ028",
@@ -131,10 +131,10 @@
         },
         "direct": {
           "date": "2026-12-06",
-          "price": 741,
+          "price": 661,
           "currency": "AUD",
-          "airlines": "Qantas Airways",
-          "flights": "QF024",
+          "airlines": "Bangkok Airways",
+          "flights": "PG4529",
           "depart": "2026-12-06 18:00",
           "arrive": "2026-12-07 07:35",
           "duration": "9h35m",
@@ -142,7 +142,7 @@
           "via": "",
           "self_transfer": false,
           "checked_baggage": true,
-          "seats_left": 9,
+          "seats_left": 4,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=bkk&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -150,19 +150,19 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 327
+          "price": 328
         }
       ],
       "per_day": {
         "2026-12-06": {
-          "price": 342,
+          "price": 343,
           "airlines": "Scoot",
           "depart": "2026-12-06 22:20"
         }
       }
     },
     "e591da": {
-      "checked_at": "2026-11-04T06:02",
+      "checked_at": "2026-11-04T07:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -185,7 +185,7 @@
       "by_type": {
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 441,
+          "price": 442,
           "currency": "AUD",
           "airlines": "Thai Vietjet Air/VietJet Air",
           "flights": "VZ2105 VJ802 VJ085",
@@ -225,11 +225,11 @@
         },
         {
           "date": "2026-12-07",
-          "price": 423
+          "price": 424
         },
         {
           "date": "2026-12-08",
-          "price": 426
+          "price": 427
         },
         {
           "date": "2026-12-09",
@@ -255,8 +255,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-04T06:02:45",
+  "last_cycle": "2026-11-04T07:02:49",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [342, \"2026-12-06\", {\"connecting\": 342, \"direct\": 741, \"self_transfer\": 413}, null], \"79e0e2\": [317, \"2026-12-06\", {\"connecting\": 317, \"self_transfer\": 868}, null], \"e591da\": [317, \"2026-12-06\", {\"connecting\": 317, \"self_transfer\": 441}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [343, \"2026-12-06\", {\"connecting\": 343, \"direct\": 661, \"self_transfer\": 414}, null], \"79e0e2\": [317, \"2026-12-06\", {\"connecting\": 317, \"self_transfer\": 778}, null], \"e591da\": [317, \"2026-12-06\", {\"connecting\": 317, \"self_transfer\": 442}, null]}}"
 }
