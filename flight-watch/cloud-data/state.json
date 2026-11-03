@@ -1,7 +1,7 @@
 {
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-03T18:01",
+      "checked_at": "2026-11-03T19:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -83,7 +83,7 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-03T18:01",
+      "checked_at": "2026-11-03T19:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -147,7 +147,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 444,
+          "price": 443,
           "currency": "AUD",
           "airlines": "Thai AirAsia/VietJet Air",
           "flights": "FD654 VJ085",
@@ -158,13 +158,13 @@
           "via": "SGN",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 6,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=bkk&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "direct": {
           "date": "2026-12-06",
-          "price": 722,
+          "price": 721,
           "currency": "AUD",
           "airlines": "Qantas Airways",
           "flights": "QF024",
@@ -182,7 +182,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-03T18:02",
+      "checked_at": "2026-11-03T19:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -249,7 +249,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 9,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -265,7 +265,7 @@
         },
         {
           "date": "2026-12-08",
-          "price": 366
+          "price": 418
         },
         {
           "date": "2026-12-09",
@@ -275,7 +275,7 @@
       "by_type": {
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 433,
+          "price": 434,
           "currency": "AUD",
           "airlines": "Scoot/Thai Vietjet Air",
           "flights": "VZ101 TR637 TR040",
@@ -310,6 +310,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-03T18:02:52",
+  "last_cycle": "2026-11-03T19:02:54",
   "report_sent": "2026-11-02"
 }
