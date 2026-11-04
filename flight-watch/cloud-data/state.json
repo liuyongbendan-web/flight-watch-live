@@ -1,7 +1,7 @@
 {
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-04T13:01",
+      "checked_at": "2026-11-04T14:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -16,7 +16,7 @@
         "via": "SGN",
         "self_transfer": false,
         "checked_baggage": false,
-        "seats_left": 6,
+        "seats_left": 5,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
@@ -34,7 +34,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 6,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -59,13 +59,13 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 6,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 772,
+          "price": 773,
           "currency": "AUD",
           "airlines": "Bangkok Airways/Thai Airways",
           "flights": "TG101 PG4529",
@@ -83,7 +83,7 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-04T13:01",
+      "checked_at": "2026-11-04T14:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -147,13 +147,13 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 413,
+          "price": 412,
           "currency": "AUD",
-          "airlines": "Jetstar Airways/Nokair",
-          "flights": "DD536 JQ028",
-          "depart": "2026-12-06 22:05",
+          "airlines": "Jetstar Airways/Thai Vietjet Air",
+          "flights": "VZ316 JQ028",
+          "depart": "2026-12-06 22:20",
           "arrive": "2026-12-08 10:50",
-          "duration": "32h45m",
+          "duration": "32h30m",
           "stops": 1,
           "via": "HKT",
           "self_transfer": true,
@@ -182,7 +182,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-04T13:02",
+      "checked_at": "2026-11-04T14:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -197,7 +197,7 @@
         "via": "SGN",
         "self_transfer": false,
         "checked_baggage": false,
-        "seats_left": 6,
+        "seats_left": 5,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
@@ -232,7 +232,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 6,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
@@ -303,13 +303,13 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 6,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       }
     }
   },
-  "last_cycle": "2026-11-04T13:02:43",
+  "last_cycle": "2026-11-04T14:02:43",
   "report_sent": "2026-11-03"
 }
