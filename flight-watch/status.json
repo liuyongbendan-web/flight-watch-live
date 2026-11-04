@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-04T23:02:58",
+  "generated_at": "2026-11-05T00:03:02",
   "source": "cloud",
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-04T23:01",
+      "checked_at": "2026-11-05T00:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -19,7 +19,7 @@
         "via": "SGN",
         "self_transfer": false,
         "checked_baggage": false,
-        "seats_left": 5,
+        "seats_left": 6,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
@@ -37,7 +37,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 6,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -45,7 +45,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 302
+          "price": 300
         }
       ],
       "per_day": {
@@ -57,7 +57,7 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-04T23:02",
+      "checked_at": "2026-11-05T00:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -145,7 +145,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-04T23:02",
+      "checked_at": "2026-11-05T00:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -168,18 +168,18 @@
       "by_type": {
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 440,
+          "price": 434,
           "currency": "AUD",
-          "airlines": "Thai Vietjet Air/VietJet Air",
-          "flights": "VZ2105 VJ802 VJ085",
-          "depart": "2026-12-08 06:35",
-          "arrive": "2026-12-09 10:00",
-          "duration": "23h25m",
+          "airlines": "Thai AirAsia/VietJet Air",
+          "flights": "FD4103 VJ802 VJ085",
+          "depart": "2026-12-08 20:40",
+          "arrive": "2026-12-10 10:00",
+          "duration": "33h20m",
           "stops": 2,
           "via": "BKK/SGN",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 4,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
@@ -204,7 +204,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 302
+          "price": 300
         },
         {
           "date": "2026-12-07",
@@ -216,7 +216,7 @@
         },
         {
           "date": "2026-12-09",
-          "price": 300
+          "price": 301
         }
       ],
       "per_day": {
@@ -225,21 +225,21 @@
           "airlines": "Scoot",
           "depart": "2026-12-08 16:40"
         },
-        "2026-12-09": {
-          "price": 316,
-          "airlines": "VietJet Air",
-          "depart": "2026-12-09 16:30"
-        },
         "2026-12-06": {
           "price": 315,
           "airlines": "VietJet Air",
           "depart": "2026-12-06 16:30"
+        },
+        "2026-12-09": {
+          "price": 316,
+          "airlines": "VietJet Air",
+          "depart": "2026-12-09 16:30"
         }
       }
     }
   },
-  "last_cycle": "2026-11-04T23:02:58",
+  "last_cycle": "2026-11-05T00:03:02",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [340, \"2026-12-06\", {\"connecting\": 340, \"direct\": 655, \"self_transfer\": 444}, null], \"79e0e2\": [320, \"2026-12-06\", {\"connecting\": 320}, null], \"e591da\": [315, \"2026-12-06\", {\"connecting\": 315, \"self_transfer\": 440}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [340, \"2026-12-06\", {\"connecting\": 340, \"direct\": 655, \"self_transfer\": 444}, null], \"79e0e2\": [320, \"2026-12-06\", {\"connecting\": 320}, null], \"e591da\": [315, \"2026-12-06\", {\"connecting\": 315, \"self_transfer\": 434}, null]}}"
 }
