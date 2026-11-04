@@ -1,7 +1,7 @@
 {
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-05T05:01",
+      "checked_at": "2026-11-05T06:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -83,7 +83,7 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-05T05:01",
+      "checked_at": "2026-11-05T06:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -182,7 +182,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-05T05:02",
+      "checked_at": "2026-11-05T06:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -204,7 +204,7 @@
       "per_day": {
         "2026-12-08": {
           "date": "2026-12-08",
-          "price": 491,
+          "price": 492,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR699 TR042",
@@ -238,7 +238,7 @@
         },
         "2026-12-09": {
           "date": "2026-12-09",
-          "price": 317,
+          "price": 318,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -249,7 +249,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 6,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -265,7 +265,7 @@
         },
         {
           "date": "2026-12-08",
-          "price": 421
+          "price": 426
         },
         {
           "date": "2026-12-09",
@@ -275,7 +275,7 @@
       "by_type": {
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 440,
+          "price": 441,
           "currency": "AUD",
           "airlines": "Scoot/Thai Vietjet Air",
           "flights": "VZ109 TR621 TR042",
@@ -310,6 +310,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-05T05:02:38",
+  "last_cycle": "2026-11-05T06:02:46",
   "report_sent": "2026-11-04"
 }

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-05T05:02:38",
+  "generated_at": "2026-11-05T06:02:46",
   "source": "cloud",
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-05T05:01",
+      "checked_at": "2026-11-05T06:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -74,7 +74,7 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-05T05:01",
+      "checked_at": "2026-11-05T06:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -162,7 +162,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-05T05:02",
+      "checked_at": "2026-11-05T06:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -185,7 +185,7 @@
       "by_type": {
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 440,
+          "price": 441,
           "currency": "AUD",
           "airlines": "Scoot/Thai Vietjet Air",
           "flights": "VZ109 TR621 TR042",
@@ -229,7 +229,7 @@
         },
         {
           "date": "2026-12-08",
-          "price": 421
+          "price": 426
         },
         {
           "date": "2026-12-09",
@@ -238,7 +238,7 @@
       ],
       "per_day": {
         "2026-12-08": {
-          "price": 491,
+          "price": 492,
           "airlines": "Scoot",
           "depart": "2026-12-08 16:40"
         },
@@ -248,15 +248,15 @@
           "depart": "2026-12-06 16:30"
         },
         "2026-12-09": {
-          "price": 317,
+          "price": 318,
           "airlines": "VietJet Air",
           "depart": "2026-12-09 16:30"
         }
       }
     }
   },
-  "last_cycle": "2026-11-05T05:02:38",
+  "last_cycle": "2026-11-05T06:02:46",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [340, \"2026-12-06\", {\"connecting\": 340, \"direct\": 655, \"self_transfer\": 444}, null], \"79e0e2\": [316, \"2026-12-06\", {\"connecting\": 316, \"self_transfer\": 654}, null], \"e591da\": [316, \"2026-12-06\", {\"connecting\": 316, \"self_transfer\": 440}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [340, \"2026-12-06\", {\"connecting\": 340, \"direct\": 655, \"self_transfer\": 444}, null], \"79e0e2\": [316, \"2026-12-06\", {\"connecting\": 316, \"self_transfer\": 654}, null], \"e591da\": [316, \"2026-12-06\", {\"connecting\": 316, \"self_transfer\": 441}, null]}}"
 }
