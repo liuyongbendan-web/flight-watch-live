@@ -1,7 +1,7 @@
 {
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-05T01:01",
+      "checked_at": "2026-11-05T02:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -42,7 +42,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 300
+          "price": 302
         }
       ],
       "by_type": {
@@ -83,7 +83,7 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-05T01:01",
+      "checked_at": "2026-11-05T02:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -124,7 +124,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 325
+          "price": 328
         }
       ],
       "by_type": {
@@ -158,7 +158,7 @@
           "via": "HKT",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 4,
+          "seats_left": 6,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=bkk&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
@@ -182,7 +182,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-05T01:02",
+      "checked_at": "2026-11-05T02:02",
       "status": "ok",
       "best": {
         "date": "2026-12-09",
@@ -265,7 +265,7 @@
         },
         {
           "date": "2026-12-08",
-          "price": 419
+          "price": 425
         },
         {
           "date": "2026-12-09",
@@ -275,13 +275,13 @@
       "by_type": {
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 440,
+          "price": 433,
           "currency": "AUD",
-          "airlines": "Thai Vietjet Air/VietJet Air",
-          "flights": "VZ119 VJ804 VJ085",
-          "depart": "2026-12-08 22:35",
+          "airlines": "Thai AirAsia/VietJet Air",
+          "flights": "FD4103 VJ802 VJ085",
+          "depart": "2026-12-08 20:40",
           "arrive": "2026-12-10 10:00",
-          "duration": "31h25m",
+          "duration": "33h20m",
           "stops": 2,
           "via": "BKK/SGN",
           "self_transfer": true,
@@ -310,6 +310,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-05T01:02:46",
+  "last_cycle": "2026-11-05T02:02:55",
   "report_sent": "2026-11-04"
 }
