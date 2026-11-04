@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-04T15:02:59",
+  "generated_at": "2026-11-04T16:02:36",
   "source": "cloud",
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-04T15:01",
+      "checked_at": "2026-11-04T16:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -43,7 +43,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 802,
+          "price": 774,
           "currency": "AUD",
           "airlines": "Bangkok Airways/Thai Airways",
           "flights": "TG101 PG4529",
@@ -54,7 +54,7 @@
           "via": "BKK",
           "self_transfer": true,
           "checked_baggage": true,
-          "seats_left": 9,
+          "seats_left": 4,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -74,7 +74,7 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-04T15:02",
+      "checked_at": "2026-11-04T16:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -114,7 +114,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 446,
+          "price": 447,
           "currency": "AUD",
           "airlines": "Thai AirAsia/VietJet Air",
           "flights": "FD656 VJ085",
@@ -131,7 +131,7 @@
         },
         "direct": {
           "date": "2026-12-06",
-          "price": 660,
+          "price": 661,
           "currency": "AUD",
           "airlines": "Bangkok Airways",
           "flights": "PG4529",
@@ -150,7 +150,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 326
+          "price": 327
         }
       ],
       "per_day": {
@@ -162,7 +162,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-04T15:02",
+      "checked_at": "2026-11-04T16:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -229,7 +229,7 @@
         },
         {
           "date": "2026-12-08",
-          "price": 426
+          "price": 423
         },
         {
           "date": "2026-12-09",
@@ -238,7 +238,7 @@
       ],
       "per_day": {
         "2026-12-08": {
-          "price": 497,
+          "price": 498,
           "airlines": "Scoot",
           "depart": "2026-12-08 16:40"
         },
@@ -255,8 +255,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-04T15:02:59",
+  "last_cycle": "2026-11-04T16:02:36",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [342, \"2026-12-06\", {\"connecting\": 342, \"direct\": 660, \"self_transfer\": 446}, null], \"79e0e2\": [317, \"2026-12-06\", {\"connecting\": 317, \"self_transfer\": 802}, null], \"e591da\": [317, \"2026-12-06\", {\"connecting\": 317, \"self_transfer\": 437}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [342, \"2026-12-06\", {\"connecting\": 342, \"direct\": 661, \"self_transfer\": 447}, null], \"79e0e2\": [317, \"2026-12-06\", {\"connecting\": 317, \"self_transfer\": 774}, null], \"e591da\": [317, \"2026-12-06\", {\"connecting\": 317, \"self_transfer\": 437}, null]}}"
 }
