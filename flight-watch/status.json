@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-04T19:02:29",
+  "generated_at": "2026-11-04T20:02:36",
   "source": "cloud",
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-04T19:01",
+      "checked_at": "2026-11-04T20:01",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-06",
-        "price": 317,
+        "price": 316,
         "currency": "AUD",
         "airlines": "VietJet Air",
         "flights": "VJ1884 VJ085",
@@ -26,7 +26,7 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-06",
-          "price": 317,
+          "price": 316,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -43,18 +43,18 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 770,
+          "price": 680,
           "currency": "AUD",
-          "airlines": "Bangkok Airways/Thai Airways",
-          "flights": "TG101 PG4529",
-          "depart": "2026-12-06 08:05",
-          "arrive": "2026-12-07 07:35",
-          "duration": "19h30m",
+          "airlines": "AirAsia Berhad (Malaysia)/Batik Air Malaysia",
+          "flights": "AK855 OD121",
+          "depart": "2026-12-06 09:10",
+          "arrive": "2026-12-07 07:10",
+          "duration": "18h00m",
           "stops": 1,
-          "via": "BKK",
+          "via": "KUL",
           "self_transfer": true,
-          "checked_baggage": true,
-          "seats_left": 4,
+          "checked_baggage": false,
+          "seats_left": 9,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -62,19 +62,19 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 302
+          "price": 301
         }
       ],
       "per_day": {
         "2026-12-06": {
-          "price": 317,
+          "price": 316,
           "airlines": "VietJet Air",
           "depart": "2026-12-06 16:30"
         }
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-04T19:01",
+      "checked_at": "2026-11-04T20:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -131,7 +131,7 @@
         },
         "direct": {
           "date": "2026-12-06",
-          "price": 657,
+          "price": 656,
           "currency": "AUD",
           "airlines": "Bangkok Airways",
           "flights": "PG4529",
@@ -162,17 +162,17 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-04T19:02",
+      "checked_at": "2026-11-04T20:02",
       "status": "ok",
       "error": null,
       "best": {
-        "date": "2026-12-09",
+        "date": "2026-12-06",
         "price": 316,
         "currency": "AUD",
         "airlines": "VietJet Air",
         "flights": "VJ1884 VJ085",
-        "depart": "2026-12-09 16:30",
-        "arrive": "2026-12-10 10:00",
+        "depart": "2026-12-06 16:30",
+        "arrive": "2026-12-07 10:00",
         "duration": "13h30m",
         "stops": 1,
         "via": "SGN",
@@ -180,18 +180,18 @@
         "checked_baggage": false,
         "seats_left": 5,
         "complete": true,
-        "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
+        "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
       "by_type": {
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 441,
+          "price": 439,
           "currency": "AUD",
           "airlines": "Thai Vietjet Air/VietJet Air",
-          "flights": "VZ2105 VJ802 VJ085",
-          "depart": "2026-12-08 06:35",
-          "arrive": "2026-12-09 10:00",
-          "duration": "23h25m",
+          "flights": "VZ119 VJ804 VJ085",
+          "depart": "2026-12-08 22:35",
+          "arrive": "2026-12-10 10:00",
+          "duration": "31h25m",
           "stops": 2,
           "via": "BKK/SGN",
           "self_transfer": true,
@@ -201,13 +201,13 @@
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "connecting": {
-          "date": "2026-12-09",
+          "date": "2026-12-06",
           "price": 316,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
-          "depart": "2026-12-09 16:30",
-          "arrive": "2026-12-10 10:00",
+          "depart": "2026-12-06 16:30",
+          "arrive": "2026-12-07 10:00",
           "duration": "13h30m",
           "stops": 1,
           "via": "SGN",
@@ -215,13 +215,13 @@
           "checked_baggage": false,
           "seats_left": 5,
           "complete": true,
-          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
+          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       },
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 302
+          "price": 301
         },
         {
           "date": "2026-12-07",
@@ -229,7 +229,7 @@
         },
         {
           "date": "2026-12-08",
-          "price": 421
+          "price": 426
         },
         {
           "date": "2026-12-09",
@@ -238,25 +238,25 @@
       ],
       "per_day": {
         "2026-12-08": {
-          "price": 496,
+          "price": 495,
           "airlines": "Scoot",
           "depart": "2026-12-08 16:40"
+        },
+        "2026-12-06": {
+          "price": 316,
+          "airlines": "VietJet Air",
+          "depart": "2026-12-06 16:30"
         },
         "2026-12-09": {
           "price": 316,
           "airlines": "VietJet Air",
           "depart": "2026-12-09 16:30"
-        },
-        "2026-12-06": {
-          "price": 317,
-          "airlines": "VietJet Air",
-          "depart": "2026-12-06 16:30"
         }
       }
     }
   },
-  "last_cycle": "2026-11-04T19:02:28",
+  "last_cycle": "2026-11-04T20:02:36",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [341, \"2026-12-06\", {\"connecting\": 341, \"direct\": 657, \"self_transfer\": 445}, null], \"79e0e2\": [317, \"2026-12-06\", {\"connecting\": 317, \"self_transfer\": 770}, null], \"e591da\": [316, \"2026-12-09\", {\"connecting\": 316, \"self_transfer\": 441}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [341, \"2026-12-06\", {\"connecting\": 341, \"direct\": 656, \"self_transfer\": 445}, null], \"79e0e2\": [316, \"2026-12-06\", {\"connecting\": 316, \"self_transfer\": 680}, null], \"e591da\": [316, \"2026-12-06\", {\"connecting\": 316, \"self_transfer\": 439}, null]}}"
 }
