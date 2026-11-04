@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-05T06:02:46",
+  "generated_at": "2026-11-05T07:02:34",
   "source": "cloud",
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-05T06:01",
+      "checked_at": "2026-11-05T07:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -74,7 +74,7 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-05T06:01",
+      "checked_at": "2026-11-05T07:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -114,7 +114,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 444,
+          "price": 445,
           "currency": "AUD",
           "airlines": "Thai AirAsia/VietJet Air",
           "flights": "FD656 VJ085",
@@ -131,7 +131,7 @@
         },
         "direct": {
           "date": "2026-12-06",
-          "price": 655,
+          "price": 656,
           "currency": "AUD",
           "airlines": "Bangkok Airways",
           "flights": "PG4529",
@@ -162,7 +162,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-05T06:02",
+      "checked_at": "2026-11-05T07:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -233,7 +233,7 @@
         },
         {
           "date": "2026-12-09",
-          "price": 302
+          "price": 303
         }
       ],
       "per_day": {
@@ -255,8 +255,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-05T06:02:46",
+  "last_cycle": "2026-11-05T07:02:34",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [340, \"2026-12-06\", {\"connecting\": 340, \"direct\": 655, \"self_transfer\": 444}, null], \"79e0e2\": [316, \"2026-12-06\", {\"connecting\": 316, \"self_transfer\": 654}, null], \"e591da\": [316, \"2026-12-06\", {\"connecting\": 316, \"self_transfer\": 441}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [340, \"2026-12-06\", {\"connecting\": 340, \"direct\": 656, \"self_transfer\": 445}, null], \"79e0e2\": [316, \"2026-12-06\", {\"connecting\": 316, \"self_transfer\": 654}, null], \"e591da\": [316, \"2026-12-06\", {\"connecting\": 316, \"self_transfer\": 441}, null]}}"
 }

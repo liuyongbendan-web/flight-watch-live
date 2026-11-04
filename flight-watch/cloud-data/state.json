@@ -1,7 +1,7 @@
 {
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-05T06:01",
+      "checked_at": "2026-11-05T07:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -83,7 +83,7 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-05T06:01",
+      "checked_at": "2026-11-05T07:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -147,7 +147,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 444,
+          "price": 445,
           "currency": "AUD",
           "airlines": "Thai AirAsia/VietJet Air",
           "flights": "FD656 VJ085",
@@ -164,7 +164,7 @@
         },
         "direct": {
           "date": "2026-12-06",
-          "price": 655,
+          "price": 656,
           "currency": "AUD",
           "airlines": "Bangkok Airways",
           "flights": "PG4529",
@@ -182,7 +182,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-05T06:02",
+      "checked_at": "2026-11-05T07:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -269,7 +269,7 @@
         },
         {
           "date": "2026-12-09",
-          "price": 302
+          "price": 303
         }
       ],
       "by_type": {
@@ -310,6 +310,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-05T06:02:46",
+  "last_cycle": "2026-11-05T07:02:34",
   "report_sent": "2026-11-04"
 }
