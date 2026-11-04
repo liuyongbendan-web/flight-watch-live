@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-05T07:02:34",
+  "generated_at": "2026-11-05T08:03:11",
   "source": "cloud",
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-05T07:01",
+      "checked_at": "2026-11-05T08:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -19,7 +19,7 @@
         "via": "SGN",
         "self_transfer": false,
         "checked_baggage": false,
-        "seats_left": 5,
+        "seats_left": 6,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
@@ -37,13 +37,13 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 6,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 654,
+          "price": 672,
           "currency": "AUD",
           "airlines": "Batik Air Malaysia/Thai Airways",
           "flights": "TG101 TG439 OD171",
@@ -54,7 +54,7 @@
           "via": "BKK/DPS",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 9,
+          "seats_left": 7,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -74,7 +74,7 @@
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-05T07:01",
+      "checked_at": "2026-11-05T08:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -114,15 +114,15 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 445,
+          "price": 402,
           "currency": "AUD",
-          "airlines": "Thai AirAsia/VietJet Air",
-          "flights": "FD656 VJ085",
-          "depart": "2026-12-06 07:25",
-          "arrive": "2026-12-07 10:00",
-          "duration": "22h35m",
+          "airlines": "Jetstar Airways/Thai Vietjet Air",
+          "flights": "VZ316 JQ028",
+          "depart": "2026-12-06 22:20",
+          "arrive": "2026-12-08 10:50",
+          "duration": "32h30m",
           "stops": 1,
-          "via": "SGN",
+          "via": "HKT",
           "self_transfer": true,
           "checked_baggage": false,
           "seats_left": 5,
@@ -131,7 +131,7 @@
         },
         "direct": {
           "date": "2026-12-06",
-          "price": 656,
+          "price": 655,
           "currency": "AUD",
           "airlines": "Bangkok Airways",
           "flights": "PG4529",
@@ -162,7 +162,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-05T07:02",
+      "checked_at": "2026-11-05T08:03",
       "status": "ok",
       "error": null,
       "best": {
@@ -178,7 +178,7 @@
         "via": "SGN",
         "self_transfer": false,
         "checked_baggage": false,
-        "seats_left": 5,
+        "seats_left": 6,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
@@ -213,7 +213,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 6,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -255,8 +255,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-05T07:02:34",
+  "last_cycle": "2026-11-05T08:03:11",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [340, \"2026-12-06\", {\"connecting\": 340, \"direct\": 656, \"self_transfer\": 445}, null], \"79e0e2\": [316, \"2026-12-06\", {\"connecting\": 316, \"self_transfer\": 654}, null], \"e591da\": [316, \"2026-12-06\", {\"connecting\": 316, \"self_transfer\": 441}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"4b5cae\": [340, \"2026-12-06\", {\"connecting\": 340, \"direct\": 655, \"self_transfer\": 402}, null], \"79e0e2\": [316, \"2026-12-06\", {\"connecting\": 316, \"self_transfer\": 672}, null], \"e591da\": [316, \"2026-12-06\", {\"connecting\": 316, \"self_transfer\": 441}, null]}}"
 }
