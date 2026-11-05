@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-06T02:02:35",
+  "generated_at": "2026-11-06T03:02:42",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-06T02:02",
+      "checked_at": "2026-11-06T03:02",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-06",
-        "price": 316,
+        "price": 317,
         "currency": "AUD",
         "airlines": "VietJet Air",
         "flights": "VJ1884 VJ085",
@@ -19,14 +19,14 @@
         "via": "SGN",
         "self_transfer": false,
         "checked_baggage": false,
-        "seats_left": 5,
+        "seats_left": 9,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
       "by_type": {
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 446,
+          "price": 442,
           "currency": "AUD",
           "airlines": "Scoot/Thai AirAsia",
           "flights": "FD4109 TR621 TR042",
@@ -37,13 +37,13 @@
           "via": "BKK/SIN",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 4,
+          "seats_left": 3,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "connecting": {
           "date": "2026-12-06",
-          "price": 316,
+          "price": 317,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -54,7 +54,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 9,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -62,29 +62,29 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 301
+          "price": 303
         },
         {
           "date": "2026-12-07",
-          "price": 422
+          "price": 424
         },
         {
           "date": "2026-12-08",
-          "price": 431
+          "price": 433
         },
         {
           "date": "2026-12-09",
-          "price": 302
+          "price": 303
         }
       ],
       "per_day": {
         "2026-12-08": {
-          "price": 503,
+          "price": 509,
           "airlines": "Scoot",
           "depart": "2026-12-08 16:40"
         },
         "2026-12-06": {
-          "price": 316,
+          "price": 317,
           "airlines": "VietJet Air",
           "depart": "2026-12-06 16:30"
         },
@@ -96,7 +96,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-06T02:02",
+      "checked_at": "2026-11-06T03:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -136,7 +136,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 275,
+          "price": 263,
           "currency": "AUD",
           "airlines": "China Eastern Airlines/Spring Airlines",
           "flights": "9C6506 MU5021",
@@ -146,7 +146,7 @@
           "stops": 1,
           "via": "XIY",
           "self_transfer": true,
-          "checked_baggage": true,
+          "checked_baggage": false,
           "seats_left": 4,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=tao&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
@@ -155,7 +155,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 217
+          "price": 218
         }
       ],
       "per_day": {
@@ -167,8 +167,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-06T02:02:35",
+  "last_cycle": "2026-11-06T03:02:42",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [261, \"2026-12-06\", {\"connecting\": 261, \"self_transfer\": 275}, null], \"e591da\": [316, \"2026-12-06\", {\"connecting\": 316, \"self_transfer\": 446}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [261, \"2026-12-06\", {\"connecting\": 261, \"self_transfer\": 263}, null], \"e591da\": [317, \"2026-12-06\", {\"connecting\": 317, \"self_transfer\": 442}, null]}}"
 }
