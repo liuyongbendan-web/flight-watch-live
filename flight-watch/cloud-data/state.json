@@ -1,7 +1,7 @@
 {
   "entries": {
     "79e0e2": {
-      "checked_at": "2026-11-05T13:01",
+      "checked_at": "2026-11-05T14:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -16,7 +16,7 @@
         "via": "SGN",
         "self_transfer": false,
         "checked_baggage": false,
-        "seats_left": 6,
+        "seats_left": 5,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
@@ -34,7 +34,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 6,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -59,7 +59,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 6,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
@@ -68,22 +68,22 @@
           "price": 654,
           "currency": "AUD",
           "airlines": "Batik Air Malaysia/Thai Airways",
-          "flights": "TG101 TG439 OD171",
-          "depart": "2026-12-06 08:05",
+          "flights": "TG103 TG439 OD171",
+          "depart": "2026-12-06 09:30",
           "arrive": "2026-12-07 06:30",
-          "duration": "18h25m",
+          "duration": "17h00m",
           "stops": 2,
           "via": "BKK/DPS",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 9,
+          "seats_left": 3,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       }
     },
     "4b5cae": {
-      "checked_at": "2026-11-05T13:01",
+      "checked_at": "2026-11-05T14:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -182,7 +182,7 @@
       }
     },
     "e591da": {
-      "checked_at": "2026-11-05T13:02",
+      "checked_at": "2026-11-05T14:03",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -197,7 +197,7 @@
         "via": "SGN",
         "self_transfer": false,
         "checked_baggage": false,
-        "seats_left": 6,
+        "seats_left": 5,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
@@ -232,7 +232,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 6,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
@@ -249,7 +249,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 6,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -265,7 +265,7 @@
         },
         {
           "date": "2026-12-08",
-          "price": 427
+          "price": 426
         },
         {
           "date": "2026-12-09",
@@ -303,13 +303,13 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 6,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       }
     }
   },
-  "last_cycle": "2026-11-05T13:02:48",
+  "last_cycle": "2026-11-05T14:03:19",
   "report_sent": "2026-11-04"
 }
