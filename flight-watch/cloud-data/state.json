@@ -1,7 +1,7 @@
 {
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-06T09:02",
+      "checked_at": "2026-11-06T10:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -80,7 +80,7 @@
         },
         {
           "date": "2026-12-07",
-          "price": 427
+          "price": 426
         },
         {
           "date": "2026-12-08",
@@ -94,18 +94,18 @@
       "by_type": {
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 445,
+          "price": 444,
           "currency": "AUD",
-          "airlines": "Scoot/Thai AirAsia",
-          "flights": "FD4109 TR621 TR042",
-          "depart": "2026-12-08 18:05",
-          "arrive": "2026-12-09 18:50",
-          "duration": "20h45m",
+          "airlines": "Thai AirAsia/VietJet Air",
+          "flights": "FD4103 VJ804 VJ085",
+          "depart": "2026-12-08 20:40",
+          "arrive": "2026-12-10 10:00",
+          "duration": "33h20m",
           "stops": 2,
-          "via": "BKK/SIN",
+          "via": "BKK/SGN",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 3,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
@@ -129,7 +129,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-06T09:02",
+      "checked_at": "2026-11-06T10:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -193,7 +193,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 264,
+          "price": 278,
           "currency": "AUD",
           "airlines": "China Eastern Airlines/Spring Airlines",
           "flights": "9C6506 MU5021",
@@ -203,7 +203,7 @@
           "stops": 1,
           "via": "XIY",
           "self_transfer": true,
-          "checked_baggage": false,
+          "checked_baggage": true,
           "seats_left": 4,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=tao&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
@@ -211,6 +211,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-06T09:02:25",
+  "last_cycle": "2026-11-06T10:02:32",
   "report_sent": "2026-11-05"
 }
