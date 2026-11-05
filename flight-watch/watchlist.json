@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T21:14:41",
+  "updated": "2026-11-05T21:15:07",
   "entries": [
     {
       "origin": "CNX",
@@ -12,13 +12,20 @@
       "need_bag": false,
       "adults": 1,
       "enabled": true,
-      "auto_prepare": false,
+      "auto_prepare": true,
       "exclude": [],
       "depart_slots": [],
       "promo_code": "",
       "snipe_at": "",
       "note": "",
-      "id": "e591da"
+      "id": "e591da",
+      "transfer_pref": "cheap",
+      "low_margin": 5,
+      "max_duration_h": null,
+      "max_layover_h": null,
+      "stopover_city": "",
+      "stopover_min_h": 12,
+      "stopover_max_h": 48
     }
   ],
   "settings": {
