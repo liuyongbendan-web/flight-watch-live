@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-06T06:02:40",
+  "generated_at": "2026-11-06T07:02:25",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-06T06:02",
+      "checked_at": "2026-11-06T07:02",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-06",
-        "price": 318,
+        "price": 319,
         "currency": "AUD",
         "airlines": "VietJet Air",
         "flights": "VJ1884 VJ085",
@@ -28,22 +28,22 @@
           "date": "2026-12-08",
           "price": 443,
           "currency": "AUD",
-          "airlines": "Scoot/Thai AirAsia",
-          "flights": "FD4109 TR621 TR042",
-          "depart": "2026-12-08 18:05",
-          "arrive": "2026-12-09 18:50",
-          "duration": "20h45m",
+          "airlines": "Thai AirAsia/VietJet Air",
+          "flights": "FD4103 VJ804 VJ085",
+          "depart": "2026-12-08 20:40",
+          "arrive": "2026-12-10 10:00",
+          "duration": "33h20m",
           "stops": 2,
-          "via": "BKK/SIN",
+          "via": "BKK/SGN",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 3,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "connecting": {
           "date": "2026-12-06",
-          "price": 318,
+          "price": 319,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -62,19 +62,19 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 303
+          "price": 304
         },
         {
           "date": "2026-12-07",
-          "price": 425
+          "price": 426
         },
         {
           "date": "2026-12-08",
-          "price": 428
+          "price": 429
         },
         {
           "date": "2026-12-09",
-          "price": 303
+          "price": 304
         }
       ],
       "per_day": {
@@ -84,24 +84,24 @@
           "depart": "2026-12-08 16:40"
         },
         "2026-12-06": {
-          "price": 318,
+          "price": 319,
           "airlines": "VietJet Air",
           "depart": "2026-12-06 16:30"
         },
         "2026-12-09": {
-          "price": 318,
+          "price": 319,
           "airlines": "VietJet Air",
           "depart": "2026-12-09 16:30"
         }
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-06T06:02",
+      "checked_at": "2026-11-06T07:02",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-06",
-        "price": 262,
+        "price": 263,
         "currency": "AUD",
         "airlines": "China Eastern Airlines",
         "flights": "MU9620 MU5686",
@@ -119,7 +119,7 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-06",
-          "price": 262,
+          "price": 263,
           "currency": "AUD",
           "airlines": "China Eastern Airlines",
           "flights": "MU9620 MU5686",
@@ -155,20 +155,20 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 219
+          "price": 217
         }
       ],
       "per_day": {
         "2026-12-06": {
-          "price": 262,
+          "price": 263,
           "airlines": "China Eastern Airlines",
           "depart": "2026-12-06 16:25"
         }
       }
     }
   },
-  "last_cycle": "2026-11-06T06:02:40",
+  "last_cycle": "2026-11-06T07:02:25",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [262, \"2026-12-06\", {\"connecting\": 262, \"self_transfer\": 277}, null], \"e591da\": [318, \"2026-12-06\", {\"connecting\": 318, \"self_transfer\": 443}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [263, \"2026-12-06\", {\"connecting\": 263, \"self_transfer\": 277}, null], \"e591da\": [319, \"2026-12-06\", {\"connecting\": 319, \"self_transfer\": 443}, null]}}"
 }
