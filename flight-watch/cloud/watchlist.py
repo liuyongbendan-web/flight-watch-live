@@ -118,6 +118,8 @@ CITY_AIRPORTS = {
     "BKK": {"BKK", "DMK"}, "KUL": {"KUL", "SZB"}, "TYO": {"NRT", "HND"}, "OSA": {"KIX", "ITM"},
     "SEL": {"ICN", "GMP"}, "SHA": {"PVG", "SHA"}, "BJS": {"PEK", "PKX"}, "TPE": {"TPE", "TSA"},
     "JKT": {"CGK", "HLP"}, "MEL": {"MEL", "AVV"}, "LON": {"LHR", "LGW", "STN", "LTN"},
+    "NYC": {"JFK", "EWR", "LGA"}, "PAR": {"CDG", "ORY"}, "ROM": {"FCO", "CIA"}, "MIL": {"MXP", "LIN", "BGY"},
+    "WAS": {"IAD", "DCA", "BWI"}, "MOW": {"SVO", "DME", "VKO"}, "IST": {"IST", "SAW"},
 }
 
 
