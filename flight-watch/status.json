@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-06T00:02:42",
+  "generated_at": "2026-11-06T01:02:47",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-06T00:02",
+      "checked_at": "2026-11-06T01:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -24,6 +24,23 @@
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
       "by_type": {
+        "self_transfer": {
+          "date": "2026-12-08",
+          "price": 445,
+          "currency": "AUD",
+          "airlines": "Scoot/Thai AirAsia",
+          "flights": "FD4109 TR621 TR042",
+          "depart": "2026-12-08 18:05",
+          "arrive": "2026-12-09 18:50",
+          "duration": "20h45m",
+          "stops": 2,
+          "via": "BKK/SIN",
+          "self_transfer": true,
+          "checked_baggage": false,
+          "seats_left": 3,
+          "complete": true,
+          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
+        },
         "connecting": {
           "date": "2026-12-06",
           "price": 316,
@@ -40,23 +57,6 @@
           "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
-        },
-        "self_transfer": {
-          "date": "2026-12-06",
-          "price": 654,
-          "currency": "AUD",
-          "airlines": "Batik Air Malaysia/Thai Airways",
-          "flights": "TG103 TG439 OD171",
-          "depart": "2026-12-06 09:30",
-          "arrive": "2026-12-07 06:30",
-          "duration": "17h00m",
-          "stops": 2,
-          "via": "BKK/DPS",
-          "self_transfer": true,
-          "checked_baggage": false,
-          "seats_left": 6,
-          "complete": true,
-          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       },
       "calendar": [
@@ -70,16 +70,16 @@
         },
         {
           "date": "2026-12-08",
-          "price": 426
+          "price": 425
         },
         {
           "date": "2026-12-09",
-          "price": 302
+          "price": 301
         }
       ],
       "per_day": {
         "2026-12-08": {
-          "price": 557,
+          "price": 503,
           "airlines": "Scoot",
           "depart": "2026-12-08 16:40"
         },
@@ -96,12 +96,12 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-06T00:02",
+      "checked_at": "2026-11-06T01:02",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-06",
-        "price": 261,
+        "price": 260,
         "currency": "AUD",
         "airlines": "China Eastern Airlines",
         "flights": "MU9620 MU5686",
@@ -119,7 +119,7 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-06",
-          "price": 261,
+          "price": 260,
           "currency": "AUD",
           "airlines": "China Eastern Airlines",
           "flights": "MU9620 MU5686",
@@ -136,7 +136,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 262,
+          "price": 274,
           "currency": "AUD",
           "airlines": "China Eastern Airlines/Spring Airlines",
           "flights": "9C6506 MU5021",
@@ -146,7 +146,7 @@
           "stops": 1,
           "via": "XIY",
           "self_transfer": true,
-          "checked_baggage": false,
+          "checked_baggage": true,
           "seats_left": 4,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=tao&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
@@ -160,15 +160,15 @@
       ],
       "per_day": {
         "2026-12-06": {
-          "price": 261,
+          "price": 260,
           "airlines": "China Eastern Airlines",
           "depart": "2026-12-06 16:25"
         }
       }
     }
   },
-  "last_cycle": "2026-11-06T00:02:41",
+  "last_cycle": "2026-11-06T01:02:46",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [261, \"2026-12-06\", {\"connecting\": 261, \"self_transfer\": 262}, null], \"e591da\": [316, \"2026-12-06\", {\"connecting\": 316, \"self_transfer\": 654}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [260, \"2026-12-06\", {\"connecting\": 260, \"self_transfer\": 274}, null], \"e591da\": [316, \"2026-12-06\", {\"connecting\": 316, \"self_transfer\": 445}, null]}}"
 }
