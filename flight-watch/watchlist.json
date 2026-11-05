@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T21:14:04",
+  "updated": "2026-11-05T21:14:17",
   "entries": [
     {
       "origin": "CNX",
@@ -22,7 +22,7 @@
     }
   ],
   "settings": {
-    "interval_minutes": 30,
+    "interval_minutes": 60,
     "report_hour": 21
   }
 }
