@@ -1,25 +1,6 @@
 {
-  "updated": "2026-11-05T21:13:55",
+  "updated": "2026-11-05T21:14:04",
   "entries": [
-    {
-      "origin": "CNX",
-      "destination": "SYD",
-      "from": "2026-12-06",
-      "to": "2026-12-06",
-      "max_price": 540,
-      "max_stops": 1,
-      "allow_self_transfer": true,
-      "need_bag": false,
-      "adults": 1,
-      "enabled": true,
-      "auto_prepare": false,
-      "exclude": [],
-      "depart_slots": [],
-      "promo_code": "",
-      "snipe_at": "",
-      "note": "UTMB Chiang Mai 赛后回程（默认监测）",
-      "id": "79e0e2"
-    },
     {
       "origin": "CNX",
       "destination": "SYD",
