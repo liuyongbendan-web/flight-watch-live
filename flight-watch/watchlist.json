@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T21:14:17",
+  "updated": "2026-11-05T21:14:26",
   "entries": [
     {
       "origin": "CNX",
@@ -12,7 +12,7 @@
       "need_bag": false,
       "adults": 1,
       "enabled": true,
-      "auto_prepare": false,
+      "auto_prepare": true,
       "exclude": [],
       "depart_slots": [],
       "promo_code": "",
