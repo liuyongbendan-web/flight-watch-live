@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-06T04:08:50",
+  "generated_at": "2026-11-06T05:02:31",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-06T04:08",
+      "checked_at": "2026-11-06T05:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -70,7 +70,7 @@
         },
         {
           "date": "2026-12-08",
-          "price": 427
+          "price": 428
         },
         {
           "date": "2026-12-09",
@@ -79,7 +79,7 @@
       ],
       "per_day": {
         "2026-12-08": {
-          "price": 510,
+          "price": 511,
           "airlines": "Scoot",
           "depart": "2026-12-08 16:40"
         },
@@ -96,7 +96,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-06T04:08",
+      "checked_at": "2026-11-06T05:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -155,7 +155,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 218
+          "price": 217
         }
       ],
       "per_day": {
@@ -167,7 +167,7 @@
       }
     }
   },
-  "last_cycle": "2026-11-06T04:08:50",
+  "last_cycle": "2026-11-06T05:02:31",
   "last_error": null,
   "trip_ok": true,
   "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [262, \"2026-12-06\", {\"connecting\": 262, \"self_transfer\": 277}, null], \"e591da\": [318, \"2026-12-06\", {\"connecting\": 318, \"self_transfer\": 442}, null]}}"
