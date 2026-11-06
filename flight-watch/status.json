@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-07T02:02:32",
+  "generated_at": "2026-11-07T02:59:34",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-07T02:02",
+      "checked_at": "2026-11-07T02:59",
       "status": "ok",
       "error": null,
       "best": {
@@ -19,7 +19,7 @@
         "via": "SGN",
         "self_transfer": false,
         "checked_baggage": false,
-        "seats_left": 5,
+        "seats_left": 6,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
@@ -29,7 +29,7 @@
           "price": 425,
           "currency": "AUD",
           "airlines": "Thai AirAsia/VietJet Air",
-          "flights": "FD870 VJ125 VJ085",
+          "flights": "FD870 VJ123 VJ085",
           "depart": "2026-12-08 13:20",
           "arrive": "2026-12-10 10:00",
           "duration": "40h40m",
@@ -37,7 +37,7 @@
           "via": "HAN/SGN",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 6,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
@@ -54,7 +54,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 6,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -66,7 +66,7 @@
         },
         {
           "date": "2026-12-07",
-          "price": 430
+          "price": 429
         },
         {
           "date": "2026-12-08",
@@ -79,7 +79,7 @@
       ],
       "per_day": {
         "2026-12-08": {
-          "price": 520,
+          "price": 519,
           "airlines": "Scoot",
           "depart": "2026-12-08 16:40"
         },
@@ -96,7 +96,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-07T02:02",
+      "checked_at": "2026-11-07T02:59",
       "status": "ok",
       "error": null,
       "best": {
@@ -155,7 +155,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 217
+          "price": 216
         }
       ],
       "per_day": {
@@ -167,7 +167,7 @@
       }
     }
   },
-  "last_cycle": "2026-11-07T02:02:32",
+  "last_cycle": "2026-11-07T02:59:34",
   "last_error": null,
   "trip_ok": true,
   "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [243, \"2026-12-06\", {\"connecting\": 253, \"self_transfer\": 243}, null], \"e591da\": [326, \"2026-12-06\", {\"connecting\": 326, \"self_transfer\": 425}, null]}}"
