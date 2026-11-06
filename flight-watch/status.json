@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-06T18:59:19",
+  "generated_at": "2026-11-06T20:02:18",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-06T18:58",
+      "checked_at": "2026-11-06T20:01",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-06",
-        "price": 321,
+        "price": 322,
         "currency": "AUD",
         "airlines": "VietJet Air",
         "flights": "VJ1884 VJ085",
@@ -24,26 +24,9 @@
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
       "by_type": {
-        "self_transfer": {
-          "date": "2026-12-08",
-          "price": 421,
-          "currency": "AUD",
-          "airlines": "Thai AirAsia/VietJet Air",
-          "flights": "FD3434 FD644 VJ125 VJ085",
-          "depart": "2026-12-08 15:50",
-          "arrive": "2026-12-10 10:00",
-          "duration": "38h10m",
-          "stops": 3,
-          "via": "DMK/HAN/SGN",
-          "self_transfer": true,
-          "checked_baggage": false,
-          "seats_left": 8,
-          "complete": true,
-          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
-        },
         "connecting": {
           "date": "2026-12-06",
-          "price": 321,
+          "price": 322,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -55,6 +38,23 @@
           "self_transfer": false,
           "checked_baggage": false,
           "seats_left": 5,
+          "complete": true,
+          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
+        },
+        "self_transfer": {
+          "date": "2026-12-06",
+          "price": 671,
+          "currency": "AUD",
+          "airlines": "Batik Air Malaysia/Thai Airways",
+          "flights": "TG103 TG439 OD171",
+          "depart": "2026-12-06 09:30",
+          "arrive": "2026-12-07 06:30",
+          "duration": "17h00m",
+          "stops": 2,
+          "via": "BKK/DPS",
+          "self_transfer": true,
+          "checked_baggage": false,
+          "seats_left": 3,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -79,35 +79,35 @@
       ],
       "per_day": {
         "2026-12-08": {
-          "price": 515,
+          "price": 552,
           "airlines": "Scoot",
-          "depart": "2026-12-08 16:40"
+          "depart": "2026-12-08 12:05"
         },
         "2026-12-06": {
-          "price": 321,
+          "price": 322,
           "airlines": "VietJet Air",
           "depart": "2026-12-06 16:30"
         },
         "2026-12-09": {
-          "price": 321,
+          "price": 322,
           "airlines": "VietJet Air",
           "depart": "2026-12-09 16:30"
         }
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-06T18:59",
+      "checked_at": "2026-11-06T20:02",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-06",
-        "price": 264,
+        "price": 253,
         "currency": "AUD",
         "airlines": "China Eastern Airlines",
-        "flights": "MU9620 MU5686",
-        "depart": "2026-12-06 16:25",
-        "arrive": "2026-12-07 17:00",
-        "duration": "23h35m",
+        "flights": "MU9612 MU5480",
+        "depart": "2026-12-06 13:00",
+        "arrive": "2026-12-07 01:05",
+        "duration": "11h05m",
         "stops": 1,
         "via": "KMG",
         "self_transfer": false,
@@ -119,13 +119,13 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-06",
-          "price": 264,
+          "price": 253,
           "currency": "AUD",
           "airlines": "China Eastern Airlines",
-          "flights": "MU9620 MU5686",
-          "depart": "2026-12-06 16:25",
-          "arrive": "2026-12-07 17:00",
-          "duration": "23h35m",
+          "flights": "MU9612 MU5480",
+          "depart": "2026-12-06 13:00",
+          "arrive": "2026-12-07 01:05",
+          "duration": "11h05m",
           "stops": 1,
           "via": "KMG",
           "self_transfer": false,
@@ -160,15 +160,15 @@
       ],
       "per_day": {
         "2026-12-06": {
-          "price": 264,
+          "price": 253,
           "airlines": "China Eastern Airlines",
-          "depart": "2026-12-06 16:25"
+          "depart": "2026-12-06 13:00"
         }
       }
     }
   },
-  "last_cycle": "2026-11-06T18:59:18",
+  "last_cycle": "2026-11-06T20:02:18",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [264, \"2026-12-06\", {\"connecting\": 264, \"self_transfer\": 280}, null], \"e591da\": [321, \"2026-12-06\", {\"connecting\": 321, \"self_transfer\": 421}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [253, \"2026-12-06\", {\"connecting\": 253, \"self_transfer\": 280}, null], \"e591da\": [322, \"2026-12-06\", {\"connecting\": 322, \"self_transfer\": 671}, null]}}"
 }
