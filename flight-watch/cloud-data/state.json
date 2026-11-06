@@ -1,11 +1,11 @@
 {
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-06T12:02",
+      "checked_at": "2026-11-06T13:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
-        "price": 318,
+        "price": 319,
         "currency": "AUD",
         "airlines": "VietJet Air",
         "flights": "VJ1884 VJ085",
@@ -16,14 +16,14 @@
         "via": "SGN",
         "self_transfer": false,
         "checked_baggage": false,
-        "seats_left": 5,
+        "seats_left": 9,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
       "per_day": {
         "2026-12-08": {
           "date": "2026-12-08",
-          "price": 511,
+          "price": 512,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR699 TR042",
@@ -40,7 +40,7 @@
         },
         "2026-12-06": {
           "date": "2026-12-06",
-          "price": 318,
+          "price": 319,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -51,13 +51,13 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 9,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "2026-12-09": {
           "date": "2026-12-09",
-          "price": 318,
+          "price": 319,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -68,7 +68,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 9,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -76,7 +76,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 303
+          "price": 304
         },
         {
           "date": "2026-12-07",
@@ -84,11 +84,11 @@
         },
         {
           "date": "2026-12-08",
-          "price": 429
+          "price": 427
         },
         {
           "date": "2026-12-09",
-          "price": 303
+          "price": 304
         }
       ],
       "by_type": {
@@ -111,7 +111,7 @@
         },
         "connecting": {
           "date": "2026-12-06",
-          "price": 318,
+          "price": 319,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -122,18 +122,18 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 9,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-06T12:02",
+      "checked_at": "2026-11-06T13:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
-        "price": 262,
+        "price": 263,
         "currency": "AUD",
         "airlines": "China Eastern Airlines",
         "flights": "MU9620 MU5686",
@@ -151,7 +151,7 @@
       "per_day": {
         "2026-12-06": {
           "date": "2026-12-06",
-          "price": 262,
+          "price": 263,
           "currency": "AUD",
           "airlines": "China Eastern Airlines",
           "flights": "MU9620 MU5686",
@@ -176,7 +176,7 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-06",
-          "price": 262,
+          "price": 263,
           "currency": "AUD",
           "airlines": "China Eastern Airlines",
           "flights": "MU9620 MU5686",
@@ -193,7 +193,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 277,
+          "price": 264,
           "currency": "AUD",
           "airlines": "China Eastern Airlines/Spring Airlines",
           "flights": "9C6506 MU5021",
@@ -203,7 +203,7 @@
           "stops": 1,
           "via": "XIY",
           "self_transfer": true,
-          "checked_baggage": true,
+          "checked_baggage": false,
           "seats_left": 4,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=tao&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
@@ -211,6 +211,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-06T12:02:23",
+  "last_cycle": "2026-11-06T13:02:36",
   "report_sent": "2026-11-05"
 }
