@@ -1,7 +1,7 @@
 {
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-07T06:11",
+      "checked_at": "2026-11-07T08:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -23,7 +23,7 @@
       "per_day": {
         "2026-12-08": {
           "date": "2026-12-08",
-          "price": 553,
+          "price": 547,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR699 TR042",
@@ -34,7 +34,7 @@
           "via": "SIN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 1,
+          "seats_left": 2,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
@@ -110,26 +110,26 @@
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "self_transfer": {
-          "date": "2026-12-09",
-          "price": 588,
+          "date": "2026-12-06",
+          "price": 551,
           "currency": "AUD",
-          "airlines": "AirAsia Berhad (Malaysia)/Batik Air Malaysia",
-          "flights": "AK855 OD121",
-          "depart": "2026-12-09 09:10",
-          "arrive": "2026-12-10 07:10",
-          "duration": "18h00m",
-          "stops": 1,
-          "via": "KUL",
+          "airlines": "Sichuan Airlines/Thai Airways",
+          "flights": "TG101 3U3936 3U3891",
+          "depart": "2026-12-06 08:05",
+          "arrive": "2026-12-07 15:05",
+          "duration": "27h00m",
+          "stops": 2,
+          "via": "BKK/TFU",
           "self_transfer": true,
-          "checked_baggage": false,
-          "seats_left": 9,
+          "checked_baggage": true,
+          "seats_left": 2,
           "complete": true,
-          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
+          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-07T06:12",
+      "checked_at": "2026-11-07T08:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -170,7 +170,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 219
+          "price": 217
         }
       ],
       "by_type": {
@@ -211,6 +211,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-07T06:12:14",
+  "last_cycle": "2026-11-07T08:02:26",
   "report_sent": "2026-11-06"
 }

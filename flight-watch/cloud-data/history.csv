@@ -3703,3 +3703,7 @@ checked_at,route,depart_date,price,airlines,flights,stops,self_transfer,checked_
 2026-11-07T06:11,CNX-SYD,2026-12-08,553,Scoot,TR699 TR042,1,False,False,actual,e591da
 2026-11-07T06:11,CNX-SYD,2026-12-09,328,VietJet Air,VJ1884 VJ085,1,False,False,actual,e591da
 2026-11-07T06:12,CNX-TAO,2026-12-06,243,China Eastern Airlines/Spring Airlines,9C6506 MU5021,1,True,False,actual,d7c80b
+2026-11-07T08:02,CNX-SYD,2026-12-06,327,VietJet Air,VJ1884 VJ085,1,False,False,actual,e591da
+2026-11-07T08:02,CNX-SYD,2026-12-08,547,Scoot,TR699 TR042,1,False,False,actual,e591da
+2026-11-07T08:02,CNX-SYD,2026-12-09,328,VietJet Air,VJ1884 VJ085,1,False,False,actual,e591da
+2026-11-07T08:02,CNX-TAO,2026-12-06,243,China Eastern Airlines/Spring Airlines,9C6506 MU5021,1,True,False,actual,d7c80b
