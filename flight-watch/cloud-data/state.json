@@ -1,7 +1,7 @@
 {
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-06T14:02",
+      "checked_at": "2026-11-06T15:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -23,7 +23,7 @@
       "per_day": {
         "2026-12-08": {
           "date": "2026-12-08",
-          "price": 513,
+          "price": 514,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR699 TR042",
@@ -68,7 +68,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 9,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -76,25 +76,25 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 304
+          "price": 305
         },
         {
           "date": "2026-12-07",
-          "price": 427
-        },
-        {
-          "date": "2026-12-08",
           "price": 428
         },
         {
+          "date": "2026-12-08",
+          "price": 429
+        },
+        {
           "date": "2026-12-09",
-          "price": 304
+          "price": 305
         }
       ],
       "by_type": {
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 443,
+          "price": 446,
           "currency": "AUD",
           "airlines": "Scoot/Thai AirAsia",
           "flights": "FD4101 TR637 TR040",
@@ -129,11 +129,11 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-06T14:02",
+      "checked_at": "2026-11-06T15:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
-        "price": 263,
+        "price": 264,
         "currency": "AUD",
         "airlines": "China Eastern Airlines",
         "flights": "MU9620 MU5686",
@@ -151,7 +151,7 @@
       "per_day": {
         "2026-12-06": {
           "date": "2026-12-06",
-          "price": 263,
+          "price": 264,
           "currency": "AUD",
           "airlines": "China Eastern Airlines",
           "flights": "MU9620 MU5686",
@@ -176,7 +176,7 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-06",
-          "price": 263,
+          "price": 264,
           "currency": "AUD",
           "airlines": "China Eastern Airlines",
           "flights": "MU9620 MU5686",
@@ -193,7 +193,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 278,
+          "price": 279,
           "currency": "AUD",
           "airlines": "China Eastern Airlines/Spring Airlines",
           "flights": "9C6506 MU5021",
@@ -211,6 +211,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-06T14:02:32",
+  "last_cycle": "2026-11-06T15:02:30",
   "report_sent": "2026-11-05"
 }
