@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-08T06:02:24",
+  "generated_at": "2026-11-08T07:02:21",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-08T06:02",
+      "checked_at": "2026-11-08T07:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -29,7 +29,7 @@
           "price": 423,
           "currency": "AUD",
           "airlines": "Thai AirAsia/VietJet Air",
-          "flights": "FD3434 FD644 VJ159 VJ085",
+          "flights": "FD3434 FD644 VJ129 VJ085",
           "depart": "2026-12-08 15:50",
           "arrive": "2026-12-10 10:00",
           "duration": "38h10m",
@@ -37,7 +37,7 @@
           "via": "DMK/HAN/SGN",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 7,
+          "seats_left": 4,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
@@ -79,7 +79,7 @@
       ],
       "per_day": {
         "2026-12-08": {
-          "price": 519,
+          "price": 520,
           "airlines": "Scoot",
           "depart": "2026-12-08 16:40"
         },
@@ -96,7 +96,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-08T06:02",
+      "checked_at": "2026-11-08T07:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -139,10 +139,10 @@
           "price": 252,
           "currency": "AUD",
           "airlines": "China Eastern Airlines",
-          "flights": "MU9620 MU5686",
-          "depart": "2026-12-06 16:25",
-          "arrive": "2026-12-07 17:00",
-          "duration": "23h35m",
+          "flights": "MU9612 MU5480",
+          "depart": "2026-12-06 13:00",
+          "arrive": "2026-12-07 01:05",
+          "duration": "11h05m",
           "stops": 1,
           "via": "KMG",
           "self_transfer": false,
@@ -167,7 +167,7 @@
       }
     }
   },
-  "last_cycle": "2026-11-08T06:02:24",
+  "last_cycle": "2026-11-08T07:02:21",
   "last_error": null,
   "trip_ok": true,
   "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [244, \"2026-12-06\", {\"connecting\": 252, \"self_transfer\": 244}, null], \"e591da\": [325, \"2026-12-06\", {\"connecting\": 325, \"self_transfer\": 423}, null]}}"
