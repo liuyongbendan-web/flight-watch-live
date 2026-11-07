@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-07T23:02:39",
+  "generated_at": "2026-11-08T00:02:39",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-07T23:02",
+      "checked_at": "2026-11-08T00:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -24,23 +24,6 @@
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
       "by_type": {
-        "self_transfer": {
-          "date": "2026-12-08",
-          "price": 423,
-          "currency": "AUD",
-          "airlines": "Thai AirAsia/VietJet Air",
-          "flights": "FD3434 FD644 VJ125 VJ085",
-          "depart": "2026-12-08 15:50",
-          "arrive": "2026-12-10 10:00",
-          "duration": "38h10m",
-          "stops": 3,
-          "via": "DMK/HAN/SGN",
-          "self_transfer": true,
-          "checked_baggage": false,
-          "seats_left": 3,
-          "complete": true,
-          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
-        },
         "connecting": {
           "date": "2026-12-06",
           "price": 325,
@@ -57,6 +40,23 @@
           "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
+        },
+        "self_transfer": {
+          "date": "2026-12-09",
+          "price": 588,
+          "currency": "AUD",
+          "airlines": "AirAsia Berhad (Malaysia)/Batik Air Malaysia",
+          "flights": "AK855 OD121",
+          "depart": "2026-12-09 09:10",
+          "arrive": "2026-12-10 07:10",
+          "duration": "18h00m",
+          "stops": 1,
+          "via": "KUL",
+          "self_transfer": true,
+          "checked_baggage": false,
+          "seats_left": 9,
+          "complete": true,
+          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       },
       "calendar": [
@@ -79,9 +79,9 @@
       ],
       "per_day": {
         "2026-12-08": {
-          "price": 519,
+          "price": 552,
           "airlines": "Scoot",
-          "depart": "2026-12-08 16:40"
+          "depart": "2026-12-08 12:05"
         },
         "2026-12-06": {
           "price": 325,
@@ -96,7 +96,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-07T23:02",
+      "checked_at": "2026-11-08T00:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -167,8 +167,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-07T23:02:39",
+  "last_cycle": "2026-11-08T00:02:39",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [243, \"2026-12-06\", {\"connecting\": 253, \"self_transfer\": 243}, null], \"e591da\": [325, \"2026-12-06\", {\"connecting\": 325, \"self_transfer\": 423}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [243, \"2026-12-06\", {\"connecting\": 253, \"self_transfer\": 243}, null], \"e591da\": [325, \"2026-12-06\", {\"connecting\": 325, \"self_transfer\": 588}, null]}}"
 }
