@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-07T22:02:32",
+  "generated_at": "2026-11-07T23:02:39",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-07T22:02",
+      "checked_at": "2026-11-07T23:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -96,7 +96,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-07T22:02",
+      "checked_at": "2026-11-07T23:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -167,7 +167,7 @@
       }
     }
   },
-  "last_cycle": "2026-11-07T22:02:32",
+  "last_cycle": "2026-11-07T23:02:39",
   "last_error": null,
   "trip_ok": true,
   "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [243, \"2026-12-06\", {\"connecting\": 253, \"self_transfer\": 243}, null], \"e591da\": [325, \"2026-12-06\", {\"connecting\": 325, \"self_transfer\": 423}, null]}}"
