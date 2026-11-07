@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-07T14:02:36",
+  "generated_at": "2026-11-07T15:02:24",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-07T14:02",
+      "checked_at": "2026-11-07T15:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -19,7 +19,7 @@
         "via": "SGN",
         "self_transfer": false,
         "checked_baggage": false,
-        "seats_left": 9,
+        "seats_left": 5,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
@@ -54,7 +54,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 9,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -70,7 +70,7 @@
         },
         {
           "date": "2026-12-08",
-          "price": 437
+          "price": 408
         },
         {
           "date": "2026-12-09",
@@ -96,7 +96,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-07T14:02",
+      "checked_at": "2026-11-07T15:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -167,7 +167,7 @@
       }
     }
   },
-  "last_cycle": "2026-11-07T14:02:35",
+  "last_cycle": "2026-11-07T15:02:24",
   "last_error": null,
   "trip_ok": true,
   "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [243, \"2026-12-06\", {\"connecting\": 253, \"self_transfer\": 243}, null], \"e591da\": [326, \"2026-12-06\", {\"connecting\": 326, \"self_transfer\": 423}, null]}}"
