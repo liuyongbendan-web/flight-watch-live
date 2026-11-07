@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-08T07:02:21",
+  "generated_at": "2026-11-08T08:02:43",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-08T07:01",
+      "checked_at": "2026-11-08T08:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -26,7 +26,7 @@
       "by_type": {
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 423,
+          "price": 424,
           "currency": "AUD",
           "airlines": "Thai AirAsia/VietJet Air",
           "flights": "FD3434 FD644 VJ129 VJ085",
@@ -96,27 +96,44 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-08T07:02",
+      "checked_at": "2026-11-08T08:02",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-06",
-        "price": 244,
+        "price": 234,
         "currency": "AUD",
-        "airlines": "China Eastern Airlines/Spring Airlines",
-        "flights": "9C6506 MU5021",
-        "depart": "2026-12-06 21:35",
-        "arrive": "2026-12-07 09:15",
-        "duration": "10h40m",
+        "airlines": "China Eastern Airlines",
+        "flights": "MU9620 MU5686",
+        "depart": "2026-12-06 16:25",
+        "arrive": "2026-12-07 17:00",
+        "duration": "23h35m",
         "stops": 1,
-        "via": "XIY",
-        "self_transfer": true,
-        "checked_baggage": false,
-        "seats_left": 4,
+        "via": "KMG",
+        "self_transfer": false,
+        "checked_baggage": true,
+        "seats_left": 9,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=tao&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
       "by_type": {
+        "connecting": {
+          "date": "2026-12-06",
+          "price": 234,
+          "currency": "AUD",
+          "airlines": "China Eastern Airlines",
+          "flights": "MU9620 MU5686",
+          "depart": "2026-12-06 16:25",
+          "arrive": "2026-12-07 17:00",
+          "duration": "23h35m",
+          "stops": 1,
+          "via": "KMG",
+          "self_transfer": false,
+          "checked_baggage": true,
+          "seats_left": 9,
+          "complete": true,
+          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=tao&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
+        },
         "self_transfer": {
           "date": "2026-12-06",
           "price": 244,
@@ -133,23 +150,6 @@
           "seats_left": 4,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=tao&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
-        },
-        "connecting": {
-          "date": "2026-12-06",
-          "price": 252,
-          "currency": "AUD",
-          "airlines": "China Eastern Airlines",
-          "flights": "MU9612 MU5480",
-          "depart": "2026-12-06 13:00",
-          "arrive": "2026-12-07 01:05",
-          "duration": "11h05m",
-          "stops": 1,
-          "via": "KMG",
-          "self_transfer": false,
-          "checked_baggage": true,
-          "seats_left": 9,
-          "complete": true,
-          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=tao&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       },
       "calendar": [
@@ -160,15 +160,15 @@
       ],
       "per_day": {
         "2026-12-06": {
-          "price": 244,
-          "airlines": "China Eastern Airlines/Spring Airlines",
-          "depart": "2026-12-06 21:35"
+          "price": 234,
+          "airlines": "China Eastern Airlines",
+          "depart": "2026-12-06 16:25"
         }
       }
     }
   },
-  "last_cycle": "2026-11-08T07:02:21",
+  "last_cycle": "2026-11-08T08:02:43",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [244, \"2026-12-06\", {\"connecting\": 252, \"self_transfer\": 244}, null], \"e591da\": [325, \"2026-12-06\", {\"connecting\": 325, \"self_transfer\": 423}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [234, \"2026-12-06\", {\"connecting\": 234, \"self_transfer\": 244}, null], \"e591da\": [325, \"2026-12-06\", {\"connecting\": 325, \"self_transfer\": 424}, null]}}"
 }
