@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-09T03:02:43",
+  "generated_at": "2026-11-09T04:02:37",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-09T03:02",
+      "checked_at": "2026-11-09T04:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -19,7 +19,7 @@
         "via": "SGN",
         "self_transfer": false,
         "checked_baggage": false,
-        "seats_left": 5,
+        "seats_left": 9,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
@@ -54,7 +54,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 9,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -62,7 +62,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 310
+          "price": 311
         },
         {
           "date": "2026-12-07",
@@ -70,7 +70,7 @@
         },
         {
           "date": "2026-12-08",
-          "price": 409
+          "price": 414
         },
         {
           "date": "2026-12-09",
@@ -83,20 +83,20 @@
           "airlines": "Scoot",
           "depart": "2026-12-08 16:40"
         },
-        "2026-12-06": {
-          "price": 326,
-          "airlines": "VietJet Air",
-          "depart": "2026-12-06 16:30"
-        },
         "2026-12-09": {
           "price": 325,
           "airlines": "VietJet Air",
           "depart": "2026-12-09 16:30"
+        },
+        "2026-12-06": {
+          "price": 326,
+          "airlines": "VietJet Air",
+          "depart": "2026-12-06 16:30"
         }
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-09T03:02",
+      "checked_at": "2026-11-09T04:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -167,7 +167,7 @@
       }
     }
   },
-  "last_cycle": "2026-11-09T03:02:43",
+  "last_cycle": "2026-11-09T04:02:37",
   "last_error": null,
   "trip_ok": true,
   "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [234, \"2026-12-06\", {\"connecting\": 234, \"self_transfer\": 244}, null], \"e591da\": [325, \"2026-12-09\", {\"connecting\": 325, \"self_transfer\": 429}, null]}}"
