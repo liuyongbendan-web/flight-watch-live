@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-08T11:02:14",
+  "generated_at": "2026-11-08T12:02:28",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-08T11:01",
+      "checked_at": "2026-11-08T12:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -29,7 +29,7 @@
           "price": 429,
           "currency": "AUD",
           "airlines": "Thai AirAsia/VietJet Air",
-          "flights": "FD870 VJ165 VJ085",
+          "flights": "FD870 VJ123 VJ085",
           "depart": "2026-12-08 13:20",
           "arrive": "2026-12-10 10:00",
           "duration": "40h40m",
@@ -37,7 +37,7 @@
           "via": "HAN/SGN",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 8,
+          "seats_left": 6,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
@@ -96,7 +96,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-08T11:02",
+      "checked_at": "2026-11-08T12:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -167,7 +167,7 @@
       }
     }
   },
-  "last_cycle": "2026-11-08T11:02:14",
+  "last_cycle": "2026-11-08T12:02:28",
   "last_error": null,
   "trip_ok": true,
   "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [234, \"2026-12-06\", {\"connecting\": 234, \"self_transfer\": 244}, null], \"e591da\": [325, \"2026-12-06\", {\"connecting\": 325, \"self_transfer\": 429}, null]}}"
