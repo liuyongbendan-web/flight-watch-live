@@ -1,7 +1,7 @@
 {
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-08T23:02",
+      "checked_at": "2026-11-09T00:02",
       "status": "ok",
       "best": {
         "date": "2026-12-09",
@@ -16,25 +16,25 @@
         "via": "SGN",
         "self_transfer": false,
         "checked_baggage": false,
-        "seats_left": 9,
+        "seats_left": 5,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
       "per_day": {
         "2026-12-08": {
           "date": "2026-12-08",
-          "price": 519,
+          "price": 555,
           "currency": "AUD",
           "airlines": "Scoot",
-          "flights": "TR699 TR042",
-          "depart": "2026-12-08 16:40",
+          "flights": "TR697 TR042",
+          "depart": "2026-12-08 12:05",
           "arrive": "2026-12-09 18:50",
-          "duration": "22h10m",
+          "duration": "26h45m",
           "stops": 1,
           "via": "SIN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 1,
+          "seats_left": 3,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
@@ -51,13 +51,13 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 9,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "2026-12-06": {
           "date": "2026-12-06",
-          "price": 327,
+          "price": 325,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -92,23 +92,6 @@
         }
       ],
       "by_type": {
-        "self_transfer": {
-          "date": "2026-12-08",
-          "price": 453,
-          "currency": "AUD",
-          "airlines": "Scoot/Thai AirAsia",
-          "flights": "FD4101 TR637 TR040",
-          "depart": "2026-12-08 08:55",
-          "arrive": "2026-12-09 12:10",
-          "duration": "23h15m",
-          "stops": 2,
-          "via": "BKK/SIN",
-          "self_transfer": true,
-          "checked_baggage": false,
-          "seats_left": 6,
-          "complete": true,
-          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
-        },
         "connecting": {
           "date": "2026-12-09",
           "price": 325,
@@ -122,6 +105,23 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
+          "seats_left": 5,
+          "complete": true,
+          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
+        },
+        "self_transfer": {
+          "date": "2026-12-09",
+          "price": 589,
+          "currency": "AUD",
+          "airlines": "AirAsia Berhad (Malaysia)/Batik Air Malaysia",
+          "flights": "AK855 OD121",
+          "depart": "2026-12-09 09:10",
+          "arrive": "2026-12-10 07:10",
+          "duration": "18h00m",
+          "stops": 1,
+          "via": "KUL",
+          "self_transfer": true,
+          "checked_baggage": false,
           "seats_left": 9,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
@@ -129,7 +129,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-08T23:02",
+      "checked_at": "2026-11-09T00:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -211,6 +211,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-08T23:02:54",
+  "last_cycle": "2026-11-09T00:02:31",
   "report_sent": "2026-11-08"
 }
