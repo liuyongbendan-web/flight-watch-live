@@ -1,7 +1,7 @@
 {
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-08T15:02",
+      "checked_at": "2026-11-08T16:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -84,7 +84,7 @@
         },
         {
           "date": "2026-12-08",
-          "price": 387
+          "price": 438
         },
         {
           "date": "2026-12-09",
@@ -94,7 +94,7 @@
       "by_type": {
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 453,
+          "price": 454,
           "currency": "AUD",
           "airlines": "Scoot/Thai AirAsia",
           "flights": "FD4101 TR637 TR040",
@@ -129,7 +129,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-08T15:02",
+      "checked_at": "2026-11-08T16:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -211,6 +211,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-08T15:02:29",
+  "last_cycle": "2026-11-08T16:02:46",
   "report_sent": "2026-11-07"
 }
