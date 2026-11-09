@@ -1,11 +1,11 @@
 {
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-09T13:02",
+      "checked_at": "2026-11-09T14:02",
       "status": "ok",
       "best": {
         "date": "2026-12-09",
-        "price": 324,
+        "price": 323,
         "currency": "AUD",
         "airlines": "VietJet Air",
         "flights": "VJ1884 VJ085",
@@ -23,24 +23,24 @@
       "per_day": {
         "2026-12-08": {
           "date": "2026-12-08",
-          "price": 512,
+          "price": 548,
           "currency": "AUD",
           "airlines": "Scoot",
-          "flights": "TR699 TR042",
-          "depart": "2026-12-08 16:40",
+          "flights": "TR697 TR042",
+          "depart": "2026-12-08 12:05",
           "arrive": "2026-12-09 18:50",
-          "duration": "22h10m",
+          "duration": "26h45m",
           "stops": 1,
           "via": "SIN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 1,
+          "seats_left": 4,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "2026-12-09": {
           "date": "2026-12-09",
-          "price": 324,
+          "price": 323,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -68,7 +68,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 9,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -76,7 +76,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 310
+          "price": 309
         },
         {
           "date": "2026-12-07",
@@ -88,30 +88,13 @@
         },
         {
           "date": "2026-12-09",
-          "price": 309
+          "price": 308
         }
       ],
       "by_type": {
-        "self_transfer": {
-          "date": "2026-12-08",
-          "price": 409,
-          "currency": "AUD",
-          "airlines": "Scoot/Thai Vietjet Air",
-          "flights": "VZ119 TR609 TR040",
-          "depart": "2026-12-08 22:35",
-          "arrive": "2026-12-10 12:10",
-          "duration": "33h35m",
-          "stops": 2,
-          "via": "BKK/SIN",
-          "self_transfer": true,
-          "checked_baggage": false,
-          "seats_left": 5,
-          "complete": true,
-          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
-        },
         "connecting": {
           "date": "2026-12-09",
-          "price": 324,
+          "price": 323,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -125,11 +108,28 @@
           "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
+        },
+        "self_transfer": {
+          "date": "2026-12-09",
+          "price": 594,
+          "currency": "AUD",
+          "airlines": "AirAsia Berhad (Malaysia)/Batik Air Malaysia",
+          "flights": "AK855 OD121",
+          "depart": "2026-12-09 09:10",
+          "arrive": "2026-12-10 07:10",
+          "duration": "18h00m",
+          "stops": 1,
+          "via": "KUL",
+          "self_transfer": true,
+          "checked_baggage": false,
+          "seats_left": 9,
+          "complete": true,
+          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-09T13:02",
+      "checked_at": "2026-11-09T14:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -211,6 +211,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-09T13:02:33",
+  "last_cycle": "2026-11-09T14:02:35",
   "report_sent": "2026-11-08"
 }
