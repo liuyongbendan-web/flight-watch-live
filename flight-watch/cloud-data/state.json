@@ -1,7 +1,7 @@
 {
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-10T04:02",
+      "checked_at": "2026-11-10T05:02",
       "status": "ok",
       "best": {
         "date": "2026-12-09",
@@ -23,13 +23,13 @@
       "per_day": {
         "2026-12-08": {
           "date": "2026-12-08",
-          "price": 556,
+          "price": 551,
           "currency": "AUD",
           "airlines": "Scoot",
-          "flights": "TR697 TR042",
-          "depart": "2026-12-08 12:05",
+          "flights": "TR699 TR042",
+          "depart": "2026-12-08 16:40",
           "arrive": "2026-12-09 18:50",
-          "duration": "26h45m",
+          "duration": "22h10m",
           "stops": 1,
           "via": "SIN",
           "self_transfer": false,
@@ -37,23 +37,6 @@
           "seats_left": 4,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
-        },
-        "2026-12-09": {
-          "date": "2026-12-09",
-          "price": 326,
-          "currency": "AUD",
-          "airlines": "VietJet Air",
-          "flights": "VJ1884 VJ085",
-          "depart": "2026-12-09 16:30",
-          "arrive": "2026-12-10 10:00",
-          "duration": "13h30m",
-          "stops": 1,
-          "via": "SGN",
-          "self_transfer": false,
-          "checked_baggage": false,
-          "seats_left": 5,
-          "complete": true,
-          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "2026-12-06": {
           "date": "2026-12-06",
@@ -71,12 +54,29 @@
           "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
+        },
+        "2026-12-09": {
+          "date": "2026-12-09",
+          "price": 326,
+          "currency": "AUD",
+          "airlines": "VietJet Air",
+          "flights": "VJ1884 VJ085",
+          "depart": "2026-12-09 16:30",
+          "arrive": "2026-12-10 10:00",
+          "duration": "13h30m",
+          "stops": 1,
+          "via": "SGN",
+          "self_transfer": false,
+          "checked_baggage": false,
+          "seats_left": 5,
+          "complete": true,
+          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       },
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 312
+          "price": 311
         },
         {
           "date": "2026-12-07",
@@ -110,30 +110,30 @@
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "self_transfer": {
-          "date": "2026-12-09",
-          "price": 600,
+          "date": "2026-12-06",
+          "price": 650,
           "currency": "AUD",
-          "airlines": "AirAsia Berhad (Malaysia)/Batik Air Malaysia",
-          "flights": "AK855 OD121",
-          "depart": "2026-12-09 09:10",
-          "arrive": "2026-12-10 07:10",
-          "duration": "18h00m",
-          "stops": 1,
-          "via": "KUL",
+          "airlines": "Batik Air Malaysia/Thai Airways",
+          "flights": "TG103 TG439 OD171",
+          "depart": "2026-12-06 09:30",
+          "arrive": "2026-12-07 06:30",
+          "duration": "17h00m",
+          "stops": 2,
+          "via": "BKK/DPS",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 9,
+          "seats_left": 3,
           "complete": true,
-          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
+          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-10T04:02",
+      "checked_at": "2026-11-10T05:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
-        "price": 226,
+        "price": 225,
         "currency": "AUD",
         "airlines": "China Southern Airlines",
         "flights": "CZ8328 CZ3715",
@@ -151,7 +151,7 @@
       "per_day": {
         "2026-12-06": {
           "date": "2026-12-06",
-          "price": 226,
+          "price": 225,
           "currency": "AUD",
           "airlines": "China Southern Airlines",
           "flights": "CZ8328 CZ3715",
@@ -170,13 +170,13 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 211
+          "price": 210
         }
       ],
       "by_type": {
         "connecting": {
           "date": "2026-12-06",
-          "price": 226,
+          "price": 225,
           "currency": "AUD",
           "airlines": "China Southern Airlines",
           "flights": "CZ8328 CZ3715",
@@ -193,7 +193,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 282,
+          "price": 281,
           "currency": "AUD",
           "airlines": "China Eastern Airlines/Spring Airlines",
           "flights": "9C6506 MU5021",
@@ -211,6 +211,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-10T04:02:38",
+  "last_cycle": "2026-11-10T05:02:33",
   "report_sent": "2026-11-09"
 }
