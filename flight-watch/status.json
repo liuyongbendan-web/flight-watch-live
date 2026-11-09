@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-09T18:02:35",
+  "generated_at": "2026-11-09T19:02:39",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-09T18:02",
+      "checked_at": "2026-11-09T19:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -26,15 +26,15 @@
       "by_type": {
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 452,
+          "price": 430,
           "currency": "AUD",
-          "airlines": "Scoot/Thai Vietjet Air",
-          "flights": "VZ101 TR637 TR040",
-          "depart": "2026-12-08 08:25",
-          "arrive": "2026-12-09 12:10",
-          "duration": "23h45m",
-          "stops": 2,
-          "via": "BKK/SIN",
+          "airlines": "Thai AirAsia/VietJet Air",
+          "flights": "FD3434 FD644 VJ141 VJ085",
+          "depart": "2026-12-08 15:50",
+          "arrive": "2026-12-10 10:00",
+          "duration": "38h10m",
+          "stops": 3,
+          "via": "DMK/HAN/SGN",
           "self_transfer": true,
           "checked_baggage": false,
           "seats_left": 3,
@@ -62,24 +62,24 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 310
+          "price": 311
         },
         {
           "date": "2026-12-07",
-          "price": 428
+          "price": 429
         },
         {
           "date": "2026-12-08",
-          "price": 416
+          "price": 438
         },
         {
           "date": "2026-12-09",
-          "price": 309
+          "price": 310
         }
       ],
       "per_day": {
         "2026-12-08": {
-          "price": 512,
+          "price": 513,
           "airlines": "Scoot",
           "depart": "2026-12-08 16:40"
         },
@@ -96,7 +96,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-09T18:02",
+      "checked_at": "2026-11-09T19:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -167,8 +167,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-09T18:02:35",
+  "last_cycle": "2026-11-09T19:02:39",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [226, \"2026-12-06\", {\"connecting\": 226, \"self_transfer\": 243}, null], \"e591da\": [325, \"2026-12-09\", {\"connecting\": 325, \"self_transfer\": 452}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [226, \"2026-12-06\", {\"connecting\": 226, \"self_transfer\": 243}, null], \"e591da\": [325, \"2026-12-09\", {\"connecting\": 325, \"self_transfer\": 430}, null]}}"
 }
