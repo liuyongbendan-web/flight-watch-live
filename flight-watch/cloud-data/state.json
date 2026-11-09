@@ -1,11 +1,11 @@
 {
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-09T17:02",
+      "checked_at": "2026-11-09T18:02",
       "status": "ok",
       "best": {
         "date": "2026-12-09",
-        "price": 324,
+        "price": 325,
         "currency": "AUD",
         "airlines": "VietJet Air",
         "flights": "VJ1884 VJ085",
@@ -40,7 +40,7 @@
         },
         "2026-12-09": {
           "date": "2026-12-09",
-          "price": 324,
+          "price": 325,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -57,7 +57,7 @@
         },
         "2026-12-06": {
           "date": "2026-12-06",
-          "price": 325,
+          "price": 326,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -84,7 +84,7 @@
         },
         {
           "date": "2026-12-08",
-          "price": 413
+          "price": 416
         },
         {
           "date": "2026-12-09",
@@ -94,15 +94,15 @@
       "by_type": {
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 431,
+          "price": 452,
           "currency": "AUD",
-          "airlines": "Thai AirAsia/VietJet Air",
-          "flights": "FD3434 FD644 VJ129 VJ085",
-          "depart": "2026-12-08 15:50",
-          "arrive": "2026-12-10 10:00",
-          "duration": "38h10m",
-          "stops": 3,
-          "via": "DMK/HAN/SGN",
+          "airlines": "Scoot/Thai Vietjet Air",
+          "flights": "VZ101 TR637 TR040",
+          "depart": "2026-12-08 08:25",
+          "arrive": "2026-12-09 12:10",
+          "duration": "23h45m",
+          "stops": 2,
+          "via": "BKK/SIN",
           "self_transfer": true,
           "checked_baggage": false,
           "seats_left": 3,
@@ -111,7 +111,7 @@
         },
         "connecting": {
           "date": "2026-12-09",
-          "price": 324,
+          "price": 325,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -129,7 +129,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-09T17:02",
+      "checked_at": "2026-11-09T18:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -211,6 +211,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-09T17:02:32",
+  "last_cycle": "2026-11-09T18:02:35",
   "report_sent": "2026-11-08"
 }
