@@ -1,11 +1,11 @@
 {
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-09T12:02",
+      "checked_at": "2026-11-09T13:02",
       "status": "ok",
       "best": {
         "date": "2026-12-09",
-        "price": 325,
+        "price": 324,
         "currency": "AUD",
         "airlines": "VietJet Air",
         "flights": "VJ1884 VJ085",
@@ -23,7 +23,7 @@
       "per_day": {
         "2026-12-08": {
           "date": "2026-12-08",
-          "price": 513,
+          "price": 512,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR699 TR042",
@@ -40,7 +40,7 @@
         },
         "2026-12-09": {
           "date": "2026-12-09",
-          "price": 325,
+          "price": 324,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -76,15 +76,15 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 311
+          "price": 310
         },
         {
           "date": "2026-12-07",
-          "price": 429
+          "price": 428
         },
         {
           "date": "2026-12-08",
-          "price": 414
+          "price": 394
         },
         {
           "date": "2026-12-09",
@@ -94,7 +94,7 @@
       "by_type": {
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 410,
+          "price": 409,
           "currency": "AUD",
           "airlines": "Scoot/Thai Vietjet Air",
           "flights": "VZ119 TR609 TR040",
@@ -111,7 +111,7 @@
         },
         "connecting": {
           "date": "2026-12-09",
-          "price": 325,
+          "price": 324,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -129,7 +129,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-09T12:02",
+      "checked_at": "2026-11-09T13:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -170,7 +170,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 219
+          "price": 211
         }
       ],
       "by_type": {
@@ -211,6 +211,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-09T12:02:24",
+  "last_cycle": "2026-11-09T13:02:33",
   "report_sent": "2026-11-08"
 }
