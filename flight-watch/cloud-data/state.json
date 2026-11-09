@@ -1,7 +1,7 @@
 {
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-10T08:02",
+      "checked_at": "2026-11-10T09:01",
       "status": "ok",
       "best": {
         "date": "2026-12-09",
@@ -23,7 +23,7 @@
       "per_day": {
         "2026-12-08": {
           "date": "2026-12-08",
-          "price": 509,
+          "price": 514,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR699 TR042",
@@ -84,7 +84,7 @@
         },
         {
           "date": "2026-12-08",
-          "price": 435
+          "price": 419
         },
         {
           "date": "2026-12-09",
@@ -94,18 +94,18 @@
       "by_type": {
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 434,
+          "price": 455,
           "currency": "AUD",
-          "airlines": "Thai AirAsia/VietJet Air",
-          "flights": "FD870 VJ157 VJ085",
-          "depart": "2026-12-08 13:20",
-          "arrive": "2026-12-10 10:00",
-          "duration": "40h40m",
+          "airlines": "Scoot/Thai Vietjet Air",
+          "flights": "VZ101 TR637 TR040",
+          "depart": "2026-12-08 08:25",
+          "arrive": "2026-12-09 12:10",
+          "duration": "23h45m",
           "stops": 2,
-          "via": "HAN/SGN",
+          "via": "BKK/SIN",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 8,
+          "seats_left": 2,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
@@ -129,7 +129,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-10T08:02",
+      "checked_at": "2026-11-10T09:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -211,6 +211,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-10T08:02:36",
+  "last_cycle": "2026-11-10T09:02:22",
   "report_sent": "2026-11-09"
 }
