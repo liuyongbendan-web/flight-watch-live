@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-10T07:02:30",
+  "generated_at": "2026-11-10T08:02:36",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-10T07:02",
+      "checked_at": "2026-11-10T08:02",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-09",
-        "price": 326,
+        "price": 325,
         "currency": "AUD",
         "airlines": "VietJet Air",
         "flights": "VJ1884 VJ085",
@@ -26,24 +26,24 @@
       "by_type": {
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 450,
+          "price": 434,
           "currency": "AUD",
-          "airlines": "Scoot/Thai Vietjet Air",
-          "flights": "VZ2105 TR625 TR040",
-          "depart": "2026-12-08 06:35",
-          "arrive": "2026-12-09 12:10",
-          "duration": "25h35m",
+          "airlines": "Thai AirAsia/VietJet Air",
+          "flights": "FD870 VJ157 VJ085",
+          "depart": "2026-12-08 13:20",
+          "arrive": "2026-12-10 10:00",
+          "duration": "40h40m",
           "stops": 2,
-          "via": "BKK/SIN",
+          "via": "HAN/SGN",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 3,
+          "seats_left": 8,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "connecting": {
           "date": "2026-12-09",
-          "price": 326,
+          "price": 325,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -62,41 +62,41 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 312
+          "price": 311
         },
         {
           "date": "2026-12-07",
-          "price": 427
+          "price": 426
         },
         {
           "date": "2026-12-08",
-          "price": 440
+          "price": 435
         },
         {
           "date": "2026-12-09",
-          "price": 311
+          "price": 310
         }
       ],
       "per_day": {
         "2026-12-08": {
-          "price": 515,
+          "price": 509,
           "airlines": "Scoot",
           "depart": "2026-12-08 16:40"
         },
         "2026-12-09": {
-          "price": 326,
+          "price": 325,
           "airlines": "VietJet Air",
           "depart": "2026-12-09 16:30"
         },
         "2026-12-06": {
-          "price": 327,
+          "price": 326,
           "airlines": "VietJet Air",
           "depart": "2026-12-06 16:30"
         }
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-10T07:02",
+      "checked_at": "2026-11-10T08:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -136,7 +136,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 287,
+          "price": 288,
           "currency": "AUD",
           "airlines": "China Eastern Airlines/Spring Airlines",
           "flights": "9C6506 MU5021",
@@ -147,7 +147,7 @@
           "via": "XIY",
           "self_transfer": true,
           "checked_baggage": true,
-          "seats_left": 9,
+          "seats_left": 4,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=tao&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -167,8 +167,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-10T07:02:30",
+  "last_cycle": "2026-11-10T08:02:36",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [225, \"2026-12-06\", {\"connecting\": 225, \"self_transfer\": 287}, null], \"e591da\": [326, \"2026-12-09\", {\"connecting\": 326, \"self_transfer\": 450}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [225, \"2026-12-06\", {\"connecting\": 225, \"self_transfer\": 288}, null], \"e591da\": [325, \"2026-12-09\", {\"connecting\": 325, \"self_transfer\": 434}, null]}}"
 }
