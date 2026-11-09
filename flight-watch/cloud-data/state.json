@@ -1,7 +1,7 @@
 {
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-10T06:02",
+      "checked_at": "2026-11-10T07:02",
       "status": "ok",
       "best": {
         "date": "2026-12-09",
@@ -84,7 +84,7 @@
         },
         {
           "date": "2026-12-08",
-          "price": 413
+          "price": 440
         },
         {
           "date": "2026-12-09",
@@ -94,18 +94,18 @@
       "by_type": {
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 455,
+          "price": 450,
           "currency": "AUD",
           "airlines": "Scoot/Thai Vietjet Air",
-          "flights": "VZ101 TR637 TR040",
-          "depart": "2026-12-08 08:25",
+          "flights": "VZ2105 TR625 TR040",
+          "depart": "2026-12-08 06:35",
           "arrive": "2026-12-09 12:10",
-          "duration": "23h45m",
+          "duration": "25h35m",
           "stops": 2,
           "via": "BKK/SIN",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 2,
+          "seats_left": 3,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
@@ -129,7 +129,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-10T06:02",
+      "checked_at": "2026-11-10T07:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -211,6 +211,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-10T06:02:28",
+  "last_cycle": "2026-11-10T07:02:30",
   "report_sent": "2026-11-09"
 }
