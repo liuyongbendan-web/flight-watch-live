@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-10T17:02:25",
+  "generated_at": "2026-11-10T18:02:40",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-10T17:02",
+      "checked_at": "2026-11-10T18:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -62,19 +62,19 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 311
+          "price": 310
         },
         {
           "date": "2026-12-07",
-          "price": 427
+          "price": 426
         },
         {
           "date": "2026-12-08",
-          "price": 434
+          "price": 413
         },
         {
           "date": "2026-12-09",
-          "price": 310
+          "price": 309
         }
       ],
       "per_day": {
@@ -96,7 +96,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-10T17:02",
+      "checked_at": "2026-11-10T18:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -167,7 +167,7 @@
       }
     }
   },
-  "last_cycle": "2026-11-10T17:02:24",
+  "last_cycle": "2026-11-10T18:02:39",
   "last_error": null,
   "trip_ok": true,
   "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [215, \"2026-12-06\", {\"connecting\": 215, \"self_transfer\": 288}, null], \"e591da\": [324, \"2026-12-09\", {\"connecting\": 324, \"self_transfer\": 428}, null]}}"
