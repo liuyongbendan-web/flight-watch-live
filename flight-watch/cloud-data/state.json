@@ -1,7 +1,7 @@
 {
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-11T07:02",
+      "checked_at": "2026-11-11T08:02",
       "status": "ok",
       "best": {
         "date": "2026-12-09",
@@ -23,7 +23,7 @@
       "per_day": {
         "2026-12-08": {
           "date": "2026-12-08",
-          "price": 516,
+          "price": 512,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR699 TR042",
@@ -80,11 +80,11 @@
         },
         {
           "date": "2026-12-07",
-          "price": 430
+          "price": 429
         },
         {
           "date": "2026-12-08",
-          "price": 437
+          "price": 432
         },
         {
           "date": "2026-12-09",
@@ -94,7 +94,7 @@
       "by_type": {
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 448,
+          "price": 447,
           "currency": "AUD",
           "airlines": "Scoot/Thai AirAsia",
           "flights": "FD4101 TR637 TR040",
@@ -129,7 +129,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-11T07:02",
+      "checked_at": "2026-11-11T08:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -211,6 +211,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-11T07:02:34",
+  "last_cycle": "2026-11-11T08:02:23",
   "report_sent": "2026-11-10"
 }
