@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-11T05:02:42",
+  "generated_at": "2026-11-11T06:02:23",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-11T05:02",
+      "checked_at": "2026-11-11T06:02",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-09",
-        "price": 329,
+        "price": 328,
         "currency": "AUD",
         "airlines": "VietJet Air",
         "flights": "VJ1884 VJ085",
@@ -24,26 +24,9 @@
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
       "by_type": {
-        "self_transfer": {
-          "date": "2026-12-08",
-          "price": 453,
-          "currency": "AUD",
-          "airlines": "Scoot/Thai AirAsia",
-          "flights": "FD4101 TR637 TR040",
-          "depart": "2026-12-08 08:55",
-          "arrive": "2026-12-09 12:10",
-          "duration": "23h15m",
-          "stops": 2,
-          "via": "BKK/SIN",
-          "self_transfer": true,
-          "checked_baggage": false,
-          "seats_left": 2,
-          "complete": true,
-          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
-        },
         "connecting": {
           "date": "2026-12-09",
-          "price": 329,
+          "price": 328,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -57,12 +40,29 @@
           "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
+        },
+        "self_transfer": {
+          "date": "2026-12-09",
+          "price": 600,
+          "currency": "AUD",
+          "airlines": "AirAsia Berhad (Malaysia)/Batik Air Malaysia",
+          "flights": "AK855 OD121",
+          "depart": "2026-12-09 09:10",
+          "arrive": "2026-12-10 07:10",
+          "duration": "18h00m",
+          "stops": 1,
+          "via": "KUL",
+          "self_transfer": true,
+          "checked_baggage": false,
+          "seats_left": 9,
+          "complete": true,
+          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       },
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 313
+          "price": 314
         },
         {
           "date": "2026-12-07",
@@ -70,33 +70,33 @@
         },
         {
           "date": "2026-12-08",
-          "price": 409
+          "price": 437
         },
         {
           "date": "2026-12-09",
-          "price": 312
+          "price": 313
         }
       ],
       "per_day": {
         "2026-12-08": {
-          "price": 520,
+          "price": 562,
           "airlines": "Scoot",
           "depart": "2026-12-08 16:40"
         },
         "2026-12-09": {
-          "price": 329,
+          "price": 328,
           "airlines": "VietJet Air",
           "depart": "2026-12-09 16:30"
         },
         "2026-12-06": {
-          "price": 330,
+          "price": 329,
           "airlines": "VietJet Air",
           "depart": "2026-12-06 16:30"
         }
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-11T05:02",
+      "checked_at": "2026-11-11T06:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -155,7 +155,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 201
+          "price": 200
         }
       ],
       "per_day": {
@@ -167,8 +167,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-11T05:02:42",
+  "last_cycle": "2026-11-11T06:02:23",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [215, \"2026-12-06\", {\"connecting\": 215, \"self_transfer\": 280}, null], \"e591da\": [329, \"2026-12-09\", {\"connecting\": 329, \"self_transfer\": 453}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [215, \"2026-12-06\", {\"connecting\": 215, \"self_transfer\": 280}, null], \"e591da\": [328, \"2026-12-09\", {\"connecting\": 328, \"self_transfer\": 600}, null]}}"
 }
