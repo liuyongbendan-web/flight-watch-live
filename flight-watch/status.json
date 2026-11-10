@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-10T13:02:36",
+  "generated_at": "2026-11-10T14:02:30",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-10T13:02",
+      "checked_at": "2026-11-10T14:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -19,7 +19,7 @@
         "via": "SGN",
         "self_transfer": false,
         "checked_baggage": false,
-        "seats_left": 5,
+        "seats_left": 9,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
@@ -29,7 +29,7 @@
           "price": 428,
           "currency": "AUD",
           "airlines": "Thai AirAsia/VietJet Air",
-          "flights": "FD3434 FD644 VJ141 VJ085",
+          "flights": "FD3434 FD644 VJ129 VJ085",
           "depart": "2026-12-08 15:50",
           "arrive": "2026-12-10 10:00",
           "duration": "38h10m",
@@ -54,7 +54,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 9,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -70,7 +70,7 @@
         },
         {
           "date": "2026-12-08",
-          "price": 410
+          "price": 414
         },
         {
           "date": "2026-12-09",
@@ -79,7 +79,7 @@
       ],
       "per_day": {
         "2026-12-08": {
-          "price": 512,
+          "price": 508,
           "airlines": "Scoot",
           "depart": "2026-12-08 16:40"
         },
@@ -96,7 +96,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-10T13:02",
+      "checked_at": "2026-11-10T14:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -155,7 +155,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 211
+          "price": 210
         }
       ],
       "per_day": {
@@ -167,7 +167,7 @@
       }
     }
   },
-  "last_cycle": "2026-11-10T13:02:36",
+  "last_cycle": "2026-11-10T14:02:30",
   "last_error": null,
   "trip_ok": true,
   "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [225, \"2026-12-06\", {\"connecting\": 225, \"self_transfer\": 288}, null], \"e591da\": [325, \"2026-12-09\", {\"connecting\": 325, \"self_transfer\": 428}, null]}}"
