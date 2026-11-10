@@ -1,7 +1,7 @@
 {
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-10T10:02",
+      "checked_at": "2026-11-10T11:02",
       "status": "ok",
       "best": {
         "date": "2026-12-09",
@@ -23,7 +23,7 @@
       "per_day": {
         "2026-12-08": {
           "date": "2026-12-08",
-          "price": 509,
+          "price": 510,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR699 TR042",
@@ -76,19 +76,19 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 311
+          "price": 312
         },
         {
           "date": "2026-12-07",
-          "price": 426
+          "price": 427
         },
         {
           "date": "2026-12-08",
-          "price": 440
+          "price": 418
         },
         {
           "date": "2026-12-09",
-          "price": 310
+          "price": 311
         }
       ],
       "by_type": {
@@ -129,7 +129,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-10T10:02",
+      "checked_at": "2026-11-10T11:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -170,7 +170,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 210
+          "price": 211
         }
       ],
       "by_type": {
@@ -211,6 +211,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-10T10:02:33",
+  "last_cycle": "2026-11-10T11:02:20",
   "report_sent": "2026-11-09"
 }
