@@ -1,11 +1,11 @@
 {
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-11T00:02",
+      "checked_at": "2026-11-11T01:03",
       "status": "ok",
       "best": {
         "date": "2026-12-09",
-        "price": 325,
+        "price": 326,
         "currency": "AUD",
         "airlines": "VietJet Air",
         "flights": "VJ1884 VJ085",
@@ -23,7 +23,7 @@
       "per_day": {
         "2026-12-08": {
           "date": "2026-12-08",
-          "price": 509,
+          "price": 516,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR699 TR042",
@@ -40,7 +40,7 @@
         },
         "2026-12-09": {
           "date": "2026-12-09",
-          "price": 325,
+          "price": 326,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -57,7 +57,7 @@
         },
         "2026-12-06": {
           "date": "2026-12-06",
-          "price": 326,
+          "price": 327,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -76,42 +76,25 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 311
+          "price": 312
         },
         {
           "date": "2026-12-07",
-          "price": 428
+          "price": 429
         },
         {
           "date": "2026-12-08",
-          "price": 434
+          "price": 413
         },
         {
           "date": "2026-12-09",
-          "price": 310
+          "price": 311
         }
       ],
       "by_type": {
-        "self_transfer": {
-          "date": "2026-12-08",
-          "price": 426,
-          "currency": "AUD",
-          "airlines": "Thai AirAsia/VietJet Air",
-          "flights": "FD3434 FD644 VJ129 VJ085",
-          "depart": "2026-12-08 15:50",
-          "arrive": "2026-12-10 10:00",
-          "duration": "38h10m",
-          "stops": 3,
-          "via": "DMK/HAN/SGN",
-          "self_transfer": true,
-          "checked_baggage": false,
-          "seats_left": 1,
-          "complete": true,
-          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
-        },
         "connecting": {
           "date": "2026-12-09",
-          "price": 325,
+          "price": 326,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -125,11 +108,28 @@
           "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
+        },
+        "self_transfer": {
+          "date": "2026-12-09",
+          "price": 602,
+          "currency": "AUD",
+          "airlines": "AirAsia Berhad (Malaysia)/Batik Air Malaysia",
+          "flights": "AK855 OD121",
+          "depart": "2026-12-09 09:10",
+          "arrive": "2026-12-10 07:10",
+          "duration": "18h00m",
+          "stops": 1,
+          "via": "KUL",
+          "self_transfer": true,
+          "checked_baggage": false,
+          "seats_left": 9,
+          "complete": true,
+          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-11T00:02",
+      "checked_at": "2026-11-11T01:03",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -193,7 +193,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 286,
+          "price": 289,
           "currency": "AUD",
           "airlines": "China Eastern Airlines/Spring Airlines",
           "flights": "9C6506 MU5021",
@@ -204,13 +204,13 @@
           "via": "XIY",
           "self_transfer": true,
           "checked_baggage": true,
-          "seats_left": 4,
+          "seats_left": 3,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=tao&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       }
     }
   },
-  "last_cycle": "2026-11-11T00:02:41",
+  "last_cycle": "2026-11-11T01:03:58",
   "report_sent": "2026-11-10"
 }
