@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-12T09:02:15",
+  "generated_at": "2026-11-12T10:02:19",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-12T09:01",
+      "checked_at": "2026-11-12T10:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -79,7 +79,7 @@
       ],
       "per_day": {
         "2026-12-08": {
-          "price": 402,
+          "price": 422,
           "airlines": "Scoot",
           "depart": "2026-12-08 12:05"
         },
@@ -96,7 +96,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-12T09:02",
+      "checked_at": "2026-11-12T10:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -136,7 +136,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 293,
+          "price": 313,
           "currency": "AUD",
           "airlines": "China Eastern Airlines/Spring Airlines",
           "flights": "9C6506 MU5021",
@@ -147,7 +147,7 @@
           "via": "XIY",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 9,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=tao&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -167,8 +167,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-12T09:02:15",
+  "last_cycle": "2026-11-12T10:02:19",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [215, \"2026-12-06\", {\"connecting\": 215, \"self_transfer\": 293}, null], \"e591da\": [328, \"2026-12-09\", {\"connecting\": 328, \"self_transfer\": 593}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [215, \"2026-12-06\", {\"connecting\": 215, \"self_transfer\": 313}, null], \"e591da\": [328, \"2026-12-09\", {\"connecting\": 328, \"self_transfer\": 593}, null]}}"
 }
