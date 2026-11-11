@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-11T17:02:43",
+  "generated_at": "2026-11-11T18:02:39",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-11T17:02",
+      "checked_at": "2026-11-11T18:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -26,18 +26,18 @@
       "by_type": {
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 445,
+          "price": 394,
           "currency": "AUD",
-          "airlines": "Thai Vietjet Air/VietJet Air",
-          "flights": "VZ119 VJ804 VJ085",
+          "airlines": "Scoot/Thai Vietjet Air",
+          "flights": "VZ119 TR609 TR040",
           "depart": "2026-12-08 22:35",
-          "arrive": "2026-12-10 10:00",
-          "duration": "31h25m",
+          "arrive": "2026-12-10 12:10",
+          "duration": "33h35m",
           "stops": 2,
-          "via": "BKK/SGN",
+          "via": "BKK/SIN",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 2,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
@@ -62,7 +62,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 312
+          "price": 314
         },
         {
           "date": "2026-12-07",
@@ -70,16 +70,16 @@
         },
         {
           "date": "2026-12-08",
-          "price": 433
+          "price": 430
         },
         {
           "date": "2026-12-09",
-          "price": 311
+          "price": 313
         }
       ],
       "per_day": {
         "2026-12-08": {
-          "price": 516,
+          "price": 519,
           "airlines": "Scoot",
           "depart": "2026-12-08 16:40"
         },
@@ -96,7 +96,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-11T17:02",
+      "checked_at": "2026-11-11T18:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -136,7 +136,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 279,
+          "price": 266,
           "currency": "AUD",
           "airlines": "China Eastern Airlines/Spring Airlines",
           "flights": "9C6506 MU5021",
@@ -146,13 +146,18 @@
           "stops": 1,
           "via": "XIY",
           "self_transfer": true,
-          "checked_baggage": true,
+          "checked_baggage": false,
           "seats_left": 4,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=tao&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       },
-      "calendar": [],
+      "calendar": [
+        {
+          "date": "2026-12-06",
+          "price": 200
+        }
+      ],
       "per_day": {
         "2026-12-06": {
           "price": 215,
@@ -162,8 +167,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-11T17:02:43",
+  "last_cycle": "2026-11-11T18:02:39",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [215, \"2026-12-06\", {\"connecting\": 215, \"self_transfer\": 279}, null], \"e591da\": [328, \"2026-12-09\", {\"connecting\": 328, \"self_transfer\": 445}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [215, \"2026-12-06\", {\"connecting\": 215, \"self_transfer\": 266}, null], \"e591da\": [328, \"2026-12-09\", {\"connecting\": 328, \"self_transfer\": 394}, null]}}"
 }
