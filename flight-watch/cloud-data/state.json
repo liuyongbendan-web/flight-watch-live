@@ -1,7 +1,7 @@
 {
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-13T09:01",
+      "checked_at": "2026-11-13T10:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -23,18 +23,18 @@
       "per_day": {
         "2026-12-08": {
           "date": "2026-12-08",
-          "price": 402,
+          "price": 425,
           "currency": "AUD",
           "airlines": "Scoot",
-          "flights": "TR697 TR040",
-          "depart": "2026-12-08 12:05",
-          "arrive": "2026-12-09 12:10",
-          "duration": "20h05m",
+          "flights": "TR699 TR042",
+          "depart": "2026-12-08 16:40",
+          "arrive": "2026-12-09 18:50",
+          "duration": "22h10m",
           "stops": 1,
           "via": "SIN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 9,
+          "seats_left": 4,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
@@ -84,7 +84,7 @@
         },
         {
           "date": "2026-12-08",
-          "price": 386
+          "price": 388
         },
         {
           "date": "2026-12-09",
@@ -111,7 +111,7 @@
         },
         "self_transfer": {
           "date": "2026-12-09",
-          "price": 575,
+          "price": 576,
           "currency": "AUD",
           "airlines": "AirAsia Berhad (Malaysia)/Batik Air Malaysia",
           "flights": "AK855 OD121",
@@ -129,11 +129,11 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-13T09:02",
+      "checked_at": "2026-11-13T10:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
-        "price": 217,
+        "price": 218,
         "currency": "AUD",
         "airlines": "China Southern Airlines",
         "flights": "CZ3034 CZ3715",
@@ -151,7 +151,7 @@
       "per_day": {
         "2026-12-06": {
           "date": "2026-12-06",
-          "price": 217,
+          "price": 218,
           "currency": "AUD",
           "airlines": "China Southern Airlines",
           "flights": "CZ3034 CZ3715",
@@ -170,13 +170,13 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 202
+          "price": 203
         }
       ],
       "by_type": {
         "connecting": {
           "date": "2026-12-06",
-          "price": 217,
+          "price": 218,
           "currency": "AUD",
           "airlines": "China Southern Airlines",
           "flights": "CZ3034 CZ3715",
@@ -211,6 +211,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-13T09:02:21",
+  "last_cycle": "2026-11-13T10:02:23",
   "report_sent": "2026-11-12"
 }
