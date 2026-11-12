@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-12T19:02:39",
+  "generated_at": "2026-11-12T20:02:42",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-12T19:02",
+      "checked_at": "2026-11-12T20:02",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-09",
-        "price": 329,
+        "price": 330,
         "currency": "AUD",
         "airlines": "VietJet Air",
         "flights": "VJ1884 VJ085",
@@ -26,7 +26,7 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-09",
-          "price": 329,
+          "price": 330,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -42,21 +42,21 @@
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "self_transfer": {
-          "date": "2026-12-09",
-          "price": 576,
+          "date": "2026-12-08",
+          "price": 446,
           "currency": "AUD",
-          "airlines": "AirAsia Berhad (Malaysia)/Batik Air Malaysia",
-          "flights": "AK855 OD121",
-          "depart": "2026-12-09 09:10",
-          "arrive": "2026-12-10 07:10",
-          "duration": "18h00m",
-          "stops": 1,
-          "via": "KUL",
+          "airlines": "Thai Vietjet Air/VietJet Air",
+          "flights": "VZ119 VJ804 VJ085",
+          "depart": "2026-12-08 22:35",
+          "arrive": "2026-12-10 10:00",
+          "duration": "31h25m",
+          "stops": 2,
+          "via": "BKK/SGN",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 9,
+          "seats_left": 5,
           "complete": true,
-          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
+          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       },
       "calendar": [
@@ -79,12 +79,12 @@
       ],
       "per_day": {
         "2026-12-08": {
-          "price": 418,
+          "price": 399,
           "airlines": "Scoot",
-          "depart": "2026-12-08 16:40"
+          "depart": "2026-12-08 12:05"
         },
         "2026-12-09": {
-          "price": 329,
+          "price": 330,
           "airlines": "VietJet Air",
           "depart": "2026-12-09 16:30"
         },
@@ -96,7 +96,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-12T19:02",
+      "checked_at": "2026-11-12T20:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -167,8 +167,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-12T19:02:39",
+  "last_cycle": "2026-11-12T20:02:42",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [215, \"2026-12-06\", {\"connecting\": 215, \"self_transfer\": 314}, null], \"e591da\": [329, \"2026-12-09\", {\"connecting\": 329, \"self_transfer\": 576}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [215, \"2026-12-06\", {\"connecting\": 215, \"self_transfer\": 314}, null], \"e591da\": [330, \"2026-12-09\", {\"connecting\": 330, \"self_transfer\": 446}, null]}}"
 }
