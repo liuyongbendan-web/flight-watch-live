@@ -4175,3 +4175,7 @@ checked_at,route,depart_date,price,airlines,flights,stops,self_transfer,checked_
 2026-11-12T10:01,CNX-SYD,2026-12-08,422,Scoot,TR697 TR042,1,False,False,actual,e591da
 2026-11-12T10:01,CNX-SYD,2026-12-09,328,VietJet Air,VJ1884 VJ085,1,False,False,actual,e591da
 2026-11-12T10:02,CNX-TAO,2026-12-06,215,China Southern Airlines,CZ8328 CZ3715,1,False,True,actual,d7c80b
+2026-11-12T11:02,CNX-SYD,2026-12-06,329,VietJet Air,VJ1884 VJ085,1,False,False,actual,e591da
+2026-11-12T11:02,CNX-SYD,2026-12-08,397,Scoot,TR697 TR040,1,False,False,actual,e591da
+2026-11-12T11:02,CNX-SYD,2026-12-09,329,VietJet Air,VJ1884 VJ085,1,False,False,actual,e591da
+2026-11-12T11:02,CNX-TAO,2026-12-06,215,China Southern Airlines,CZ8328 CZ3715,1,False,True,actual,d7c80b
