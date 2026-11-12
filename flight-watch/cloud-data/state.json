@@ -1,7 +1,7 @@
 {
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-12T11:02",
+      "checked_at": "2026-11-12T12:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -23,7 +23,7 @@
       "per_day": {
         "2026-12-08": {
           "date": "2026-12-08",
-          "price": 397,
+          "price": 398,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR697 TR040",
@@ -68,7 +68,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 9,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -80,7 +80,7 @@
         },
         {
           "date": "2026-12-07",
-          "price": 431
+          "price": 432
         },
         {
           "date": "2026-12-08",
@@ -122,14 +122,14 @@
           "via": "BKK/SGN",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 9,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-12T11:02",
+      "checked_at": "2026-11-12T12:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -204,13 +204,13 @@
           "via": "XIY",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 4,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=tao&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       }
     }
   },
-  "last_cycle": "2026-11-12T11:02:34",
+  "last_cycle": "2026-11-12T12:02:24",
   "report_sent": "2026-11-11"
 }
