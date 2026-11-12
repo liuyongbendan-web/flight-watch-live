@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-12T15:02:40",
+  "generated_at": "2026-11-12T16:02:27",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-12T15:02",
+      "checked_at": "2026-11-12T16:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -42,21 +42,21 @@
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "self_transfer": {
-          "date": "2026-12-08",
-          "price": 450,
+          "date": "2026-12-09",
+          "price": 564,
           "currency": "AUD",
-          "airlines": "Thai Vietjet Air/VietJet Air",
-          "flights": "VZ119 VJ804 VJ085",
-          "depart": "2026-12-08 22:35",
-          "arrive": "2026-12-10 10:00",
-          "duration": "31h25m",
+          "airlines": "Thai Airways/Xiamen Airlines",
+          "flights": "TG101 MF854 MF801",
+          "depart": "2026-12-09 08:05",
+          "arrive": "2026-12-10 10:35",
+          "duration": "22h30m",
           "stops": 2,
-          "via": "BKK/SGN",
+          "via": "BKK/XMN",
           "self_transfer": true,
-          "checked_baggage": false,
-          "seats_left": 5,
+          "checked_baggage": true,
+          "seats_left": 1,
           "complete": true,
-          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
+          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       },
       "calendar": [
@@ -66,7 +66,7 @@
         },
         {
           "date": "2026-12-07",
-          "price": 431
+          "price": 432
         },
         {
           "date": "2026-12-08",
@@ -79,7 +79,7 @@
       ],
       "per_day": {
         "2026-12-08": {
-          "price": 398,
+          "price": 402,
           "airlines": "Scoot",
           "depart": "2026-12-08 12:05"
         },
@@ -96,7 +96,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-12T15:02",
+      "checked_at": "2026-11-12T16:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -147,12 +147,17 @@
           "via": "XIY",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 4,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=tao&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       },
-      "calendar": [],
+      "calendar": [
+        {
+          "date": "2026-12-06",
+          "price": 200
+        }
+      ],
       "per_day": {
         "2026-12-06": {
           "price": 215,
@@ -162,8 +167,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-12T15:02:40",
+  "last_cycle": "2026-11-12T16:02:27",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [215, \"2026-12-06\", {\"connecting\": 215, \"self_transfer\": 313}, null], \"e591da\": [329, \"2026-12-06\", {\"connecting\": 329, \"self_transfer\": 450}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [215, \"2026-12-06\", {\"connecting\": 215, \"self_transfer\": 313}, null], \"e591da\": [329, \"2026-12-06\", {\"connecting\": 329, \"self_transfer\": 564}, null]}}"
 }
