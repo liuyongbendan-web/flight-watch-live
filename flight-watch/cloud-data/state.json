@@ -1,7 +1,7 @@
 {
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-13T07:01",
+      "checked_at": "2026-11-13T08:01",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -23,7 +23,7 @@
       "per_day": {
         "2026-12-08": {
           "date": "2026-12-08",
-          "price": 401,
+          "price": 422,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR697 TR040",
@@ -34,7 +34,7 @@
           "via": "SIN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 1,
+          "seats_left": 4,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
@@ -111,25 +111,25 @@
         },
         "self_transfer": {
           "date": "2026-12-09",
-          "price": 575,
+          "price": 572,
           "currency": "AUD",
-          "airlines": "AirAsia Berhad (Malaysia)/Batik Air Malaysia",
-          "flights": "AK855 OD121",
-          "depart": "2026-12-09 09:10",
-          "arrive": "2026-12-10 07:10",
-          "duration": "18h00m",
-          "stops": 1,
-          "via": "KUL",
+          "airlines": "Philippine Airlines/Thai Airways",
+          "flights": "TG101 PR731 PR211",
+          "depart": "2026-12-09 08:05",
+          "arrive": "2026-12-10 09:50",
+          "duration": "21h45m",
+          "stops": 2,
+          "via": "BKK/MNL",
           "self_transfer": true,
-          "checked_baggage": false,
-          "seats_left": 9,
+          "checked_baggage": true,
+          "seats_left": 1,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-13T07:02",
+      "checked_at": "2026-11-13T08:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -193,15 +193,15 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 324,
+          "price": 322,
           "currency": "AUD",
           "airlines": "China Eastern Airlines/Spring Airlines",
-          "flights": "9C6506 MU5021",
-          "depart": "2026-12-06 21:35",
-          "arrive": "2026-12-07 09:15",
-          "duration": "10h40m",
+          "flights": "9C8934 MU6386",
+          "depart": "2026-12-06 21:15",
+          "arrive": "2026-12-08 00:20",
+          "duration": "26h05m",
           "stops": 1,
-          "via": "XIY",
+          "via": "CAN",
           "self_transfer": true,
           "checked_baggage": false,
           "seats_left": 4,
@@ -211,6 +211,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-13T07:02:13",
+  "last_cycle": "2026-11-13T08:02:16",
   "report_sent": "2026-11-12"
 }
