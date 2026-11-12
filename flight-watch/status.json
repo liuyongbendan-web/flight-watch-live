@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-13T03:03:18",
+  "generated_at": "2026-11-13T04:02:26",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-13T03:02",
+      "checked_at": "2026-11-13T04:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -19,7 +19,7 @@
         "via": "SGN",
         "self_transfer": false,
         "checked_baggage": false,
-        "seats_left": 9,
+        "seats_left": 5,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
@@ -37,7 +37,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 9,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
@@ -62,11 +62,11 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 316
+          "price": 317
         },
         {
           "date": "2026-12-07",
-          "price": 434
+          "price": 433
         },
         {
           "date": "2026-12-08",
@@ -74,7 +74,7 @@
         },
         {
           "date": "2026-12-09",
-          "price": 316
+          "price": 317
         }
       ],
       "per_day": {
@@ -96,12 +96,12 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-13T03:03",
+      "checked_at": "2026-11-13T04:02",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-06",
-        "price": 218,
+        "price": 217,
         "currency": "AUD",
         "airlines": "China Southern Airlines",
         "flights": "CZ3034 CZ3715",
@@ -119,7 +119,7 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-06",
-          "price": 218,
+          "price": 217,
           "currency": "AUD",
           "airlines": "China Southern Airlines",
           "flights": "CZ3034 CZ3715",
@@ -155,20 +155,20 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 200
+          "price": 202
         }
       ],
       "per_day": {
         "2026-12-06": {
-          "price": 218,
+          "price": 217,
           "airlines": "China Southern Airlines",
           "depart": "2026-12-06 18:50"
         }
       }
     }
   },
-  "last_cycle": "2026-11-13T03:03:18",
+  "last_cycle": "2026-11-13T04:02:26",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [218, \"2026-12-06\", {\"connecting\": 218, \"self_transfer\": 324}, null], \"e591da\": [332, \"2026-12-06\", {\"connecting\": 332, \"self_transfer\": 575}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [217, \"2026-12-06\", {\"connecting\": 217, \"self_transfer\": 324}, null], \"e591da\": [332, \"2026-12-06\", {\"connecting\": 332, \"self_transfer\": 575}, null]}}"
 }
