@@ -1,7 +1,7 @@
 {
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-13T11:02",
+      "checked_at": "2026-11-13T12:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -23,7 +23,7 @@
       "per_day": {
         "2026-12-08": {
           "date": "2026-12-08",
-          "price": 397,
+          "price": 398,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR697 TR040",
@@ -84,7 +84,7 @@
         },
         {
           "date": "2026-12-08",
-          "price": 387
+          "price": 383
         },
         {
           "date": "2026-12-09",
@@ -111,7 +111,7 @@
         },
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 447,
+          "price": 448,
           "currency": "AUD",
           "airlines": "Thai Vietjet Air/VietJet Air",
           "flights": "VZ119 VJ804 VJ085",
@@ -129,11 +129,11 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-13T11:02",
+      "checked_at": "2026-11-13T12:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
-        "price": 217,
+        "price": 218,
         "currency": "AUD",
         "airlines": "China Southern Airlines",
         "flights": "CZ3034 CZ3715",
@@ -151,7 +151,7 @@
       "per_day": {
         "2026-12-06": {
           "date": "2026-12-06",
-          "price": 217,
+          "price": 218,
           "currency": "AUD",
           "airlines": "China Southern Airlines",
           "flights": "CZ3034 CZ3715",
@@ -170,13 +170,13 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 202
+          "price": 203
         }
       ],
       "by_type": {
         "connecting": {
           "date": "2026-12-06",
-          "price": 217,
+          "price": 218,
           "currency": "AUD",
           "airlines": "China Southern Airlines",
           "flights": "CZ3034 CZ3715",
@@ -193,15 +193,15 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 324,
+          "price": 322,
           "currency": "AUD",
           "airlines": "China Eastern Airlines/Spring Airlines",
-          "flights": "9C6506 MU5021",
-          "depart": "2026-12-06 21:35",
-          "arrive": "2026-12-07 09:15",
-          "duration": "10h40m",
+          "flights": "9C8934 MU6386",
+          "depart": "2026-12-06 21:15",
+          "arrive": "2026-12-08 00:20",
+          "duration": "26h05m",
           "stops": 1,
-          "via": "XIY",
+          "via": "CAN",
           "self_transfer": true,
           "checked_baggage": false,
           "seats_left": 4,
@@ -211,6 +211,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-13T11:02:45",
+  "last_cycle": "2026-11-13T12:02:59",
   "report_sent": "2026-11-12"
 }
