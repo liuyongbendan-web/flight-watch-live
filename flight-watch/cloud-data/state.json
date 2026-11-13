@@ -1,11 +1,11 @@
 {
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-13T18:02",
+      "checked_at": "2026-11-13T19:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
-        "price": 333,
+        "price": 332,
         "currency": "AUD",
         "airlines": "VietJet Air",
         "flights": "VJ1884 VJ085",
@@ -40,7 +40,7 @@
         },
         "2026-12-06": {
           "date": "2026-12-06",
-          "price": 333,
+          "price": 332,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -57,7 +57,7 @@
         },
         "2026-12-09": {
           "date": "2026-12-09",
-          "price": 333,
+          "price": 332,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -68,7 +68,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 9,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -76,7 +76,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 318
+          "price": 317
         },
         {
           "date": "2026-12-07",
@@ -88,13 +88,13 @@
         },
         {
           "date": "2026-12-09",
-          "price": 318
+          "price": 317
         }
       ],
       "by_type": {
         "connecting": {
           "date": "2026-12-06",
-          "price": 333,
+          "price": 332,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -129,7 +129,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-13T18:02",
+      "checked_at": "2026-11-13T19:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -211,6 +211,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-13T18:02:29",
+  "last_cycle": "2026-11-13T19:02:27",
   "report_sent": "2026-11-12"
 }

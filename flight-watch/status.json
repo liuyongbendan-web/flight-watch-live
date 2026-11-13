@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-13T18:02:29",
+  "generated_at": "2026-11-13T19:02:27",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-13T18:02",
+      "checked_at": "2026-11-13T19:02",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-06",
-        "price": 333,
+        "price": 332,
         "currency": "AUD",
         "airlines": "VietJet Air",
         "flights": "VJ1884 VJ085",
@@ -26,7 +26,7 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-06",
-          "price": 333,
+          "price": 332,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -62,7 +62,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 318
+          "price": 317
         },
         {
           "date": "2026-12-07",
@@ -74,7 +74,7 @@
         },
         {
           "date": "2026-12-09",
-          "price": 318
+          "price": 317
         }
       ],
       "per_day": {
@@ -84,19 +84,19 @@
           "depart": "2026-12-08 12:05"
         },
         "2026-12-06": {
-          "price": 333,
+          "price": 332,
           "airlines": "VietJet Air",
           "depart": "2026-12-06 16:30"
         },
         "2026-12-09": {
-          "price": 333,
+          "price": 332,
           "airlines": "VietJet Air",
           "depart": "2026-12-09 16:30"
         }
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-13T18:02",
+      "checked_at": "2026-11-13T19:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -167,8 +167,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-13T18:02:29",
+  "last_cycle": "2026-11-13T19:02:27",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [218, \"2026-12-06\", {\"connecting\": 218, \"self_transfer\": 301}, null], \"e591da\": [333, \"2026-12-06\", {\"connecting\": 333, \"self_transfer\": 596}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [218, \"2026-12-06\", {\"connecting\": 218, \"self_transfer\": 301}, null], \"e591da\": [332, \"2026-12-06\", {\"connecting\": 332, \"self_transfer\": 596}, null]}}"
 }
