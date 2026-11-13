@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-13T14:02:28",
+  "generated_at": "2026-11-13T15:02:10",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-13T14:02",
+      "checked_at": "2026-11-13T15:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -19,7 +19,7 @@
         "via": "SGN",
         "self_transfer": false,
         "checked_baggage": false,
-        "seats_left": 5,
+        "seats_left": 9,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
@@ -37,24 +37,24 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 5,
+          "seats_left": 9,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 446,
+          "price": 574,
           "currency": "AUD",
-          "airlines": "Thai Vietjet Air/VietJet Air",
-          "flights": "VZ119 VJ804 VJ085",
-          "depart": "2026-12-08 22:35",
-          "arrive": "2026-12-10 10:00",
-          "duration": "31h25m",
+          "airlines": "Thai Airways/Xiamen Airlines",
+          "flights": "TG121 MF854 MF801",
+          "depart": "2026-12-08 21:10",
+          "arrive": "2026-12-10 10:35",
+          "duration": "33h25m",
           "stops": 2,
-          "via": "BKK/SGN",
+          "via": "BKK/XMN",
           "self_transfer": true,
-          "checked_baggage": false,
-          "seats_left": 5,
+          "checked_baggage": true,
+          "seats_left": 6,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -66,7 +66,7 @@
         },
         {
           "date": "2026-12-07",
-          "price": 433
+          "price": 434
         },
         {
           "date": "2026-12-08",
@@ -79,7 +79,7 @@
       ],
       "per_day": {
         "2026-12-08": {
-          "price": 397,
+          "price": 401,
           "airlines": "Scoot",
           "depart": "2026-12-08 12:05"
         },
@@ -96,12 +96,12 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-13T14:02",
+      "checked_at": "2026-11-13T15:02",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-06",
-        "price": 217,
+        "price": 218,
         "currency": "AUD",
         "airlines": "China Southern Airlines",
         "flights": "CZ3034 CZ3715",
@@ -119,7 +119,7 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-06",
-          "price": 217,
+          "price": 218,
           "currency": "AUD",
           "airlines": "China Southern Airlines",
           "flights": "CZ3034 CZ3715",
@@ -155,20 +155,20 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 202
+          "price": 203
         }
       ],
       "per_day": {
         "2026-12-06": {
-          "price": 217,
+          "price": 218,
           "airlines": "China Southern Airlines",
           "depart": "2026-12-06 18:50"
         }
       }
     }
   },
-  "last_cycle": "2026-11-13T14:02:28",
+  "last_cycle": "2026-11-13T15:02:10",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [217, \"2026-12-06\", {\"connecting\": 217, \"self_transfer\": 300}, null], \"e591da\": [332, \"2026-12-06\", {\"connecting\": 332, \"self_transfer\": 446}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [218, \"2026-12-06\", {\"connecting\": 218, \"self_transfer\": 300}, null], \"e591da\": [332, \"2026-12-06\", {\"connecting\": 332, \"self_transfer\": 574}, null]}}"
 }
