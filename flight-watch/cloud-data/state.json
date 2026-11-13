@@ -1,11 +1,11 @@
 {
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-13T17:02",
+      "checked_at": "2026-11-13T18:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
-        "price": 332,
+        "price": 333,
         "currency": "AUD",
         "airlines": "VietJet Air",
         "flights": "VJ1884 VJ085",
@@ -40,7 +40,7 @@
         },
         "2026-12-06": {
           "date": "2026-12-06",
-          "price": 332,
+          "price": 333,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -57,7 +57,7 @@
         },
         "2026-12-09": {
           "date": "2026-12-09",
-          "price": 332,
+          "price": 333,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -80,7 +80,7 @@
         },
         {
           "date": "2026-12-07",
-          "price": 434
+          "price": 435
         },
         {
           "date": "2026-12-08",
@@ -94,7 +94,7 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-06",
-          "price": 332,
+          "price": 333,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -111,7 +111,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 597,
+          "price": 596,
           "currency": "AUD",
           "airlines": "Philippine Airlines/Thai Airways",
           "flights": "TG103 PR733 PR211",
@@ -129,7 +129,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-13T17:02",
+      "checked_at": "2026-11-13T18:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -193,7 +193,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 300,
+          "price": 301,
           "currency": "AUD",
           "airlines": "China Eastern Airlines/Spring Airlines",
           "flights": "9C6506 MU5021",
@@ -211,6 +211,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-13T17:02:55",
+  "last_cycle": "2026-11-13T18:02:29",
   "report_sent": "2026-11-12"
 }

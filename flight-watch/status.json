@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-13T17:02:56",
+  "generated_at": "2026-11-13T18:02:29",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-13T17:02",
+      "checked_at": "2026-11-13T18:02",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-06",
-        "price": 332,
+        "price": 333,
         "currency": "AUD",
         "airlines": "VietJet Air",
         "flights": "VJ1884 VJ085",
@@ -26,7 +26,7 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-06",
-          "price": 332,
+          "price": 333,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -43,7 +43,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 597,
+          "price": 596,
           "currency": "AUD",
           "airlines": "Philippine Airlines/Thai Airways",
           "flights": "TG103 PR733 PR211",
@@ -66,7 +66,7 @@
         },
         {
           "date": "2026-12-07",
-          "price": 434
+          "price": 435
         },
         {
           "date": "2026-12-08",
@@ -84,19 +84,19 @@
           "depart": "2026-12-08 12:05"
         },
         "2026-12-06": {
-          "price": 332,
+          "price": 333,
           "airlines": "VietJet Air",
           "depart": "2026-12-06 16:30"
         },
         "2026-12-09": {
-          "price": 332,
+          "price": 333,
           "airlines": "VietJet Air",
           "depart": "2026-12-09 16:30"
         }
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-13T17:02",
+      "checked_at": "2026-11-13T18:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -136,7 +136,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 300,
+          "price": 301,
           "currency": "AUD",
           "airlines": "China Eastern Airlines/Spring Airlines",
           "flights": "9C6506 MU5021",
@@ -167,8 +167,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-13T17:02:55",
+  "last_cycle": "2026-11-13T18:02:29",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [218, \"2026-12-06\", {\"connecting\": 218, \"self_transfer\": 300}, null], \"e591da\": [332, \"2026-12-06\", {\"connecting\": 332, \"self_transfer\": 597}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [218, \"2026-12-06\", {\"connecting\": 218, \"self_transfer\": 301}, null], \"e591da\": [333, \"2026-12-06\", {\"connecting\": 333, \"self_transfer\": 596}, null]}}"
 }
