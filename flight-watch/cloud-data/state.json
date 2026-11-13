@@ -1,7 +1,7 @@
 {
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-13T23:03",
+      "checked_at": "2026-11-14T00:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -129,7 +129,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-13T23:03",
+      "checked_at": "2026-11-14T00:02",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -193,7 +193,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 301,
+          "price": 300,
           "currency": "AUD",
           "airlines": "China Eastern Airlines/Spring Airlines",
           "flights": "9C6506 MU5021",
@@ -211,6 +211,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-13T23:03:22",
+  "last_cycle": "2026-11-14T00:02:58",
   "report_sent": "2026-11-13"
 }
