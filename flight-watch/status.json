@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-13T22:04:53",
+  "generated_at": "2026-11-13T23:03:22",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-13T22:04",
+      "checked_at": "2026-11-13T23:03",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-06",
-        "price": 331,
+        "price": 332,
         "currency": "AUD",
         "airlines": "VietJet Air",
         "flights": "VJ1884 VJ085",
@@ -26,7 +26,7 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-06",
-          "price": 331,
+          "price": 332,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -66,11 +66,11 @@
         },
         {
           "date": "2026-12-07",
-          "price": 434
+          "price": 435
         },
         {
           "date": "2026-12-08",
-          "price": 389
+          "price": 385
         },
         {
           "date": "2026-12-09",
@@ -84,7 +84,7 @@
           "depart": "2026-12-08 12:05"
         },
         "2026-12-06": {
-          "price": 331,
+          "price": 332,
           "airlines": "VietJet Air",
           "depart": "2026-12-06 16:30"
         },
@@ -96,7 +96,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-13T22:04",
+      "checked_at": "2026-11-13T23:03",
       "status": "ok",
       "error": null,
       "best": {
@@ -136,7 +136,7 @@
         },
         "self_transfer": {
           "date": "2026-12-06",
-          "price": 300,
+          "price": 301,
           "currency": "AUD",
           "airlines": "China Eastern Airlines/Spring Airlines",
           "flights": "9C6506 MU5021",
@@ -167,8 +167,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-13T22:04:53",
+  "last_cycle": "2026-11-13T23:03:22",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [218, \"2026-12-06\", {\"connecting\": 218, \"self_transfer\": 300}, null], \"e591da\": [331, \"2026-12-06\", {\"connecting\": 331, \"self_transfer\": 595}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [218, \"2026-12-06\", {\"connecting\": 218, \"self_transfer\": 301}, null], \"e591da\": [332, \"2026-12-06\", {\"connecting\": 332, \"self_transfer\": 595}, null]}}"
 }
