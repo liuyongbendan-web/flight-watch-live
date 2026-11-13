@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-13T21:02:27",
+  "generated_at": "2026-11-13T22:04:53",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-13T21:02",
+      "checked_at": "2026-11-13T22:04",
       "status": "ok",
       "error": null,
       "best": {
@@ -43,7 +43,7 @@
         },
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 596,
+          "price": 595,
           "currency": "AUD",
           "airlines": "Philippine Airlines/Thai Airways",
           "flights": "TG105 PR733 PR211",
@@ -62,7 +62,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 316
+          "price": 317
         },
         {
           "date": "2026-12-07",
@@ -70,16 +70,16 @@
         },
         {
           "date": "2026-12-08",
-          "price": 387
+          "price": 389
         },
         {
           "date": "2026-12-09",
-          "price": 316
+          "price": 317
         }
       ],
       "per_day": {
         "2026-12-08": {
-          "price": 403,
+          "price": 400,
           "airlines": "Scoot",
           "depart": "2026-12-08 12:05"
         },
@@ -89,14 +89,14 @@
           "depart": "2026-12-06 16:30"
         },
         "2026-12-09": {
-          "price": 331,
+          "price": 332,
           "airlines": "VietJet Air",
           "depart": "2026-12-09 16:30"
         }
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-13T21:02",
+      "checked_at": "2026-11-13T22:04",
       "status": "ok",
       "error": null,
       "best": {
@@ -167,8 +167,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-13T21:02:26",
+  "last_cycle": "2026-11-13T22:04:53",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [218, \"2026-12-06\", {\"connecting\": 218, \"self_transfer\": 300}, null], \"e591da\": [331, \"2026-12-06\", {\"connecting\": 331, \"self_transfer\": 596}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [218, \"2026-12-06\", {\"connecting\": 218, \"self_transfer\": 300}, null], \"e591da\": [331, \"2026-12-06\", {\"connecting\": 331, \"self_transfer\": 595}, null]}}"
 }

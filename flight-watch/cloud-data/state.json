@@ -1,7 +1,7 @@
 {
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-13T21:02",
+      "checked_at": "2026-11-13T22:04",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -23,7 +23,7 @@
       "per_day": {
         "2026-12-08": {
           "date": "2026-12-08",
-          "price": 403,
+          "price": 400,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR697 TR040",
@@ -34,7 +34,7 @@
           "via": "SIN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 9,
+          "seats_left": 1,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
@@ -57,7 +57,7 @@
         },
         "2026-12-09": {
           "date": "2026-12-09",
-          "price": 331,
+          "price": 332,
           "currency": "AUD",
           "airlines": "VietJet Air",
           "flights": "VJ1884 VJ085",
@@ -68,7 +68,7 @@
           "via": "SGN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 9,
+          "seats_left": 5,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-09&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -76,7 +76,7 @@
       "calendar": [
         {
           "date": "2026-12-06",
-          "price": 316
+          "price": 317
         },
         {
           "date": "2026-12-07",
@@ -84,11 +84,11 @@
         },
         {
           "date": "2026-12-08",
-          "price": 387
+          "price": 389
         },
         {
           "date": "2026-12-09",
-          "price": 316
+          "price": 317
         }
       ],
       "by_type": {
@@ -111,7 +111,7 @@
         },
         "self_transfer": {
           "date": "2026-12-08",
-          "price": 596,
+          "price": 595,
           "currency": "AUD",
           "airlines": "Philippine Airlines/Thai Airways",
           "flights": "TG105 PR733 PR211",
@@ -129,7 +129,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-13T21:02",
+      "checked_at": "2026-11-13T22:04",
       "status": "ok",
       "best": {
         "date": "2026-12-06",
@@ -211,6 +211,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-13T21:02:26",
+  "last_cycle": "2026-11-13T22:04:53",
   "report_sent": "2026-11-13"
 }
