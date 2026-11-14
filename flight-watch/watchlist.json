@@ -1,64 +1,38 @@
 {
-  "updated": "2026-11-05T21:30:41",
   "entries": [
-    {
-      "origin": "CNX",
-      "destination": "SYD",
-      "from": "2026-12-06",
-      "to": "2026-12-09",
-      "max_price": 350,
-      "max_stops": 1,
-      "allow_self_transfer": false,
-      "need_bag": false,
-      "adults": 1,
-      "enabled": true,
-      "auto_prepare": false,
-      "exclude": [],
-      "depart_slots": [],
-      "promo_code": "",
-      "snipe_at": "",
-      "note": "",
-      "id": "e591da",
-      "transfer_pref": "cheap",
-      "low_margin": 5,
-      "max_duration_h": null,
-      "max_layover_h": null,
-      "stopover_city": "",
-      "stopover_min_h": 12,
-      "stopover_max_h": 48
-    },
     {
       "origin": "CNX",
       "destination": "TAO",
       "from": "2026-12-06",
       "to": "2026-12-06",
-      "max_price": 300,
+      "max_price": 300.0,
       "max_stops": 1,
+      "allow_self_transfer": true,
+      "need_bag": false,
+      "adults": 1,
+      "enabled": true,
+      "auto_prepare": false,
+      "exclude": [],
       "depart_slots": [
         "afternoon",
         "evening"
       ],
-      "allow_self_transfer": true,
-      "need_bag": false,
-      "auto_prepare": false,
       "promo_code": "",
       "snipe_at": "",
-      "adults": 1,
-      "note": "",
       "transfer_pref": "cheap",
-      "low_margin": 5,
       "max_duration_h": null,
       "max_layover_h": null,
+      "low_margin": 5.0,
       "stopover_city": "",
-      "stopover_min_h": 12,
-      "stopover_max_h": 48,
-      "id": "d7c80b",
-      "enabled": true,
-      "exclude": []
+      "stopover_min_h": 12.0,
+      "stopover_max_h": 48.0,
+      "note": "",
+      "id": "d7c80b"
     }
   ],
   "settings": {
     "interval_minutes": 60,
     "report_hour": 21
-  }
+  },
+  "updated": "2026-11-14T13:29:50"
 }
