@@ -181,6 +181,12 @@ def by_category(data, entry, day):
         c = category(f)
         if c not in out or f["price_total"] < out[c]["price"]:
             out[c] = _summary(f, data, day)
+        # 廉航 / 全服务各取一个最低价：这一组按你的中转条件筛（几转、自行转机、快慢），方便同条件下比。
+        # Trip.com 只要有一段是廉航就标廉航（如 Jetstar+Qantas 联程算廉航）。
+        if qualifies(f, entry):
+            a = "lcc" if f.get("budget_airline") else "full_service"
+            if a not in out or f["price_total"] < out[a]["price"]:
+                out[a] = _summary(f, data, day)
     return out
 
 
@@ -204,6 +210,7 @@ def _summary(f, data, day):
         "self_transfer": f.get("self_transfer", False),
         "checked_baggage": f.get("checked_baggage", False),
         "seats_left": f.get("seats_left"),
+        "budget": bool(f.get("budget_airline")),
         "complete": data.get("complete", True),
         "url": data["query"]["url"],
     }
