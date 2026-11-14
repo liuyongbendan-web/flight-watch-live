@@ -1,11 +1,11 @@
 {
   "entries": {
     "1f0f10": {
-      "checked_at": "2026-11-14T13:47",
+      "checked_at": "2026-11-14T15:01",
       "status": "ok",
       "best": {
         "date": "2026-12-13",
-        "price": 323,
+        "price": 326,
         "currency": "AUD",
         "airlines": "Scoot",
         "flights": "TR187 TR042",
@@ -16,14 +16,15 @@
         "via": "SIN",
         "self_transfer": false,
         "checked_baggage": false,
-        "seats_left": 3,
+        "seats_left": 2,
+        "budget": true,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=tao&acity=syd&ddate=2026-12-13&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
       "per_day": {
         "2026-12-13": {
           "date": "2026-12-13",
-          "price": 323,
+          "price": 326,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR187 TR042",
@@ -34,7 +35,8 @@
           "via": "SIN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 3,
+          "seats_left": 2,
+          "budget": true,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=tao&acity=syd&ddate=2026-12-13&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -48,7 +50,7 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-13",
-          "price": 323,
+          "price": 326,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR187 TR042",
@@ -59,13 +61,50 @@
           "via": "SIN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 3,
+          "seats_left": 2,
+          "budget": true,
+          "complete": true,
+          "url": "https://au.trip.com/flights/showfarefirst?dcity=tao&acity=syd&ddate=2026-12-13&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
+        },
+        "lcc": {
+          "date": "2026-12-13",
+          "price": 326,
+          "currency": "AUD",
+          "airlines": "Scoot",
+          "flights": "TR187 TR042",
+          "depart": "2026-12-13 08:50",
+          "arrive": "2026-12-14 18:50",
+          "duration": "31h00m",
+          "stops": 1,
+          "via": "SIN",
+          "self_transfer": false,
+          "checked_baggage": false,
+          "seats_left": 2,
+          "budget": true,
+          "complete": true,
+          "url": "https://au.trip.com/flights/showfarefirst?dcity=tao&acity=syd&ddate=2026-12-13&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
+        },
+        "full_service": {
+          "date": "2026-12-13",
+          "price": 380,
+          "currency": "AUD",
+          "airlines": "Air China",
+          "flights": "CA1576 CA173",
+          "depart": "2026-12-13 11:25",
+          "arrive": "2026-12-14 08:05",
+          "duration": "17h40m",
+          "stops": 1,
+          "via": "PEK",
+          "self_transfer": false,
+          "checked_baggage": true,
+          "seats_left": 9,
+          "budget": false,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=tao&acity=syd&ddate=2026-12-13&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       }
     }
   },
-  "last_cycle": "2026-11-14T13:47:53",
+  "last_cycle": "2026-11-14T15:01:37",
   "report_sent": "2026-11-13"
 }
