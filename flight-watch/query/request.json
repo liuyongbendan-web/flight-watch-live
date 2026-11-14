@@ -1,1 +1,1 @@
-{"id": "test-flight-1115b", "kind": "flights", "origin": "CNX", "destination": "SYD", "depart_date": "2026-12-06"}
+{"id": "test-hotel-1115c", "kind": "hotels", "city": "Sydney", "checkin": "2026-12-10", "checkout": "2026-12-12", "limit": 8}
