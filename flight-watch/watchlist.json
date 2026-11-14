@@ -1,8 +1,35 @@
 {
-  "entries": [],
+  "entries": [
+    {
+      "origin": "TAO",
+      "destination": "SYD",
+      "from": "2026-12-13",
+      "to": "2026-12-13",
+      "max_price": 400,
+      "max_stops": 1,
+      "depart_slots": [],
+      "allow_self_transfer": false,
+      "need_bag": false,
+      "auto_prepare": false,
+      "promo_code": "",
+      "snipe_at": "",
+      "adults": 1,
+      "note": "",
+      "transfer_pref": "cheap",
+      "low_margin": 5,
+      "max_duration_h": null,
+      "max_layover_h": null,
+      "stopover_city": "",
+      "stopover_min_h": 12,
+      "stopover_max_h": 48,
+      "id": "1f0f10",
+      "enabled": true,
+      "exclude": []
+    }
+  ],
   "settings": {
     "interval_minutes": 30,
     "report_hour": 21
   },
-  "updated": "2026-11-14T13:34:43"
+  "updated": "2026-11-14T13:35:00"
 }
