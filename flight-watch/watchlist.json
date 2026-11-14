@@ -1,8 +1,8 @@
 {
   "entries": [],
   "settings": {
-    "interval_minutes": 60,
+    "interval_minutes": 30,
     "report_hour": 21
   },
-  "updated": "2026-11-14T13:30:18"
+  "updated": "2026-11-14T13:34:43"
 }
