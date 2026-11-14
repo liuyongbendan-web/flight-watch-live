@@ -1,9 +1,64 @@
 {
-  "generated_at": "2026-11-14T13:35:27",
+  "generated_at": "2026-11-14T13:47:53",
   "source": "cloud",
-  "entries": {},
-  "last_cycle": "2026-11-14T13:35:27",
+  "entries": {
+    "1f0f10": {
+      "checked_at": "2026-11-14T13:47",
+      "status": "ok",
+      "error": null,
+      "best": {
+        "date": "2026-12-13",
+        "price": 323,
+        "currency": "AUD",
+        "airlines": "Scoot",
+        "flights": "TR187 TR042",
+        "depart": "2026-12-13 08:50",
+        "arrive": "2026-12-14 18:50",
+        "duration": "31h00m",
+        "stops": 1,
+        "via": "SIN",
+        "self_transfer": false,
+        "checked_baggage": false,
+        "seats_left": 3,
+        "complete": true,
+        "url": "https://au.trip.com/flights/showfarefirst?dcity=tao&acity=syd&ddate=2026-12-13&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
+      },
+      "by_type": {
+        "connecting": {
+          "date": "2026-12-13",
+          "price": 323,
+          "currency": "AUD",
+          "airlines": "Scoot",
+          "flights": "TR187 TR042",
+          "depart": "2026-12-13 08:50",
+          "arrive": "2026-12-14 18:50",
+          "duration": "31h00m",
+          "stops": 1,
+          "via": "SIN",
+          "self_transfer": false,
+          "checked_baggage": false,
+          "seats_left": 3,
+          "complete": true,
+          "url": "https://au.trip.com/flights/showfarefirst?dcity=tao&acity=syd&ddate=2026-12-13&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
+        }
+      },
+      "calendar": [
+        {
+          "date": "2026-12-13",
+          "price": 308
+        }
+      ],
+      "per_day": {
+        "2026-12-13": {
+          "price": 323,
+          "airlines": "Scoot",
+          "depart": "2026-12-13 08:50"
+        }
+      }
+    }
+  },
+  "last_cycle": "2026-11-14T13:47:53",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"1f0f10\": [323, \"2026-12-13\", {\"connecting\": 323}, null]}}"
 }
