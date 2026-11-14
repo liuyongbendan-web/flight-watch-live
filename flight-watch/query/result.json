@@ -1,14 +1,446 @@
 {
- "id": "test-hotel-1115a",
- "status": "error",
- "finished_at": "2026-11-15T10:24:53",
- "kind": "hotels",
+ "id": "test-flight-1115b",
+ "status": "ok",
+ "finished_at": "2026-11-15T10:26:08",
+ "kind": "flights",
  "request": {
-  "kind": "hotels",
-  "city": "Chiang Mai",
-  "checkin": "2026-12-04",
-  "checkout": "2026-12-06",
-  "limit": 8
+  "kind": "flights",
+  "origin": "CNX",
+  "destination": "SYD",
+  "depart_date": "2026-12-06"
  },
- "error": "HotelError: 50s 内没等到房源数据（页面标题: 'Chiang Mai Hotels - Where to stay in Chiang Mai | Trip.com'）。可能是被风控拦了、该日期无房，或页面结构变了。"
+ "text": "CNX → SYD  2026-12-06  |  30 个结果，按价格排序\n最低价 AUD 327\n\n 1. AUD 327      13h30m   16:30→10:00(+1)  VietJet Air [VJ1884 VJ085]  1转 经SGN 候机2h40m  廉航\n 2. AUD 491      26h45m   12:05→18:50(+1)  Scoot [TR697 TR042]  1转 经SIN 候机15h35m  廉航\n 3. AUD 499      22h10m   16:40→18:50(+1)  Scoot [TR699 TR042]  1转 经SIN 候机11h00m  廉航\n 4. AUD 503      20h05m   12:05→12:10(+1)  Scoot [TR697 TR040]  1转 经SIN 候机8h55m  廉航\n 5. AUD 545      15h30m   16:40→12:10(+1)  Scoot [TR699 TR040]  1转 经SIN 候机4h20m  廉航\n 6. AUD 798      25h05m   15:20→20:25(+1)  China Southern Airlines [CZ8328 CZ301]  1转 经CAN 候机13h00m  含托运\n 7. AUD 802      31h45m   18:50→06:35(+2)  China Southern Airlines [CZ3034 CZ601]  1转 经CAN 候机19h30m  含托运\n 8. AUD 802      35h15m   15:20→06:35(+2)  China Southern Airlines [CZ8328 CZ601]  1转 经CAN 候机22h55m  含托运\n 9. AUD 807      18h00m   15:20→13:20(+1)  China Southern Airlines [CZ8328 CZ8091]  1转 经CAN 候机5h50m  含托运\n10. AUD 820      21h35m   18:50→20:25(+1)  China Southern Airlines [CZ3034 CZ301]  1转 经CAN 候机9h35m  含托运\n11. AUD 826      34h35m   18:50→09:25(+2)  China Southern Airlines [CZ3034 CZ325]  1转 经CAN 候机22h25m  含托运\n12. AUD 827      16h30m   15:25→11:55(+1)  Thai Airways [TG111 TG471]  1转 经BKK 候机5h50m  含托运\n\n附近日期最低价: 2026-12-13 AUD310, 2026-12-16 AUD310, 2026-12-23 AUD311, 2026-12-27 AUD311, 2026-11-18 AUD315",
+ "currency": "AUD",
+ "complete": true,
+ "data_type": "actual",
+ "total_found": 30,
+ "parsed": 30,
+ "lowest_by_type": {
+  "connecting": {
+   "price": 327,
+   "airlines": "VietJet Air",
+   "flights": "VJ1884 VJ085",
+   "depart": "2026-12-06 16:30",
+   "arrive": "2026-12-07 10:00",
+   "duration": "13h30m",
+   "stops": 1,
+   "via": "SGN 2h40m",
+   "checked_baggage": false,
+   "self_transfer": false,
+   "budget": true,
+   "seats_left": 5
+  },
+  "lcc": {
+   "price": 327,
+   "airlines": "VietJet Air",
+   "flights": "VJ1884 VJ085",
+   "depart": "2026-12-06 16:30",
+   "arrive": "2026-12-07 10:00",
+   "duration": "13h30m",
+   "stops": 1,
+   "via": "SGN 2h40m",
+   "checked_baggage": false,
+   "self_transfer": false,
+   "budget": true,
+   "seats_left": 5
+  },
+  "full_service": {
+   "price": 798,
+   "airlines": "China Southern Airlines",
+   "flights": "CZ8328 CZ301",
+   "depart": "2026-12-06 15:20",
+   "arrive": "2026-12-07 20:25",
+   "duration": "25h05m",
+   "stops": 1,
+   "via": "CAN 13h00m",
+   "checked_baggage": true,
+   "self_transfer": false,
+   "budget": false,
+   "seats_left": 9
+  }
+ },
+ "flights": [
+  {
+   "price": 327,
+   "airlines": "VietJet Air",
+   "flights": "VJ1884 VJ085",
+   "depart": "2026-12-06 16:30",
+   "arrive": "2026-12-07 10:00",
+   "duration": "13h30m",
+   "stops": 1,
+   "via": "SGN 2h40m",
+   "checked_baggage": false,
+   "self_transfer": false,
+   "budget": true,
+   "seats_left": 5
+  },
+  {
+   "price": 491,
+   "airlines": "Scoot",
+   "flights": "TR697 TR042",
+   "depart": "2026-12-06 12:05",
+   "arrive": "2026-12-07 18:50",
+   "duration": "26h45m",
+   "stops": 1,
+   "via": "SIN 15h35m",
+   "checked_baggage": false,
+   "self_transfer": false,
+   "budget": true,
+   "seats_left": 4
+  },
+  {
+   "price": 499,
+   "airlines": "Scoot",
+   "flights": "TR699 TR042",
+   "depart": "2026-12-06 16:40",
+   "arrive": "2026-12-07 18:50",
+   "duration": "22h10m",
+   "stops": 1,
+   "via": "SIN 11h00m",
+   "checked_baggage": false,
+   "self_transfer": false,
+   "budget": true,
+   "seats_left": 1
+  },
+  {
+   "price": 503,
+   "airlines": "Scoot",
+   "flights": "TR697 TR040",
+   "depart": "2026-12-06 12:05",
+   "arrive": "2026-12-07 12:10",
+   "duration": "20h05m",
+   "stops": 1,
+   "via": "SIN 8h55m",
+   "checked_baggage": false,
+   "self_transfer": false,
+   "budget": true,
+   "seats_left": 1
+  },
+  {
+   "price": 545,
+   "airlines": "Scoot",
+   "flights": "TR699 TR040",
+   "depart": "2026-12-06 16:40",
+   "arrive": "2026-12-07 12:10",
+   "duration": "15h30m",
+   "stops": 1,
+   "via": "SIN 4h20m",
+   "checked_baggage": false,
+   "self_transfer": false,
+   "budget": true,
+   "seats_left": 1
+  },
+  {
+   "price": 798,
+   "airlines": "China Southern Airlines",
+   "flights": "CZ8328 CZ301",
+   "depart": "2026-12-06 15:20",
+   "arrive": "2026-12-07 20:25",
+   "duration": "25h05m",
+   "stops": 1,
+   "via": "CAN 13h00m",
+   "checked_baggage": true,
+   "self_transfer": false,
+   "budget": false,
+   "seats_left": 9
+  },
+  {
+   "price": 802,
+   "airlines": "China Southern Airlines",
+   "flights": "CZ3034 CZ601",
+   "depart": "2026-12-06 18:50",
+   "arrive": "2026-12-08 06:35",
+   "duration": "31h45m",
+   "stops": 1,
+   "via": "CAN 19h30m",
+   "checked_baggage": true,
+   "self_transfer": false,
+   "budget": false,
+   "seats_left": 9
+  },
+  {
+   "price": 802,
+   "airlines": "China Southern Airlines",
+   "flights": "CZ8328 CZ601",
+   "depart": "2026-12-06 15:20",
+   "arrive": "2026-12-08 06:35",
+   "duration": "35h15m",
+   "stops": 1,
+   "via": "CAN 22h55m",
+   "checked_baggage": true,
+   "self_transfer": false,
+   "budget": false,
+   "seats_left": 9
+  },
+  {
+   "price": 807,
+   "airlines": "China Southern Airlines",
+   "flights": "CZ8328 CZ8091",
+   "depart": "2026-12-06 15:20",
+   "arrive": "2026-12-07 13:20",
+   "duration": "18h00m",
+   "stops": 1,
+   "via": "CAN 5h50m",
+   "checked_baggage": true,
+   "self_transfer": false,
+   "budget": false,
+   "seats_left": 9
+  },
+  {
+   "price": 820,
+   "airlines": "China Southern Airlines",
+   "flights": "CZ3034 CZ301",
+   "depart": "2026-12-06 18:50",
+   "arrive": "2026-12-07 20:25",
+   "duration": "21h35m",
+   "stops": 1,
+   "via": "CAN 9h35m",
+   "checked_baggage": true,
+   "self_transfer": false,
+   "budget": false,
+   "seats_left": 9
+  },
+  {
+   "price": 826,
+   "airlines": "China Southern Airlines",
+   "flights": "CZ3034 CZ325",
+   "depart": "2026-12-06 18:50",
+   "arrive": "2026-12-08 09:25",
+   "duration": "34h35m",
+   "stops": 1,
+   "via": "CAN 22h25m",
+   "checked_baggage": true,
+   "self_transfer": false,
+   "budget": false,
+   "seats_left": 9
+  },
+  {
+   "price": 827,
+   "airlines": "Thai Airways",
+   "flights": "TG111 TG471",
+   "depart": "2026-12-06 15:25",
+   "arrive": "2026-12-07 11:55",
+   "duration": "16h30m",
+   "stops": 1,
+   "via": "BKK 5h50m",
+   "checked_baggage": true,
+   "self_transfer": false,
+   "budget": false,
+   "seats_left": 9
+  },
+  {
+   "price": 834,
+   "airlines": "Thai Airways",
+   "flights": "TG107 TG471",
+   "depart": "2026-12-06 14:05",
+   "arrive": "2026-12-07 11:55",
+   "duration": "17h50m",
+   "stops": 1,
+   "via": "BKK 7h10m",
+   "checked_baggage": true,
+   "self_transfer": false,
+   "budget": false,
+   "seats_left": 9
+  },
+  {
+   "price": 835,
+   "airlines": "China Southern Airlines",
+   "flights": "CZ3034 CZ8091",
+   "depart": "2026-12-06 18:50",
+   "arrive": "2026-12-07 13:20",
+   "duration": "14h30m",
+   "stops": 1,
+   "via": "CAN 2h25m",
+   "checked_baggage": true,
+   "self_transfer": false,
+   "budget": false,
+   "seats_left": 9
+  },
+  {
+   "price": 850,
+   "airlines": "Thai Airways",
+   "flights": "TG113 TG471",
+   "depart": "2026-12-06 17:10",
+   "arrive": "2026-12-07 11:55",
+   "duration": "14h45m",
+   "stops": 1,
+   "via": "BKK 4h05m",
+   "checked_baggage": true,
+   "self_transfer": false,
+   "budget": false,
+   "seats_left": 2
+  }
+ ],
+ "price_calendar": [
+  {
+   "date": "2026-11-15",
+   "price": 318
+  },
+  {
+   "date": "2026-11-16",
+   "price": 377
+  },
+  {
+   "date": "2026-11-17",
+   "price": 383
+  },
+  {
+   "date": "2026-11-18",
+   "price": 315
+  },
+  {
+   "date": "2026-11-19",
+   "price": 384
+  },
+  {
+   "date": "2026-11-20",
+   "price": 390
+  },
+  {
+   "date": "2026-11-21",
+   "price": 421
+  },
+  {
+   "date": "2026-11-22",
+   "price": 315
+  },
+  {
+   "date": "2026-11-23",
+   "price": 388
+  },
+  {
+   "date": "2026-11-24",
+   "price": 385
+  },
+  {
+   "date": "2026-11-25",
+   "price": 509
+  },
+  {
+   "date": "2026-11-26",
+   "price": 636
+  },
+  {
+   "date": "2026-11-27",
+   "price": 505
+  },
+  {
+   "date": "2026-11-28",
+   "price": 508
+  },
+  {
+   "date": "2026-11-29",
+   "price": 316
+  },
+  {
+   "date": "2026-11-30",
+   "price": 390
+  },
+  {
+   "date": "2026-12-01",
+   "price": 426
+  },
+  {
+   "date": "2026-12-02",
+   "price": 315
+  },
+  {
+   "date": "2026-12-03",
+   "price": 374
+  },
+  {
+   "date": "2026-12-04",
+   "price": 383
+  },
+  {
+   "date": "2026-12-05",
+   "price": 441
+  },
+  {
+   "date": "2026-12-06",
+   "price": 317
+  },
+  {
+   "date": "2026-12-07",
+   "price": 436
+  },
+  {
+   "date": "2026-12-08",
+   "price": 445
+  },
+  {
+   "date": "2026-12-09",
+   "price": 316
+  },
+  {
+   "date": "2026-12-10",
+   "price": 384
+  },
+  {
+   "date": "2026-12-11",
+   "price": 435
+  },
+  {
+   "date": "2026-12-12",
+   "price": 423
+  },
+  {
+   "date": "2026-12-13",
+   "price": 310
+  },
+  {
+   "date": "2026-12-14",
+   "price": 439
+  },
+  {
+   "date": "2026-12-15",
+   "price": 415
+  },
+  {
+   "date": "2026-12-16",
+   "price": 310
+  },
+  {
+   "date": "2026-12-17",
+   "price": 439
+  },
+  {
+   "date": "2026-12-18",
+   "price": 446
+  },
+  {
+   "date": "2026-12-19",
+   "price": 415
+  },
+  {
+   "date": "2026-12-21",
+   "price": 408
+  },
+  {
+   "date": "2026-12-22",
+   "price": 527
+  },
+  {
+   "date": "2026-12-23",
+   "price": 311
+  },
+  {
+   "date": "2026-12-24",
+   "price": 437
+  },
+  {
+   "date": "2026-12-25",
+   "price": 435
+  },
+  {
+   "date": "2026-12-26",
+   "price": 448
+  },
+  {
+   "date": "2026-12-27",
+   "price": 311
+  }
+ ],
+ "note": null,
+ "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
 }
