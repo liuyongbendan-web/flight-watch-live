@@ -1,1 +1,1 @@
-{"id": "test-hotel-1115a", "kind": "hotels", "city": "Chiang Mai", "checkin": "2026-12-04", "checkout": "2026-12-06", "limit": 8}
+{"id": "test-flight-1115b", "kind": "flights", "origin": "CNX", "destination": "SYD", "depart_date": "2026-12-06"}
