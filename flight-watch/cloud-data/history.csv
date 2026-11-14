@@ -4388,3 +4388,4 @@ checked_at,route,depart_date,price,airlines,flights,stops,self_transfer,checked_
 2026-11-14T20:01,TAO-SYD,2026-12-13,380,Air China,CA1576 CA173,1,False,True,actual,1f0f10
 2026-11-14T21:01,TAO-SYD,2026-12-13,380,Air China,CA1576 CA173,1,False,True,actual,1f0f10
 2026-11-14T22:01,TAO-SYD,2026-12-13,380,Air China,CA1576 CA173,1,False,True,actual,1f0f10
+2026-11-14T23:01,TAO-SYD,2026-12-13,380,Air China,CA1576 CA173,1,False,True,actual,1f0f10
