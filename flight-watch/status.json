@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-14T16:01:49",
+  "generated_at": "2026-11-14T17:01:25",
   "source": "cloud",
   "entries": {
     "1f0f10": {
-      "checked_at": "2026-11-14T16:01",
+      "checked_at": "2026-11-14T17:01",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-13",
-        "price": 396,
+        "price": 380,
         "currency": "AUD",
-        "airlines": "Juneyao Airlines",
-        "flights": "HO1076 HO1669",
-        "depart": "2026-12-13 13:50",
-        "arrive": "2026-12-14 06:50",
-        "duration": "14h00m",
+        "airlines": "Air China",
+        "flights": "CA1576 CA173",
+        "depart": "2026-12-13 11:25",
+        "arrive": "2026-12-14 08:05",
+        "duration": "17h40m",
         "stops": 1,
-        "via": "PVG",
+        "via": "PEK",
         "self_transfer": false,
         "checked_baggage": true,
         "seats_left": 9,
@@ -27,15 +27,15 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-13",
-          "price": 396,
+          "price": 380,
           "currency": "AUD",
-          "airlines": "Juneyao Airlines",
-          "flights": "HO1076 HO1669",
-          "depart": "2026-12-13 13:50",
-          "arrive": "2026-12-14 06:50",
-          "duration": "14h00m",
+          "airlines": "Air China",
+          "flights": "CA1576 CA173",
+          "depart": "2026-12-13 11:25",
+          "arrive": "2026-12-14 08:05",
+          "duration": "17h40m",
           "stops": 1,
-          "via": "PVG",
+          "via": "PEK",
           "self_transfer": false,
           "checked_baggage": true,
           "seats_left": 9,
@@ -45,15 +45,15 @@
         },
         "full_service": {
           "date": "2026-12-13",
-          "price": 396,
+          "price": 380,
           "currency": "AUD",
-          "airlines": "Juneyao Airlines",
-          "flights": "HO1076 HO1669",
-          "depart": "2026-12-13 13:50",
-          "arrive": "2026-12-14 06:50",
-          "duration": "14h00m",
+          "airlines": "Air China",
+          "flights": "CA1576 CA173",
+          "depart": "2026-12-13 11:25",
+          "arrive": "2026-12-14 08:05",
+          "duration": "17h40m",
           "stops": 1,
-          "via": "PVG",
+          "via": "PEK",
           "self_transfer": false,
           "checked_baggage": true,
           "seats_left": 9,
@@ -70,15 +70,15 @@
       ],
       "per_day": {
         "2026-12-13": {
-          "price": 396,
-          "airlines": "Juneyao Airlines",
-          "depart": "2026-12-13 13:50"
+          "price": 380,
+          "airlines": "Air China",
+          "depart": "2026-12-13 11:25"
         }
       }
     }
   },
-  "last_cycle": "2026-11-14T16:01:49",
+  "last_cycle": "2026-11-14T17:01:25",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"1f0f10\": [396, \"2026-12-13\", {\"connecting\": 396, \"full_service\": 396}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"1f0f10\": [380, \"2026-12-13\", {\"connecting\": 380, \"full_service\": 380}, null]}}"
 }
