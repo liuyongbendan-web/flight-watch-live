@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-14T10:02:19",
+  "generated_at": "2026-11-14T11:02:28",
   "source": "cloud",
   "entries": {
     "e591da": {
-      "checked_at": "2026-11-14T10:01",
+      "checked_at": "2026-11-14T11:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -42,21 +42,21 @@
           "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "self_transfer": {
-          "date": "2026-12-06",
-          "price": 596,
+          "date": "2026-12-08",
+          "price": 458,
           "currency": "AUD",
-          "airlines": "Philippine Airlines/Thai Airways",
-          "flights": "TG103 PR733 PR211",
-          "depart": "2026-12-06 09:30",
-          "arrive": "2026-12-08 09:50",
-          "duration": "44h20m",
+          "airlines": "Thai Vietjet Air/VietJet Air",
+          "flights": "VZ119 VJ804 VJ085",
+          "depart": "2026-12-08 22:35",
+          "arrive": "2026-12-10 10:00",
+          "duration": "31h25m",
           "stops": 2,
-          "via": "BKK/MNL",
+          "via": "BKK/SGN",
           "self_transfer": true,
-          "checked_baggage": true,
-          "seats_left": 3,
+          "checked_baggage": false,
+          "seats_left": 5,
           "complete": true,
-          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-06&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
+          "url": "https://au.trip.com/flights/showfarefirst?dcity=cnx&acity=syd&ddate=2026-12-08&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       },
       "calendar": [
@@ -79,7 +79,7 @@
       ],
       "per_day": {
         "2026-12-08": {
-          "price": 401,
+          "price": 397,
           "airlines": "Scoot",
           "depart": "2026-12-08 12:05"
         },
@@ -96,7 +96,7 @@
       }
     },
     "d7c80b": {
-      "checked_at": "2026-11-14T10:02",
+      "checked_at": "2026-11-14T11:02",
       "status": "ok",
       "error": null,
       "best": {
@@ -167,8 +167,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-14T10:02:19",
+  "last_cycle": "2026-11-14T11:02:27",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [216, \"2026-12-06\", {\"connecting\": 216, \"self_transfer\": 292}, null], \"e591da\": [331, \"2026-12-06\", {\"connecting\": 331, \"self_transfer\": 596}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"d7c80b\": [216, \"2026-12-06\", {\"connecting\": 216, \"self_transfer\": 292}, null], \"e591da\": [331, \"2026-12-06\", {\"connecting\": 331, \"self_transfer\": 458}, null]}}"
 }
