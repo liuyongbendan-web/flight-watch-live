@@ -25,6 +25,7 @@ DEFAULTS = {
     "exclude": [],              # 不考虑的出发日
     "depart_slots": [],         # 出发时段 morning/afternoon/evening，空 = 不限
     "promo_code": "",           # 占位时在订票页填的优惠码（当天有活动时用）
+    "arrive_by": "",            # 最晚到达：YYYY-MM-DDTHH:MM（目的地当地时间），晚于它到的航班不算
     "snipe_at": "",             # 定时盯价：YYYY-MM-DDTHH:MM（悉尼时间），到点前后密集查价、达标立刻加急推送
     # 中转偏好：cheap = 只看最便宜；fast = 越快越好（限总时长/单次等待）；stopover = 在中转城市停留玩一玩
     "transfer_pref": "cheap",
@@ -84,6 +85,15 @@ def normalize(entry):
         except ValueError:
             raise ValueError(f"定时抢票时间格式不对：{snipe!r}")
     e["snipe_at"] = snipe
+    arrive_by = str(e.get("arrive_by") or "").strip()
+    if arrive_by:
+        try:
+            arrive_by = datetime.fromisoformat(arrive_by).strftime("%Y-%m-%dT%H:%M")
+        except ValueError:
+            raise ValueError(f"最晚到达时间格式不对：{arrive_by!r}")
+        if arrive_by[:10] < e["from"]:
+            raise ValueError("最晚到达早于最早出发日期")
+    e["arrive_by"] = arrive_by
 
     if e["transfer_pref"] not in TRANSFER_PREFS:
         e["transfer_pref"] = "cheap"
@@ -129,6 +139,11 @@ def city_airports(code):
 
 # 出发时段：起飞时刻（当地时间）落在 [start, end) 小时内
 SLOTS = {"morning": (0, 12), "afternoon": (12, 18), "evening": (18, 24)}
+
+
+def arrives_in_time(arrive, arrive_by):
+    """arrive 形如 '2026-12-07 10:00'（当地时间），arrive_by 为空表示不限。"""
+    return not arrive_by or not arrive or arrive.replace(" ", "T")[:16] <= arrive_by
 
 
 def in_slots(depart, slots):

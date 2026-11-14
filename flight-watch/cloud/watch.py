@@ -152,6 +152,8 @@ def qualifies(f, entry):
         return False
     if not watchlist.in_slots(f["depart"], entry.get("depart_slots")):
         return False
+    if not watchlist.arrives_in_time(f.get("arrive"), entry.get("arrive_by")):
+        return False
     if entry.get("transfer_pref") == "fast":
         if entry.get("max_duration_h") and (f.get("duration_min") or 1e9) > entry["max_duration_h"] * 60:
             return False
@@ -177,6 +179,8 @@ def by_category(data, entry, day):
         if f.get("price_total") is None or (entry["need_bag"] and not f.get("checked_baggage")):
             continue
         if not watchlist.in_slots(f["depart"], entry.get("depart_slots")):
+            continue
+        if not watchlist.arrives_in_time(f.get("arrive"), entry.get("arrive_by")):
             continue
         c = category(f)
         if c not in out or f["price_total"] < out[c]["price"]:
@@ -285,6 +289,8 @@ def _leg_ok(f, entry, first):
     if entry.get("need_bag") and not f.get("checked_baggage"):
         return False
     if first and not watchlist.in_slots(f["depart"], entry.get("depart_slots")):
+        return False
+    if not first and not watchlist.arrives_in_time(f.get("arrive"), entry.get("arrive_by")):
         return False
     return f.get("price_total") is not None
 
