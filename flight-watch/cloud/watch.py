@@ -785,6 +785,49 @@ def cloud_push_status():
         _cloud_fail("上传结果", e)
 
 
+# ── 按需酒店查询（Mac 代办）──────────────────────────────────
+# 聊天里的 Claude 往仓库写 flight-watch/query/request.json。机票由云端 flight-query.yml 查；
+# 酒店云端查不了（Trip.com 不给机房 IP 返回房源），由这台 Mac 每分钟看一次、用本机 tripcom-mcp 查完写回。
+
+QUERY_POLL_EVERY = 60
+HOTEL_KINDS = {"hotels": "search_hotels", "hotel_detail": "hotel_detail"}
+HOTEL_ARGS = ("city", "checkin", "checkout", "adults", "children", "rooms", "currency", "limit", "hotel_id", "city_id")
+
+
+def handle_hotel_query():
+    if CLOUD:
+        return
+    try:
+        import sync
+        qdir = os.path.join(sync.REPO, sync.SUB, "query")
+        sync._pull()
+        req = load_json(os.path.join(qdir, "request.json"), {})
+        res = load_json(os.path.join(qdir, "result.json"), {})
+        kind = req.get("kind")
+        if kind not in HOTEL_KINDS or not req.get("id") or res.get("id") == req["id"]:
+            return
+        out = {"id": req["id"], "kind": kind, "status": "error", "source": "mac",
+               "request": {k: v for k, v in req.items() if k != "id"}}
+        try:
+            args = {k: req[k] for k in HOTEL_ARGS if req.get(k) not in ("", None)}
+            if "limit" in args:
+                args["limit"] = max(1, min(int(args["limit"]), 40))
+            text = mcp_call(HOTEL_KINDS[kind], {**args, "detail": True})
+            marker = "--- 完整数据 ---"
+            out["text"] = text.split(marker, 1)[0].strip()
+            if marker in text:
+                out["data"] = json.loads(text.split(marker, 1)[1])
+            out["status"] = "ok"
+        except Exception as e:
+            out["error"] = f"{type(e).__name__}: {e}"
+        out["finished_at"] = datetime.now().isoformat(timespec="seconds")
+        save_json(os.path.join(qdir, "result.json"), out)
+        sync._push([os.path.join(sync.SUB, "query", "result.json")], "按需查询：酒店结果（Mac）")
+        log(f"按需酒店查询 {req['id']}：{out['status']} {out.get('error', '')}")
+    except Exception as e:
+        log(f"按需酒店查询出错: {type(e).__name__}: {e}")
+
+
 # ── 常驻 ────────────────────────────────────────────────────
 
 def heartbeat(**kv):
@@ -825,9 +868,13 @@ def main_loop():
         interval = watchlist.load()["settings"]["interval_minutes"] * 60
         deadline = time.time() + interval
         next_pull = time.time() + CLOUD_PULL_EVERY
+        next_query = 0
         while time.time() < deadline:
             time.sleep(15)
             heartbeat()
+            if time.time() >= next_query:
+                handle_hotel_query()
+                next_query = time.time() + QUERY_POLL_EVERY
             maybe_daily_report()
             for e in due_snipes():
                 run_snipe(e)

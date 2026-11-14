@@ -105,6 +105,11 @@ def main():
             req = json.load(f)
         out["id"], out["kind"] = req.get("id"), req.get("kind") or "flights"
         out["request"] = {k: v for k, v in req.items() if k != "id"}
+        if out["kind"] in ("hotels", "hotel_detail") and not os.environ.get("FW_QUERY_HOTELS"):
+            # Trip.com 不给云端机房返回酒店房源（2026-11-15 两次实测）。酒店由 Robin 的 Mac 代查
+            # （watch.py 的 handle_hotel_query），云端这里不写结果，免得抢先写一个 error。
+            print("酒店查询留给 Mac 处理")
+            return 0
         if out["kind"] not in KINDS:
             raise ValueError(f"kind 只能是 {list(KINDS)} 之一，收到 {out['kind']!r}")
         from tripcom.browser import BrowserWorker
