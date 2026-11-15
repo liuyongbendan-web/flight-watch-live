@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T15:11:53",
+  "updated": "2026-11-15T16:14:20",
   "entries": [
     {
       "origin": "TAO",
@@ -30,7 +30,7 @@
     }
   ],
   "settings": {
-    "interval_minutes": 30,
+    "interval_minutes": 60,
     "report_hour": 21
   }
 }
