@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-16T01:01:41",
+  "generated_at": "2026-11-16T02:01:49",
   "source": "cloud",
   "entries": {
     "1f0f10": {
-      "checked_at": "2026-11-16T01:01",
+      "checked_at": "2026-11-16T02:01",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-13",
-        "price": 401,
+        "price": 403,
         "currency": "AUD",
         "airlines": "Juneyao Airlines",
         "flights": "HO1076 HO1669",
@@ -27,7 +27,7 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-13",
-          "price": 401,
+          "price": 403,
           "currency": "AUD",
           "airlines": "Juneyao Airlines",
           "flights": "HO1076 HO1669",
@@ -45,7 +45,7 @@
         },
         "full_service": {
           "date": "2026-12-13",
-          "price": 401,
+          "price": 403,
           "currency": "AUD",
           "airlines": "Juneyao Airlines",
           "flights": "HO1076 HO1669",
@@ -70,15 +70,15 @@
       ],
       "per_day": {
         "2026-12-13": {
-          "price": 401,
+          "price": 403,
           "airlines": "Juneyao Airlines",
           "depart": "2026-12-13 13:50"
         }
       }
     }
   },
-  "last_cycle": "2026-11-16T01:01:40",
+  "last_cycle": "2026-11-16T02:01:49",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"1f0f10\": [401, \"2026-12-13\", {\"connecting\": 401, \"full_service\": 401}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"1f0f10\": [403, \"2026-12-13\", {\"connecting\": 403, \"full_service\": 403}, null]}}"
 }
