@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T10:49:34",
+  "updated": "2026-11-16T10:50:09",
   "entries": [
     {
       "origin": "TAO",
@@ -29,8 +29,8 @@
       "id": "1f0f10"
     },
     {
-      "origin": "CNX",
-      "destination": "SYD",
+      "origin": "SYD",
+      "destination": "CNX",
       "from": "2026-12-03",
       "to": "2026-12-03",
       "max_price": 480,
