@@ -5,3 +5,4 @@ checked_at,entry_id,route,kind,price,depart_date,airlines,flights
 2026-11-15T20:01,1f0f10,TAO-SYD,full_service,377,2026-12-13,Air China/Shandong Airlines,SC4657 CA173
 2026-11-15T21:01,1f0f10,TAO-SYD,full_service,377,2026-12-13,Air China,CA1576 CA173
 2026-11-15T22:01,1f0f10,TAO-SYD,full_service,377,2026-12-13,Air China,CA1576 CA173
+2026-11-15T23:01,1f0f10,TAO-SYD,full_service,377,2026-12-13,Air China,CA1576 CA173
