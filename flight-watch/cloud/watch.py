@@ -33,6 +33,7 @@ STATE = os.path.join(DATA, "state.json")
 SENT = os.path.join(DATA, "notify_sent.json")
 HEARTBEAT = os.path.join(HERE, "heartbeat.json")
 HISTORY = os.path.join(DATA, "history.csv")
+TYPES_HISTORY = os.path.join(DATA, "history_types.csv")   # 每轮廉航 / 全服务各自的最低价，日报画两条线用
 CLOUD_STALE = timedelta(hours=3)   # 云端超过 3 小时没更新，Mac 就接手推送
 CHECK_NOW = os.path.join(HERE, "check_now")
 LOG = os.path.join(HERE, "watch.log")
@@ -447,6 +448,25 @@ def record_history(entry, per_day):
                             b["checked_baggage"], "actual" if b["complete"] else "upper-bound", entry["id"]])
 
 
+TYPES_COLS = ["checked_at", "entry_id", "route", "kind", "price", "depart_date", "airlines", "flights"]
+
+
+def record_types(entry, by_type):
+    """每轮每条清单最多两行：kind = lcc（廉航）/ full_service（全服务），都按这条清单的中转条件筛过。"""
+    rows = [(k, by_type[k]) for k in ("lcc", "full_service") if by_type.get(k)]
+    if not rows:
+        return
+    new = not os.path.exists(TYPES_HISTORY)
+    with open(TYPES_HISTORY, "a", newline="") as f:
+        w = csv.writer(f)
+        if new:
+            w.writerow(TYPES_COLS)
+        now = datetime.now().isoformat(timespec="minutes")
+        for k, b in rows:
+            w.writerow([now, entry["id"], f"{entry['origin']}-{entry['destination']}", k, b["price"],
+                        b["date"], b["airlines"], b["flights"]])
+
+
 def cloud_alive():
     """云端在正常干活吗：仓库里的 status.json 是云端写的、且 3 小时内更新过。只在 Mac 上有意义。"""
     if CLOUD:
@@ -715,6 +735,7 @@ def check_once(verbose=False):
             continue
         week_low = recent_low(entry)      # 先取，再写入本轮记录
         record_history(entry, r["per_day"])
+        record_types(entry, r.get("by_type") or {})
         best = r.get("best")
         if verbose or best:
             log(f"{route} 最低 " + (f"A${best['price']} {best['date']} {best['airlines']}"

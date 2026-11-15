@@ -1,7 +1,7 @@
 name: flight-watch
 
 # 机票盯价云端：每小时查一次 Trip.com，跌破理想价推手机，每晚发日报，结果写回 flight-watch/ 给手机页面。
-# GitHub 自带的定时不准（实测会拖几小时），主触发靠 cron-job.org 每小时调 workflow_dispatch；
+# GitHub 自带的定时不准（实测会拖几小时），主触发靠 cron-job.org 每 30 分钟调 workflow_dispatch；
 # 下面的 schedule 只是兜底。代码由本机 flight-watch/cloud_sync.sh 推上来，别在这里直接改。
 on:
   schedule:
@@ -34,7 +34,7 @@ jobs:
       - uses: actions/checkout@v4
 
       # 限流：公开仓库不限分钟，这里只是防止定时和 cron-job.org 重复查，对 Trip.com 保持低频。
-      # 距离上次云端查价不足 50 分钟就跳过；手机「立即查价」(push) 和勾了 force 的手动运行不受限。
+      # 距离上次云端查价不足 20 分钟就跳过（cron-job.org 每 30 分钟触发一次）；手机「立即查价」(push) 和勾了 force 的手动运行不受限。
       - name: Guard
         id: guard
         env:
@@ -45,7 +45,7 @@ jobs:
           import json, os
           from datetime import datetime
           ev, force = os.environ["EVENT"], os.environ.get("FORCE") == "true"
-          limit = None if force else {"schedule": 50, "workflow_dispatch": 50}.get(ev)
+          limit = None if force else {"schedule": 20, "workflow_dispatch": 20}.get(ev)
           skip = False
           if limit:
               try:

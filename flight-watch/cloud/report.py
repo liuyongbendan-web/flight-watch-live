@@ -76,7 +76,38 @@ def load_series(entry, since, all_entries=()):
     return [(t, p, d) for t, (p, d) in sorted(best.items())]
 
 
-def summarize(entry, series, prev):
+KINDS = (("lcc", "廉航最低", "#D9730D"), ("full_service", "其他航司最低", "#1F4E79"))
+
+
+def load_kind_series(entry, since):
+    """{kind: [(查价时间, 价格, 描述)]}：每轮廉航 / 全服务各自的最低价（2026-11-15 起才有记录）。"""
+    out = defaultdict(list)
+    try:
+        with open(watch.TYPES_HISTORY) as f:
+            for r in csv.DictReader(f):
+                if r["entry_id"] != entry["id"]:
+                    continue
+                t = datetime.fromisoformat(r["checked_at"])
+                if t >= since:
+                    out[r["kind"]].append((t, float(r["price"]), f"{r['depart_date'][5:]} {r['airlines']}"))
+    except FileNotFoundError:
+        pass
+    return {k: sorted(v) for k, v in out.items()}
+
+
+def _segments(series):
+    """两次查价间隔超过 2.5 小时就断开，不画假连线。"""
+    segs, cur = [], [series[0]]
+    for a, b in zip(series, series[1:]):
+        if b[0] - a[0] > timedelta(hours=2.5):
+            segs.append(cur)
+            cur = []
+        cur.append(b)
+    segs.append(cur)
+    return segs
+
+
+def summarize(entry, series, prev, kinds=None):
     route = f"{entry['origin']}→{entry['destination']}"
     dates = entry["from"][5:] if entry["from"] == entry["to"] else f"{entry['from'][5:]}~{entry['to'][5:]}"
     head = f"{route} {dates}"
@@ -93,6 +124,9 @@ def summarize(entry, series, prev):
     ideal = entry.get("max_price")
     if ideal:
         line += f"｜理想价 {ideal:.0f}" + (" ✅ 已低于" if now_p <= ideal else f"，还差 {now_p - ideal:.0f}")
+    parts = [f"{label[:-2]} A${kinds[k][-1][1]:.0f}" for k, label, _ in KINDS if kinds and kinds.get(k)]
+    if parts:
+        line += "｜现在 " + " / ".join(parts)
     line += f"｜查到 {len(series)} 次"
     return line
 
@@ -119,25 +153,31 @@ def draw(entries, now):
             ax.text(0.5, 0.5, "过去 24 小时没有数据（Mac 可能在睡眠）", transform=ax.transAxes,
                     ha="center", va="center", color="#7B8794")
             continue
-        # 两次查价间隔超过 2.5 小时（Mac 睡着了）就断开，不画假连线
-        segs, cur = [], [series[0]]
-        for a, b in zip(series, series[1:]):
-            if b[0] - a[0] > timedelta(hours=2.5):
-                segs.append(cur)
-                cur = []
-            cur.append(b)
-        segs.append(cur)
-        for seg in segs:
-            ax.plot([t for t, _, _ in seg], [p for _, p, _ in seg], color="#1F4E79",
-                    linewidth=2, marker="o", markersize=3.5)
-        lo = min(series, key=lambda x: x[1])
-        ax.plot([lo[0]], [lo[1]], "o", color="#B86E00", markersize=8, zorder=5)
-        ax.annotate(f"最低 A${lo[1]:.0f}", (lo[0], lo[1]), textcoords="offset points",
-                    xytext=(6, -14), color="#B86E00", fontsize=9)
-        last = series[-1]
-        ax.annotate(f"A${last[1]:.0f}", (last[0], last[1]), textcoords="offset points",
-                    xytext=(6, 6), fontsize=10, fontweight="bold", color="#1F4E79")
-        vals = [p for _, p, _ in series] + ([ideal] if ideal else [])
+        kinds = entry.get("_kinds") or {}
+        if kinds:
+            for k, label, color in KINDS:
+                ks = kinds.get(k)
+                if not ks:
+                    continue
+                for i, seg in enumerate(_segments(ks)):
+                    ax.plot([t for t, _, _ in seg], [p for _, p, _ in seg], color=color, linewidth=2,
+                            marker="o", markersize=3.5, label=label if i == 0 else None)
+                ax.annotate(f"A${ks[-1][1]:.0f}", (ks[-1][0], ks[-1][1]), textcoords="offset points",
+                            xytext=(6, 6), fontsize=10, fontweight="bold", color=color)
+            ax.legend(loc="upper left", fontsize=9, frameon=False, ncol=2)
+        else:
+            for seg in _segments(series):
+                ax.plot([t for t, _, _ in seg], [p for _, p, _ in seg], color="#1F4E79",
+                        linewidth=2, marker="o", markersize=3.5)
+            last = series[-1]
+            ax.annotate(f"A${last[1]:.0f}", (last[0], last[1]), textcoords="offset points",
+                        xytext=(6, 6), fontsize=10, fontweight="bold", color="#1F4E79")
+        lo = min([x for v in kinds.values() for x in v] or series, key=lambda x: x[1])
+        ax.plot([lo[0]], [lo[1]], "o", markersize=10, markerfacecolor="none", markeredgecolor="#B3261E",
+                markeredgewidth=2, zorder=5)
+        ax.annotate(f"24h 最低 A${lo[1]:.0f}", (lo[0], lo[1]), textcoords="offset points",
+                    xytext=(6, -14), color="#B3261E", fontsize=9)
+        vals = [p for _, p, _ in series] + [p for v in kinds.values() for _, p, _ in v] + ([ideal] if ideal else [])
         pad = max(10, (max(vals) - min(vals)) * 0.25)
         ax.set_ylim(min(vals) - pad, max(vals) + pad)
         ax.set_ylabel("AUD")
@@ -166,8 +206,9 @@ def build(now=None):
     for e in entries:
         series = load_series(e, now - WINDOW, entries)
         prev = [x for x in load_series(e, now - 2 * WINDOW, entries) if x[0] < now - WINDOW]
-        rows.append((e, series))
-        lines.append(summarize(e, series, prev))
+        kinds = load_kind_series(e, now - WINDOW)
+        rows.append((dict(e, _kinds=kinds), series))
+        lines.append(summarize(e, series, prev, kinds))
     if rows:
         draw(rows, now)
     return lines
