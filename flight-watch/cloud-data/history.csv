@@ -4420,3 +4420,4 @@ checked_at,route,depart_date,price,airlines,flights,stops,self_transfer,checked_
 2026-11-16T04:01,TAO-SYD,2026-12-13,402,Juneyao Airlines,HO1076 HO1669,1,False,True,actual,1f0f10
 2026-11-16T05:01,TAO-SYD,2026-12-13,402,Juneyao Airlines,HO1076 HO1669,1,False,True,actual,1f0f10
 2026-11-16T06:01,TAO-SYD,2026-12-13,400,Juneyao Airlines,HO1076 HO1669,1,False,True,actual,1f0f10
+2026-11-16T07:01,TAO-SYD,2026-12-13,402,Juneyao Airlines,HO1076 HO1669,1,False,True,actual,1f0f10
