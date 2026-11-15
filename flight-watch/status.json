@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-16T07:01:24",
+  "generated_at": "2026-11-16T08:01:28",
   "source": "cloud",
   "entries": {
     "1f0f10": {
-      "checked_at": "2026-11-16T07:01",
+      "checked_at": "2026-11-16T08:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -65,7 +65,7 @@
       "calendar": [
         {
           "date": "2026-12-13",
-          "price": 308
+          "price": 291
         }
       ],
       "per_day": {
@@ -77,7 +77,7 @@
       }
     }
   },
-  "last_cycle": "2026-11-16T07:01:24",
+  "last_cycle": "2026-11-16T08:01:28",
   "last_error": null,
   "trip_ok": true,
   "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"1f0f10\": [402, \"2026-12-13\", {\"connecting\": 402, \"full_service\": 402}, null]}}"

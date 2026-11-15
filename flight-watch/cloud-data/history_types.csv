@@ -14,3 +14,4 @@ checked_at,entry_id,route,kind,price,depart_date,airlines,flights
 2026-11-16T05:01,1f0f10,TAO-SYD,full_service,402,2026-12-13,Juneyao Airlines,HO1076 HO1669
 2026-11-16T06:01,1f0f10,TAO-SYD,full_service,400,2026-12-13,Juneyao Airlines,HO1076 HO1669
 2026-11-16T07:01,1f0f10,TAO-SYD,full_service,402,2026-12-13,Juneyao Airlines,HO1076 HO1669
+2026-11-16T08:01,1f0f10,TAO-SYD,full_service,402,2026-12-13,Juneyao Airlines,HO1076 HO1669
