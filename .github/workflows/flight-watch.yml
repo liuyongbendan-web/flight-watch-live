@@ -34,7 +34,7 @@ jobs:
       - uses: actions/checkout@v4
 
       # 限流：公开仓库不限分钟，这里只是防止定时和 cron-job.org 重复查，对 Trip.com 保持低频。
-      # 距离上次云端查价不足 20 分钟就跳过（cron-job.org 每 30 分钟触发一次）；手机「立即查价」(push) 和勾了 force 的手动运行不受限。
+      # cron-job.org 每 30 分钟喊一次；距上次云端查价不足「查价间隔 − 10 分钟」就跳过（最少 20 分钟）；手机「立即查价」(push) 和勾了 force 的手动运行不受限。
       - name: Guard
         id: guard
         env:
@@ -45,7 +45,13 @@ jobs:
           import json, os
           from datetime import datetime
           ev, force = os.environ["EVENT"], os.environ.get("FORCE") == "true"
-          limit = None if force else {"schedule": 20, "workflow_dispatch": 20}.get(ev)
+          # 间隔跟着手机页面「设置 → 查价间隔」走（watchlist.json 的 interval_minutes），留 10 分钟余量
+          try:
+              every = int(json.load(open("flight-watch/watchlist.json"))["settings"]["interval_minutes"])
+          except Exception:
+              every = 60
+          gap = max(20, every - 10)
+          limit = None if force else {"schedule": gap, "workflow_dispatch": gap}.get(ev)
           skip = False
           if limit:
               try:
