@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-15T23:01:45",
+  "generated_at": "2026-11-16T00:01:53",
   "source": "cloud",
   "entries": {
     "1f0f10": {
-      "checked_at": "2026-11-15T23:01",
+      "checked_at": "2026-11-16T00:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -77,7 +77,7 @@
       }
     }
   },
-  "last_cycle": "2026-11-15T23:01:44",
+  "last_cycle": "2026-11-16T00:01:52",
   "last_error": null,
   "trip_ok": true,
   "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"1f0f10\": [377, \"2026-12-13\", {\"connecting\": 377, \"full_service\": 377}, null]}}"
