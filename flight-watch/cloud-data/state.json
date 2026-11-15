@@ -1,17 +1,17 @@
 {
   "entries": {
     "1f0f10": {
-      "checked_at": "2026-11-15T20:01",
+      "checked_at": "2026-11-15T21:01",
       "status": "ok",
       "best": {
         "date": "2026-12-13",
         "price": 377,
         "currency": "AUD",
-        "airlines": "Air China/Shandong Airlines",
-        "flights": "SC4657 CA173",
-        "depart": "2026-12-13 08:05",
+        "airlines": "Air China",
+        "flights": "CA1576 CA173",
+        "depart": "2026-12-13 11:25",
         "arrive": "2026-12-14 08:05",
-        "duration": "21h00m",
+        "duration": "17h40m",
         "stops": 1,
         "via": "PEK",
         "self_transfer": false,
@@ -26,11 +26,11 @@
           "date": "2026-12-13",
           "price": 377,
           "currency": "AUD",
-          "airlines": "Air China/Shandong Airlines",
-          "flights": "SC4657 CA173",
-          "depart": "2026-12-13 08:05",
+          "airlines": "Air China",
+          "flights": "CA1576 CA173",
+          "depart": "2026-12-13 11:25",
           "arrive": "2026-12-14 08:05",
-          "duration": "21h00m",
+          "duration": "17h40m",
           "stops": 1,
           "via": "PEK",
           "self_transfer": false,
@@ -44,7 +44,7 @@
       "calendar": [
         {
           "date": "2026-12-13",
-          "price": 309
+          "price": 308
         }
       ],
       "by_type": {
@@ -52,11 +52,11 @@
           "date": "2026-12-13",
           "price": 377,
           "currency": "AUD",
-          "airlines": "Air China/Shandong Airlines",
-          "flights": "SC4657 CA173",
-          "depart": "2026-12-13 08:05",
+          "airlines": "Air China",
+          "flights": "CA1576 CA173",
+          "depart": "2026-12-13 11:25",
           "arrive": "2026-12-14 08:05",
-          "duration": "21h00m",
+          "duration": "17h40m",
           "stops": 1,
           "via": "PEK",
           "self_transfer": false,
@@ -70,11 +70,11 @@
           "date": "2026-12-13",
           "price": 377,
           "currency": "AUD",
-          "airlines": "Air China/Shandong Airlines",
-          "flights": "SC4657 CA173",
-          "depart": "2026-12-13 08:05",
+          "airlines": "Air China",
+          "flights": "CA1576 CA173",
+          "depart": "2026-12-13 11:25",
           "arrive": "2026-12-14 08:05",
-          "duration": "21h00m",
+          "duration": "17h40m",
           "stops": 1,
           "via": "PEK",
           "self_transfer": false,
@@ -87,6 +87,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-15T20:01:50",
-  "report_sent": "2026-11-14"
+  "last_cycle": "2026-11-15T21:01:34",
+  "report_sent": "2026-11-15"
 }
