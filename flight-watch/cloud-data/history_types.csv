@@ -9,3 +9,4 @@ checked_at,entry_id,route,kind,price,depart_date,airlines,flights
 2026-11-16T00:01,1f0f10,TAO-SYD,full_service,377,2026-12-13,Air China,CA1576 CA173
 2026-11-16T01:01,1f0f10,TAO-SYD,full_service,401,2026-12-13,Juneyao Airlines,HO1076 HO1669
 2026-11-16T02:01,1f0f10,TAO-SYD,full_service,403,2026-12-13,Juneyao Airlines,HO1076 HO1669
+2026-11-16T03:01,1f0f10,TAO-SYD,full_service,402,2026-12-13,Juneyao Airlines,HO1076 HO1669
