@@ -1,7 +1,7 @@
 {
   "entries": {
     "1f0f10": {
-      "checked_at": "2026-11-16T20:01",
+      "checked_at": "2026-11-16T21:02",
       "status": "ok",
       "best": {
         "date": "2026-12-13",
@@ -87,11 +87,11 @@
       }
     },
     "a645b4": {
-      "checked_at": "2026-11-16T20:02",
+      "checked_at": "2026-11-16T21:02",
       "status": "ok",
       "best": {
         "date": "2026-12-03",
-        "price": 943,
+        "price": 944,
         "currency": "AUD",
         "airlines": "Scoot",
         "flights": "TR043 TR696",
@@ -110,7 +110,7 @@
       "per_day": {
         "2026-12-03": {
           "date": "2026-12-03",
-          "price": 943,
+          "price": 944,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR043 TR696",
@@ -136,7 +136,7 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-03",
-          "price": 943,
+          "price": 944,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR043 TR696",
@@ -154,7 +154,7 @@
         },
         "lcc": {
           "date": "2026-12-03",
-          "price": 943,
+          "price": 944,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR043 TR696",
@@ -190,7 +190,7 @@
         },
         "self_transfer": {
           "date": "2026-12-03",
-          "price": 1707,
+          "price": 1708,
           "currency": "AUD",
           "airlines": "AirAsia Berhad (Malaysia)/Malaysia Airlines",
           "flights": "MH140 AK854",
@@ -209,6 +209,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-16T20:02:10",
-  "report_sent": "2026-11-15"
+  "last_cycle": "2026-11-16T21:02:29",
+  "report_sent": "2026-11-16"
 }
