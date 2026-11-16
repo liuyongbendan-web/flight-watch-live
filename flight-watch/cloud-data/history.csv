@@ -4459,3 +4459,5 @@ checked_at,route,depart_date,price,airlines,flights,stops,self_transfer,checked_
 2026-11-17T03:01,SYD-CNX,2026-12-03,965,Scoot,TR043 TR696,1,False,False,actual,a645b4
 2026-11-17T04:01,TAO-SYD,2026-12-13,378,Air China,CA1576 CA173,1,False,True,actual,1f0f10
 2026-11-17T04:01,SYD-CNX,2026-12-03,952,Scoot,TR043 TR696,1,False,False,actual,a645b4
+2026-11-17T05:01,TAO-SYD,2026-12-13,378,Air China,CA1576 CA173,1,False,True,actual,1f0f10
+2026-11-17T05:02,SYD-CNX,2026-12-03,952,Scoot,TR043 TR696,1,False,False,actual,a645b4
