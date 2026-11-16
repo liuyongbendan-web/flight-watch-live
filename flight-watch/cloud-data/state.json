@@ -1,7 +1,7 @@
 {
   "entries": {
     "1f0f10": {
-      "checked_at": "2026-11-16T18:01",
+      "checked_at": "2026-11-16T19:01",
       "status": "ok",
       "best": {
         "date": "2026-12-13",
@@ -87,7 +87,7 @@
       }
     },
     "a645b4": {
-      "checked_at": "2026-11-16T18:01",
+      "checked_at": "2026-11-16T19:02",
       "status": "ok",
       "best": {
         "date": "2026-12-03",
@@ -130,7 +130,7 @@
       "calendar": [
         {
           "date": "2026-12-03",
-          "price": 716
+          "price": 713
         }
       ],
       "by_type": {
@@ -172,7 +172,7 @@
         },
         "full_service": {
           "date": "2026-12-03",
-          "price": 1314,
+          "price": 1317,
           "currency": "AUD",
           "airlines": "Singapore Airlines",
           "flights": "SQ242 SQ8686",
@@ -190,7 +190,7 @@
         },
         "self_transfer": {
           "date": "2026-12-03",
-          "price": 1703,
+          "price": 1702,
           "currency": "AUD",
           "airlines": "AirAsia Berhad (Malaysia)/Malaysia Airlines",
           "flights": "MH140 AK854",
@@ -209,6 +209,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-16T18:01:50",
+  "last_cycle": "2026-11-16T19:02:11",
   "report_sent": "2026-11-15"
 }
