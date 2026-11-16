@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-17T09:01:55",
+  "generated_at": "2026-11-17T10:02:00",
   "source": "cloud",
   "entries": {
     "1f0f10": {
-      "checked_at": "2026-11-17T09:01",
+      "checked_at": "2026-11-17T10:01",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-13",
-        "price": 378,
+        "price": 402,
         "currency": "AUD",
-        "airlines": "Air China",
-        "flights": "CA1576 CA173",
-        "depart": "2026-12-13 11:25",
-        "arrive": "2026-12-14 08:05",
-        "duration": "17h40m",
+        "airlines": "Juneyao Airlines",
+        "flights": "HO1076 HO1669",
+        "depart": "2026-12-13 13:50",
+        "arrive": "2026-12-14 06:50",
+        "duration": "14h00m",
         "stops": 1,
-        "via": "PEK",
+        "via": "PVG",
         "self_transfer": false,
         "checked_baggage": true,
-        "seats_left": 9,
+        "seats_left": 8,
         "budget": false,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=tao&acity=syd&ddate=2026-12-13&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
@@ -27,36 +27,36 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-13",
-          "price": 378,
+          "price": 402,
           "currency": "AUD",
-          "airlines": "Air China",
-          "flights": "CA1576 CA173",
-          "depart": "2026-12-13 11:25",
-          "arrive": "2026-12-14 08:05",
-          "duration": "17h40m",
+          "airlines": "Juneyao Airlines",
+          "flights": "HO1076 HO1669",
+          "depart": "2026-12-13 13:50",
+          "arrive": "2026-12-14 06:50",
+          "duration": "14h00m",
           "stops": 1,
-          "via": "PEK",
+          "via": "PVG",
           "self_transfer": false,
           "checked_baggage": true,
-          "seats_left": 9,
+          "seats_left": 8,
           "budget": false,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=tao&acity=syd&ddate=2026-12-13&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "full_service": {
           "date": "2026-12-13",
-          "price": 378,
+          "price": 402,
           "currency": "AUD",
-          "airlines": "Air China",
-          "flights": "CA1576 CA173",
-          "depart": "2026-12-13 11:25",
-          "arrive": "2026-12-14 08:05",
-          "duration": "17h40m",
+          "airlines": "Juneyao Airlines",
+          "flights": "HO1076 HO1669",
+          "depart": "2026-12-13 13:50",
+          "arrive": "2026-12-14 06:50",
+          "duration": "14h00m",
           "stops": 1,
-          "via": "PEK",
+          "via": "PVG",
           "self_transfer": false,
           "checked_baggage": true,
-          "seats_left": 9,
+          "seats_left": 8,
           "budget": false,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=tao&acity=syd&ddate=2026-12-13&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
@@ -70,14 +70,14 @@
       ],
       "per_day": {
         "2026-12-13": {
-          "price": 378,
-          "airlines": "Air China",
-          "depart": "2026-12-13 11:25"
+          "price": 402,
+          "airlines": "Juneyao Airlines",
+          "depart": "2026-12-13 13:50"
         }
       }
     },
     "a645b4": {
-      "checked_at": "2026-11-17T09:01",
+      "checked_at": "2026-11-17T10:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -135,6 +135,24 @@
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
+        "self_transfer": {
+          "date": "2026-12-03",
+          "price": 1398,
+          "currency": "AUD",
+          "airlines": "Scoot/Turkish Airlines",
+          "flights": "TK023 TR696",
+          "depart": "2026-12-03 21:35",
+          "arrive": "2026-12-04 11:05",
+          "duration": "17h30m",
+          "stops": 1,
+          "via": "SIN",
+          "self_transfer": true,
+          "checked_baggage": false,
+          "seats_left": 1,
+          "budget": true,
+          "complete": true,
+          "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
+        },
         "full_service": {
           "date": "2026-12-03",
           "price": 1709,
@@ -150,24 +168,6 @@
           "checked_baggage": true,
           "seats_left": 9,
           "budget": false,
-          "complete": true,
-          "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
-        },
-        "self_transfer": {
-          "date": "2026-12-03",
-          "price": 1725,
-          "currency": "AUD",
-          "airlines": "AirAsia Berhad (Malaysia)/Malaysia Airlines",
-          "flights": "MH140 AK854",
-          "depart": "2026-12-03 22:15",
-          "arrive": "2026-12-04 08:40",
-          "duration": "14h25m",
-          "stops": 1,
-          "via": "KUL",
-          "self_transfer": true,
-          "checked_baggage": false,
-          "seats_left": 9,
-          "budget": true,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
@@ -187,8 +187,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-17T09:01:55",
+  "last_cycle": "2026-11-17T10:02:00",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"1f0f10\": [378, \"2026-12-13\", {\"connecting\": 378, \"full_service\": 378}, null], \"a645b4\": [878, \"2026-12-03\", {\"connecting\": 878, \"full_service\": 1709, \"lcc\": 878, \"self_transfer\": 1725}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"1f0f10\": [402, \"2026-12-13\", {\"connecting\": 402, \"full_service\": 402}, null], \"a645b4\": [878, \"2026-12-03\", {\"connecting\": 878, \"full_service\": 1709, \"lcc\": 878, \"self_transfer\": 1398}, null]}}"
 }
