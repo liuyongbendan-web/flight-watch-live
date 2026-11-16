@@ -4431,3 +4431,5 @@ checked_at,route,depart_date,price,airlines,flights,stops,self_transfer,checked_
 2026-11-16T13:01,SYD-CNX,2026-12-03,942,Scoot,TR043 TR696,1,False,False,actual,a645b4
 2026-11-16T14:01,TAO-SYD,2026-12-13,396,Juneyao Airlines,HO1076 HO1669,1,False,True,actual,1f0f10
 2026-11-16T14:02,SYD-CNX,2026-12-03,941,Scoot,TR043 TR696,1,False,False,actual,a645b4
+2026-11-16T15:01,TAO-SYD,2026-12-13,380,Air China/Shandong Airlines,SC4657 CA173,1,False,True,actual,1f0f10
+2026-11-16T15:01,SYD-CNX,2026-12-03,942,Scoot,TR043 TR696,1,False,False,actual,a645b4
