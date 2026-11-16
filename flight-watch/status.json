@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-16T23:02:13",
+  "generated_at": "2026-11-17T00:02:29",
   "source": "cloud",
   "entries": {
     "1f0f10": {
-      "checked_at": "2026-11-16T23:01",
+      "checked_at": "2026-11-17T00:02",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-13",
-        "price": 381,
+        "price": 397,
         "currency": "AUD",
-        "airlines": "Air China",
-        "flights": "CA1576 CA173",
-        "depart": "2026-12-13 11:25",
-        "arrive": "2026-12-14 08:05",
-        "duration": "17h40m",
+        "airlines": "Juneyao Airlines",
+        "flights": "HO1076 HO1669",
+        "depart": "2026-12-13 13:50",
+        "arrive": "2026-12-14 06:50",
+        "duration": "14h00m",
         "stops": 1,
-        "via": "PEK",
+        "via": "PVG",
         "self_transfer": false,
         "checked_baggage": true,
-        "seats_left": 9,
+        "seats_left": 8,
         "budget": false,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=tao&acity=syd&ddate=2026-12-13&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
@@ -27,36 +27,36 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-13",
-          "price": 381,
+          "price": 397,
           "currency": "AUD",
-          "airlines": "Air China",
-          "flights": "CA1576 CA173",
-          "depart": "2026-12-13 11:25",
-          "arrive": "2026-12-14 08:05",
-          "duration": "17h40m",
+          "airlines": "Juneyao Airlines",
+          "flights": "HO1076 HO1669",
+          "depart": "2026-12-13 13:50",
+          "arrive": "2026-12-14 06:50",
+          "duration": "14h00m",
           "stops": 1,
-          "via": "PEK",
+          "via": "PVG",
           "self_transfer": false,
           "checked_baggage": true,
-          "seats_left": 9,
+          "seats_left": 8,
           "budget": false,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=tao&acity=syd&ddate=2026-12-13&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "full_service": {
           "date": "2026-12-13",
-          "price": 381,
+          "price": 397,
           "currency": "AUD",
-          "airlines": "Air China",
-          "flights": "CA1576 CA173",
-          "depart": "2026-12-13 11:25",
-          "arrive": "2026-12-14 08:05",
-          "duration": "17h40m",
+          "airlines": "Juneyao Airlines",
+          "flights": "HO1076 HO1669",
+          "depart": "2026-12-13 13:50",
+          "arrive": "2026-12-14 06:50",
+          "duration": "14h00m",
           "stops": 1,
-          "via": "PEK",
+          "via": "PVG",
           "self_transfer": false,
           "checked_baggage": true,
-          "seats_left": 9,
+          "seats_left": 8,
           "budget": false,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=tao&acity=syd&ddate=2026-12-13&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
@@ -70,19 +70,19 @@
       ],
       "per_day": {
         "2026-12-13": {
-          "price": 381,
-          "airlines": "Air China",
-          "depart": "2026-12-13 11:25"
+          "price": 397,
+          "airlines": "Juneyao Airlines",
+          "depart": "2026-12-13 13:50"
         }
       }
     },
     "a645b4": {
-      "checked_at": "2026-11-16T23:02",
+      "checked_at": "2026-11-17T00:02",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-03",
-        "price": 954,
+        "price": 941,
         "currency": "AUD",
         "airlines": "Scoot",
         "flights": "TR043 TR696",
@@ -93,7 +93,7 @@
         "via": "SIN",
         "self_transfer": false,
         "checked_baggage": false,
-        "seats_left": 9,
+        "seats_left": 1,
         "budget": true,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
@@ -101,7 +101,7 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-03",
-          "price": 954,
+          "price": 941,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR043 TR696",
@@ -112,14 +112,14 @@
           "via": "SIN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 9,
+          "seats_left": 1,
           "budget": true,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "lcc": {
           "date": "2026-12-03",
-          "price": 954,
+          "price": 941,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR043 TR696",
@@ -130,7 +130,7 @@
           "via": "SIN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 9,
+          "seats_left": 1,
           "budget": true,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
@@ -155,7 +155,7 @@
         },
         "self_transfer": {
           "date": "2026-12-03",
-          "price": 1707,
+          "price": 1708,
           "currency": "AUD",
           "airlines": "AirAsia Berhad (Malaysia)/Malaysia Airlines",
           "flights": "MH140 AK854",
@@ -175,20 +175,20 @@
       "calendar": [
         {
           "date": "2026-12-03",
-          "price": 713
+          "price": 714
         }
       ],
       "per_day": {
         "2026-12-03": {
-          "price": 954,
+          "price": 941,
           "airlines": "Scoot",
           "depart": "2026-12-03 20:05"
         }
       }
     }
   },
-  "last_cycle": "2026-11-16T23:02:13",
+  "last_cycle": "2026-11-17T00:02:29",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"1f0f10\": [381, \"2026-12-13\", {\"connecting\": 381, \"full_service\": 381}, null], \"a645b4\": [954, \"2026-12-03\", {\"connecting\": 954, \"full_service\": 1689, \"lcc\": 954, \"self_transfer\": 1707}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"1f0f10\": [397, \"2026-12-13\", {\"connecting\": 397, \"full_service\": 397}, null], \"a645b4\": [941, \"2026-12-03\", {\"connecting\": 941, \"full_service\": 1689, \"lcc\": 941, \"self_transfer\": 1708}, null]}}"
 }
