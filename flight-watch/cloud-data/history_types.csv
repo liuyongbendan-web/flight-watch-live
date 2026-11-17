@@ -129,3 +129,6 @@ checked_at,entry_id,route,kind,price,depart_date,airlines,flights
 2026-11-18T00:02,1f0f10,TAO-SYD,full_service,380,2026-12-13,Air China,CA1576 CA173
 2026-11-18T00:02,a645b4,SYD-CNX,lcc,954,2026-12-03,Scoot,TR043 TR696
 2026-11-18T00:02,a645b4,SYD-CNX,full_service,1649,2026-12-03,China Eastern Airlines,MU736 MU205
+2026-11-18T01:02,1f0f10,TAO-SYD,full_service,405,2026-12-13,Juneyao Airlines,HO1076 HO1669
+2026-11-18T01:02,a645b4,SYD-CNX,lcc,943,2026-12-03,Scoot,TR043 TR696
+2026-11-18T01:02,a645b4,SYD-CNX,full_service,1649,2026-12-03,China Eastern Airlines,MU736 MU205
