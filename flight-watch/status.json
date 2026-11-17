@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-17T13:02:13",
+  "generated_at": "2026-11-17T14:02:02",
   "source": "cloud",
   "entries": {
     "1f0f10": {
-      "checked_at": "2026-11-17T13:01",
+      "checked_at": "2026-11-17T14:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -77,7 +77,7 @@
       }
     },
     "a645b4": {
-      "checked_at": "2026-11-17T13:02",
+      "checked_at": "2026-11-17T14:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -137,19 +137,19 @@
         },
         "self_transfer": {
           "date": "2026-12-03",
-          "price": 1685,
+          "price": 1003,
           "currency": "AUD",
-          "airlines": "AirAsia Berhad (Malaysia)/Malaysia Airlines",
-          "flights": "MH140 AK854",
-          "depart": "2026-12-03 22:15",
-          "arrive": "2026-12-04 08:40",
-          "duration": "14h25m",
-          "stops": 1,
-          "via": "KUL",
+          "airlines": "Bangkok Airways/Hainan Airlines",
+          "flights": "HU776 HU7939 PG219",
+          "depart": "2026-12-03 21:00",
+          "arrive": "2026-12-04 19:00",
+          "duration": "26h00m",
+          "stops": 2,
+          "via": "HAK/BKK",
           "self_transfer": true,
-          "checked_baggage": false,
-          "seats_left": 9,
-          "budget": true,
+          "checked_baggage": true,
+          "seats_left": 8,
+          "budget": false,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
@@ -175,7 +175,7 @@
       "calendar": [
         {
           "date": "2026-12-03",
-          "price": 721
+          "price": 713
         }
       ],
       "per_day": {
@@ -187,8 +187,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-17T13:02:13",
+  "last_cycle": "2026-11-17T14:02:02",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"1f0f10\": [378, \"2026-12-13\", {\"connecting\": 378, \"full_service\": 378}, null], \"a645b4\": [940, \"2026-12-03\", {\"connecting\": 940, \"full_service\": 1689, \"lcc\": 940, \"self_transfer\": 1685}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"1f0f10\": [378, \"2026-12-13\", {\"connecting\": 378, \"full_service\": 378}, null], \"a645b4\": [940, \"2026-12-03\", {\"connecting\": 940, \"full_service\": 1689, \"lcc\": 940, \"self_transfer\": 1003}, null]}}"
 }
