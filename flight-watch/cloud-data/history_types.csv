@@ -90,3 +90,6 @@ checked_at,entry_id,route,kind,price,depart_date,airlines,flights
 2026-11-17T11:01,1f0f10,TAO-SYD,full_service,379,2026-12-13,Air China,CA1576 CA173
 2026-11-17T11:02,a645b4,SYD-CNX,lcc,965,2026-12-03,Scoot,TR043 TR696
 2026-11-17T11:02,a645b4,SYD-CNX,full_service,1709,2026-12-03,Singapore Airlines,SQ262 SQ8686
+2026-11-17T12:01,1f0f10,TAO-SYD,full_service,379,2026-12-13,Air China,CA1576 CA173
+2026-11-17T12:01,a645b4,SYD-CNX,lcc,951,2026-12-03,Scoot,TR043 TR696
+2026-11-17T12:01,a645b4,SYD-CNX,full_service,1709,2026-12-03,Singapore Airlines,SQ262 SQ8686
