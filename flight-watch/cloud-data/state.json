@@ -1,11 +1,11 @@
 {
   "entries": {
     "1f0f10": {
-      "checked_at": "2026-11-17T23:01",
+      "checked_at": "2026-11-18T00:02",
       "status": "ok",
       "best": {
         "date": "2026-12-13",
-        "price": 379,
+        "price": 380,
         "currency": "AUD",
         "airlines": "Air China",
         "flights": "CA1576 CA173",
@@ -24,7 +24,7 @@
       "per_day": {
         "2026-12-13": {
           "date": "2026-12-13",
-          "price": 379,
+          "price": 380,
           "currency": "AUD",
           "airlines": "Air China",
           "flights": "CA1576 CA173",
@@ -50,7 +50,7 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-13",
-          "price": 379,
+          "price": 380,
           "currency": "AUD",
           "airlines": "Air China",
           "flights": "CA1576 CA173",
@@ -68,7 +68,7 @@
         },
         "full_service": {
           "date": "2026-12-13",
-          "price": 379,
+          "price": 380,
           "currency": "AUD",
           "airlines": "Air China",
           "flights": "CA1576 CA173",
@@ -87,7 +87,7 @@
       }
     },
     "a645b4": {
-      "checked_at": "2026-11-17T23:01",
+      "checked_at": "2026-11-18T00:02",
       "status": "ok",
       "best": {
         "date": "2026-12-03",
@@ -130,7 +130,7 @@
       "calendar": [
         {
           "date": "2026-12-03",
-          "price": 713
+          "price": 714
         }
       ],
       "by_type": {
@@ -190,7 +190,7 @@
         },
         "self_transfer": {
           "date": "2026-12-03",
-          "price": 1686,
+          "price": 1688,
           "currency": "AUD",
           "airlines": "AirAsia Berhad (Malaysia)/Malaysia Airlines",
           "flights": "MH140 AK854",
@@ -209,6 +209,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-17T23:01:57",
+  "last_cycle": "2026-11-18T00:02:36",
   "report_sent": "2026-11-17"
 }
