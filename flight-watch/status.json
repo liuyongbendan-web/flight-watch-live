@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-18T14:04:35",
+  "generated_at": "2026-11-18T15:02:02",
   "source": "cloud",
   "entries": {
     "1f0f10": {
-      "checked_at": "2026-11-18T14:04",
+      "checked_at": "2026-11-18T15:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -65,7 +65,7 @@
       "calendar": [
         {
           "date": "2026-12-13",
-          "price": 310
+          "price": 311
         }
       ],
       "per_day": {
@@ -77,12 +77,12 @@
       }
     },
     "a645b4": {
-      "checked_at": "2026-11-18T14:04",
+      "checked_at": "2026-11-18T15:01",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-03",
-        "price": 933,
+        "price": 932,
         "currency": "AUD",
         "airlines": "Scoot",
         "flights": "TR043 TR696",
@@ -99,27 +99,9 @@
         "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
       },
       "by_type": {
-        "self_transfer": {
-          "date": "2026-12-03",
-          "price": 884,
-          "currency": "AUD",
-          "airlines": "Scoot/Thai Vietjet Air",
-          "flights": "TR043 TR658 VZ417",
-          "depart": "2026-12-03 20:05",
-          "arrive": "2026-12-04 15:40",
-          "duration": "23h35m",
-          "stops": 2,
-          "via": "SIN/HKT",
-          "self_transfer": true,
-          "checked_baggage": false,
-          "seats_left": 2,
-          "budget": true,
-          "complete": true,
-          "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
-        },
         "connecting": {
           "date": "2026-12-03",
-          "price": 933,
+          "price": 932,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR043 TR696",
@@ -137,7 +119,7 @@
         },
         "lcc": {
           "date": "2026-12-03",
-          "price": 933,
+          "price": 932,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR043 TR696",
@@ -155,7 +137,7 @@
         },
         "full_service": {
           "date": "2026-12-03",
-          "price": 1314,
+          "price": 1317,
           "currency": "AUD",
           "airlines": "Singapore Airlines",
           "flights": "SQ242 SQ8686",
@@ -180,15 +162,15 @@
       ],
       "per_day": {
         "2026-12-03": {
-          "price": 933,
+          "price": 932,
           "airlines": "Scoot",
           "depart": "2026-12-03 20:05"
         }
       }
     }
   },
-  "last_cycle": "2026-11-18T14:04:35",
+  "last_cycle": "2026-11-18T15:02:02",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"1f0f10\": [381, \"2026-12-13\", {\"connecting\": 381, \"full_service\": 381}, null], \"a645b4\": [933, \"2026-12-03\", {\"connecting\": 933, \"full_service\": 1314, \"lcc\": 933, \"self_transfer\": 884}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"1f0f10\": [381, \"2026-12-13\", {\"connecting\": 381, \"full_service\": 381}, null], \"a645b4\": [932, \"2026-12-03\", {\"connecting\": 932, \"full_service\": 1317, \"lcc\": 932}, null]}}"
 }
