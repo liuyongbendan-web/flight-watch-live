@@ -1,7 +1,7 @@
 {
   "entries": {
     "1f0f10": {
-      "checked_at": "2026-11-18T21:04",
+      "checked_at": "2026-11-18T22:01",
       "status": "ok",
       "best": {
         "date": "2026-12-13",
@@ -44,7 +44,7 @@
       "calendar": [
         {
           "date": "2026-12-13",
-          "price": 311
+          "price": 291
         }
       ],
       "by_type": {
@@ -87,11 +87,11 @@
       }
     },
     "a645b4": {
-      "checked_at": "2026-11-18T21:05",
+      "checked_at": "2026-11-18T22:01",
       "status": "ok",
       "best": {
         "date": "2026-12-03",
-        "price": 954,
+        "price": 928,
         "currency": "AUD",
         "airlines": "Scoot",
         "flights": "TR043 TR696",
@@ -102,7 +102,7 @@
         "via": "SIN",
         "self_transfer": false,
         "checked_baggage": false,
-        "seats_left": 9,
+        "seats_left": 1,
         "budget": true,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
@@ -110,7 +110,7 @@
       "per_day": {
         "2026-12-03": {
           "date": "2026-12-03",
-          "price": 954,
+          "price": 928,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR043 TR696",
@@ -121,7 +121,7 @@
           "via": "SIN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 9,
+          "seats_left": 1,
           "budget": true,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
@@ -130,13 +130,13 @@
       "calendar": [
         {
           "date": "2026-12-03",
-          "price": 716
+          "price": 714
         }
       ],
       "by_type": {
         "connecting": {
           "date": "2026-12-03",
-          "price": 954,
+          "price": 928,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR043 TR696",
@@ -147,14 +147,14 @@
           "via": "SIN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 9,
+          "seats_left": 1,
           "budget": true,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "lcc": {
           "date": "2026-12-03",
-          "price": 954,
+          "price": 928,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR043 TR696",
@@ -165,14 +165,32 @@
           "via": "SIN",
           "self_transfer": false,
           "checked_baggage": false,
-          "seats_left": 9,
+          "seats_left": 1,
+          "budget": true,
+          "complete": true,
+          "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
+        },
+        "self_transfer": {
+          "date": "2026-12-03",
+          "price": 965,
+          "currency": "AUD",
+          "airlines": "Scoot",
+          "flights": "TR043 TR698",
+          "depart": "2026-12-03 20:05",
+          "arrive": "2026-12-04 15:40",
+          "duration": "23h35m",
+          "stops": 1,
+          "via": "SIN",
+          "self_transfer": true,
+          "checked_baggage": false,
+          "seats_left": 1,
           "budget": true,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "full_service": {
           "date": "2026-12-03",
-          "price": 1220,
+          "price": 1221,
           "currency": "AUD",
           "airlines": "China Southern Airlines",
           "flights": "CZ302 CZ3033",
@@ -187,29 +205,10 @@
           "budget": false,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
-        },
-        "self_transfer": {
-          "date": "2026-12-03",
-          "price": 1708,
-          "currency": "AUD",
-          "airlines": "AirAsia Berhad (Malaysia)/Malaysia Airlines",
-          "flights": "MH140 AK854",
-          "depart": "2026-12-03 22:15",
-          "arrive": "2026-12-04 08:40",
-          "duration": "14h25m",
-          "stops": 1,
-          "via": "KUL",
-          "self_transfer": true,
-          "checked_baggage": false,
-          "seats_left": 9,
-          "budget": true,
-          "complete": true,
-          "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
-      },
-      "error": "45s 内没等到航班数据（收到 0 个 SSE 响应，页面标题: ''）。可能是被风控拦了、该日期无航班，或页面结构变了。"
+      }
     }
   },
-  "last_cycle": "2026-11-18T21:05:28",
+  "last_cycle": "2026-11-18T22:01:59",
   "report_sent": "2026-11-18"
 }
