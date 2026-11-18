@@ -193,3 +193,6 @@ checked_at,entry_id,route,kind,price,depart_date,airlines,flights
 2026-11-18T22:01,1f0f10,TAO-SYD,full_service,381,2026-12-13,Air China,CA1576 CA173
 2026-11-18T22:01,a645b4,SYD-CNX,lcc,928,2026-12-03,Scoot,TR043 TR696
 2026-11-18T22:01,a645b4,SYD-CNX,full_service,1221,2026-12-03,China Southern Airlines,CZ302 CZ3033
+2026-11-18T23:04,1f0f10,TAO-SYD,full_service,381,2026-12-13,Air China,CA1576 CA173
+2026-11-18T23:05,a645b4,SYD-CNX,lcc,919,2026-12-03,Scoot,TR043 TR698
+2026-11-18T23:05,a645b4,SYD-CNX,full_service,1221,2026-12-03,China Southern Airlines,CZ302 CZ3033
