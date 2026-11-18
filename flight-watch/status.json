@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-18T09:57:28",
+  "generated_at": "2026-11-18T11:03:56",
   "source": "cloud",
   "entries": {
     "1f0f10": {
-      "checked_at": "2026-11-18T09:57",
+      "checked_at": "2026-11-18T11:03",
       "status": "ok",
       "error": null,
       "best": {
@@ -65,7 +65,7 @@
       "calendar": [
         {
           "date": "2026-12-13",
-          "price": 310
+          "price": 309
         }
       ],
       "per_day": {
@@ -77,12 +77,12 @@
       }
     },
     "a645b4": {
-      "checked_at": "2026-11-18T09:57",
+      "checked_at": "2026-11-18T11:03",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-03",
-        "price": 933,
+        "price": 932,
         "currency": "AUD",
         "airlines": "Scoot",
         "flights": "TR043 TR696",
@@ -101,7 +101,7 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-03",
-          "price": 933,
+          "price": 932,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR043 TR696",
@@ -119,7 +119,7 @@
         },
         "lcc": {
           "date": "2026-12-03",
-          "price": 933,
+          "price": 932,
           "currency": "AUD",
           "airlines": "Scoot",
           "flights": "TR043 TR696",
@@ -135,9 +135,27 @@
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
+        "full_service": {
+          "date": "2026-12-03",
+          "price": 1314,
+          "currency": "AUD",
+          "airlines": "Singapore Airlines",
+          "flights": "SQ242 SQ8686",
+          "depart": "2026-12-03 19:10",
+          "arrive": "2026-12-04 11:05",
+          "duration": "19h55m",
+          "stops": 1,
+          "via": "SIN",
+          "self_transfer": false,
+          "checked_baggage": true,
+          "seats_left": 9,
+          "budget": false,
+          "complete": true,
+          "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
+        },
         "self_transfer": {
           "date": "2026-12-03",
-          "price": 1366,
+          "price": 1355,
           "currency": "AUD",
           "airlines": "Scoot/Turkish Airlines",
           "flights": "TK023 TR696",
@@ -152,43 +170,25 @@
           "budget": true,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
-        },
-        "full_service": {
-          "date": "2026-12-03",
-          "price": 1649,
-          "currency": "AUD",
-          "airlines": "China Eastern Airlines",
-          "flights": "MU736 MU205",
-          "depart": "2026-12-03 21:30",
-          "arrive": "2026-12-04 14:20",
-          "duration": "20h50m",
-          "stops": 1,
-          "via": "PVG",
-          "self_transfer": false,
-          "checked_baggage": true,
-          "seats_left": 9,
-          "budget": false,
-          "complete": true,
-          "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       },
       "calendar": [
         {
           "date": "2026-12-03",
-          "price": 714
+          "price": 713
         }
       ],
       "per_day": {
         "2026-12-03": {
-          "price": 933,
+          "price": 932,
           "airlines": "Scoot",
           "depart": "2026-12-03 20:05"
         }
       }
     }
   },
-  "last_cycle": "2026-11-18T09:57:28",
+  "last_cycle": "2026-11-18T11:03:56",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"1f0f10\": [378, \"2026-12-13\", {\"connecting\": 378, \"full_service\": 378}, null], \"a645b4\": [933, \"2026-12-03\", {\"connecting\": 933, \"full_service\": 1649, \"lcc\": 933, \"self_transfer\": 1366}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"1f0f10\": [378, \"2026-12-13\", {\"connecting\": 378, \"full_service\": 378}, null], \"a645b4\": [932, \"2026-12-03\", {\"connecting\": 932, \"full_service\": 1314, \"lcc\": 932, \"self_transfer\": 1355}, null]}}"
 }
