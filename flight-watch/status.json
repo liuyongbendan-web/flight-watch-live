@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-19T06:07:49",
+  "generated_at": "2026-11-19T07:01:51",
   "source": "cloud",
   "entries": {
     "1f0f10": {
-      "checked_at": "2026-11-19T06:07",
+      "checked_at": "2026-11-19T07:01",
       "status": "ok",
       "error": null,
       "best": {
         "date": "2026-12-13",
-        "price": 379,
+        "price": 380,
         "currency": "AUD",
         "airlines": "Air China",
         "flights": "CA1576 CA173",
@@ -27,7 +27,7 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-13",
-          "price": 379,
+          "price": 380,
           "currency": "AUD",
           "airlines": "Air China",
           "flights": "CA1576 CA173",
@@ -45,7 +45,7 @@
         },
         "full_service": {
           "date": "2026-12-13",
-          "price": 379,
+          "price": 380,
           "currency": "AUD",
           "airlines": "Air China",
           "flights": "CA1576 CA173",
@@ -70,14 +70,14 @@
       ],
       "per_day": {
         "2026-12-13": {
-          "price": 379,
+          "price": 380,
           "airlines": "Air China",
           "depart": "2026-12-13 11:25"
         }
       }
     },
     "a645b4": {
-      "checked_at": "2026-11-19T06:07",
+      "checked_at": "2026-11-19T07:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -155,7 +155,7 @@
         },
         "self_transfer": {
           "date": "2026-12-03",
-          "price": 1248,
+          "price": 1250,
           "currency": "AUD",
           "airlines": "Scoot/Turkish Airlines",
           "flights": "TK023 TR698",
@@ -175,7 +175,7 @@
       "calendar": [
         {
           "date": "2026-12-03",
-          "price": 719
+          "price": 721
         }
       ],
       "per_day": {
@@ -187,8 +187,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-19T06:07:49",
+  "last_cycle": "2026-11-19T07:01:51",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"1f0f10\": [379, \"2026-12-13\", {\"connecting\": 379, \"full_service\": 379}, null], \"a645b4\": [855, \"2026-12-03\", {\"connecting\": 855, \"full_service\": 1230, \"lcc\": 855, \"self_transfer\": 1248}, null]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"1f0f10\": [380, \"2026-12-13\", {\"connecting\": 380, \"full_service\": 380}, null], \"a645b4\": [855, \"2026-12-03\", {\"connecting\": 855, \"full_service\": 1230, \"lcc\": 855, \"self_transfer\": 1250}, null]}}"
 }
