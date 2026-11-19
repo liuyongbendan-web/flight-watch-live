@@ -1,11 +1,11 @@
 {
   "entries": {
     "1f0f10": {
-      "checked_at": "2026-11-19T12:05",
+      "checked_at": "2026-11-19T13:01",
       "status": "ok",
       "best": {
         "date": "2026-12-13",
-        "price": 381,
+        "price": 382,
         "currency": "AUD",
         "airlines": "Air China",
         "flights": "CA1576 CA173",
@@ -24,7 +24,7 @@
       "per_day": {
         "2026-12-13": {
           "date": "2026-12-13",
-          "price": 381,
+          "price": 382,
           "currency": "AUD",
           "airlines": "Air China",
           "flights": "CA1576 CA173",
@@ -44,13 +44,13 @@
       "calendar": [
         {
           "date": "2026-12-13",
-          "price": 293
+          "price": 294
         }
       ],
       "by_type": {
         "connecting": {
           "date": "2026-12-13",
-          "price": 381,
+          "price": 382,
           "currency": "AUD",
           "airlines": "Air China",
           "flights": "CA1576 CA173",
@@ -68,7 +68,7 @@
         },
         "full_service": {
           "date": "2026-12-13",
-          "price": 381,
+          "price": 382,
           "currency": "AUD",
           "airlines": "Air China",
           "flights": "CA1576 CA173",
@@ -87,7 +87,7 @@
       }
     },
     "a645b4": {
-      "checked_at": "2026-11-19T12:06",
+      "checked_at": "2026-11-19T13:01",
       "status": "ok",
       "best": {
         "date": "2026-12-03",
@@ -130,7 +130,7 @@
       "calendar": [
         {
           "date": "2026-12-03",
-          "price": 721
+          "price": 724
         }
       ],
       "by_type": {
@@ -170,9 +170,27 @@
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
+        "self_transfer": {
+          "date": "2026-12-03",
+          "price": 1118,
+          "currency": "AUD",
+          "airlines": "Scoot/Thai AirAsia",
+          "flights": "TR043 TR608 FD4104",
+          "depart": "2026-12-03 20:05",
+          "arrive": "2026-12-04 12:00",
+          "duration": "19h55m",
+          "stops": 2,
+          "via": "SIN/BKK",
+          "self_transfer": true,
+          "checked_baggage": false,
+          "seats_left": 2,
+          "budget": true,
+          "complete": true,
+          "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
+        },
         "full_service": {
           "date": "2026-12-03",
-          "price": 1230,
+          "price": 1229,
           "currency": "AUD",
           "airlines": "China Southern Airlines",
           "flights": "CZ302 CZ3033",
@@ -187,29 +205,10 @@
           "budget": false,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
-        },
-        "self_transfer": {
-          "date": "2026-12-03",
-          "price": 1250,
-          "currency": "AUD",
-          "airlines": "Scoot/Turkish Airlines",
-          "flights": "TK023 TR698",
-          "depart": "2026-12-03 21:35",
-          "arrive": "2026-12-04 15:40",
-          "duration": "22h05m",
-          "stops": 1,
-          "via": "SIN",
-          "self_transfer": true,
-          "checked_baggage": false,
-          "seats_left": 4,
-          "budget": true,
-          "complete": true,
-          "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
-      },
-      "error": "45s 内没等到航班数据（收到 0 个 SSE 响应，页面标题: ''）。可能是被风控拦了、该日期无航班，或页面结构变了。"
+      }
     }
   },
-  "last_cycle": "2026-11-19T12:06:49",
+  "last_cycle": "2026-11-19T13:01:49",
   "report_sent": "2026-11-18"
 }
