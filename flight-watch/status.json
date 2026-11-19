@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-19T18:05:07",
+  "generated_at": "2026-11-19T19:02:02",
   "source": "cloud",
   "entries": {
     "1f0f10": {
-      "checked_at": "2026-11-19T18:04",
+      "checked_at": "2026-11-19T19:01",
       "status": "ok",
       "error": null,
       "best": {
@@ -77,9 +77,9 @@
       }
     },
     "a645b4": {
-      "checked_at": "2026-11-19T18:05",
+      "checked_at": "2026-11-19T19:01",
       "status": "ok",
-      "error": "45s 内没等到航班数据（收到 0 个 SSE 响应，页面标题: ''）。可能是被风控拦了、该日期无航班，或页面结构变了。",
+      "error": null,
       "best": {
         "date": "2026-12-03",
         "price": 855,
@@ -135,27 +135,9 @@
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
-        "self_transfer": {
-          "date": "2026-12-03",
-          "price": 1250,
-          "currency": "AUD",
-          "airlines": "Scoot/Turkish Airlines",
-          "flights": "TK023 TR698",
-          "depart": "2026-12-03 21:35",
-          "arrive": "2026-12-04 15:40",
-          "duration": "22h05m",
-          "stops": 1,
-          "via": "SIN",
-          "self_transfer": true,
-          "checked_baggage": false,
-          "seats_left": 1,
-          "budget": true,
-          "complete": true,
-          "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
-        },
         "full_service": {
           "date": "2026-12-03",
-          "price": 1287,
+          "price": 1285,
           "currency": "AUD",
           "airlines": "China Southern Airlines",
           "flights": "CZ302 CZ3033",
@@ -170,12 +152,30 @@
           "budget": false,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
+        },
+        "self_transfer": {
+          "date": "2026-12-03",
+          "price": 1646,
+          "currency": "AUD",
+          "airlines": "AirAsia Berhad (Malaysia)/Malaysia Airlines",
+          "flights": "MH140 AK854",
+          "depart": "2026-12-03 22:15",
+          "arrive": "2026-12-04 08:40",
+          "duration": "14h25m",
+          "stops": 1,
+          "via": "KUL",
+          "self_transfer": true,
+          "checked_baggage": false,
+          "seats_left": 2,
+          "budget": true,
+          "complete": true,
+          "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         }
       },
       "calendar": [
         {
           "date": "2026-12-03",
-          "price": 728
+          "price": 751
         }
       ],
       "per_day": {
@@ -187,8 +187,8 @@
       }
     }
   },
-  "last_cycle": "2026-11-19T18:05:06",
+  "last_cycle": "2026-11-19T19:02:02",
   "last_error": null,
   "trip_ok": true,
-  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"1f0f10\": [381, \"2026-12-13\", {\"connecting\": 381, \"full_service\": 381}, null], \"a645b4\": [855, \"2026-12-03\", {\"connecting\": 855, \"full_service\": 1287, \"lcc\": 855, \"self_transfer\": 1250}, \"45s 内没等到航班数据（收到 0 个 SSE 响应，页面标题: ''）。可能是被风控拦了、该日期无航班，或页面结构变了。\"]}}"
+  "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {\"1f0f10\": [381, \"2026-12-13\", {\"connecting\": 381, \"full_service\": 381}, null], \"a645b4\": [855, \"2026-12-03\", {\"connecting\": 855, \"full_service\": 1285, \"lcc\": 855, \"self_transfer\": 1646}, null]}}"
 }
