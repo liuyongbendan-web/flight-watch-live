@@ -1,22 +1,22 @@
 {
   "entries": {
     "1f0f10": {
-      "checked_at": "2026-11-19T10:07",
+      "checked_at": "2026-11-19T11:07",
       "status": "ok",
       "best": {
         "date": "2026-12-13",
-        "price": 380,
+        "price": 405,
         "currency": "AUD",
-        "airlines": "Air China",
-        "flights": "CA1576 CA173",
-        "depart": "2026-12-13 11:25",
-        "arrive": "2026-12-14 08:05",
-        "duration": "17h40m",
+        "airlines": "Juneyao Airlines",
+        "flights": "HO1076 HO1669",
+        "depart": "2026-12-13 13:50",
+        "arrive": "2026-12-14 06:50",
+        "duration": "14h00m",
         "stops": 1,
-        "via": "PEK",
+        "via": "PVG",
         "self_transfer": false,
         "checked_baggage": true,
-        "seats_left": 9,
+        "seats_left": 5,
         "budget": false,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=tao&acity=syd&ddate=2026-12-13&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
@@ -24,18 +24,18 @@
       "per_day": {
         "2026-12-13": {
           "date": "2026-12-13",
-          "price": 380,
+          "price": 405,
           "currency": "AUD",
-          "airlines": "Air China",
-          "flights": "CA1576 CA173",
-          "depart": "2026-12-13 11:25",
-          "arrive": "2026-12-14 08:05",
-          "duration": "17h40m",
+          "airlines": "Juneyao Airlines",
+          "flights": "HO1076 HO1669",
+          "depart": "2026-12-13 13:50",
+          "arrive": "2026-12-14 06:50",
+          "duration": "14h00m",
           "stops": 1,
-          "via": "PEK",
+          "via": "PVG",
           "self_transfer": false,
           "checked_baggage": true,
-          "seats_left": 9,
+          "seats_left": 5,
           "budget": false,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=tao&acity=syd&ddate=2026-12-13&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
@@ -50,36 +50,36 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-13",
-          "price": 380,
+          "price": 405,
           "currency": "AUD",
-          "airlines": "Air China",
-          "flights": "CA1576 CA173",
-          "depart": "2026-12-13 11:25",
-          "arrive": "2026-12-14 08:05",
-          "duration": "17h40m",
+          "airlines": "Juneyao Airlines",
+          "flights": "HO1076 HO1669",
+          "depart": "2026-12-13 13:50",
+          "arrive": "2026-12-14 06:50",
+          "duration": "14h00m",
           "stops": 1,
-          "via": "PEK",
+          "via": "PVG",
           "self_transfer": false,
           "checked_baggage": true,
-          "seats_left": 9,
+          "seats_left": 5,
           "budget": false,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=tao&acity=syd&ddate=2026-12-13&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "full_service": {
           "date": "2026-12-13",
-          "price": 380,
+          "price": 405,
           "currency": "AUD",
-          "airlines": "Air China",
-          "flights": "CA1576 CA173",
-          "depart": "2026-12-13 11:25",
-          "arrive": "2026-12-14 08:05",
-          "duration": "17h40m",
+          "airlines": "Juneyao Airlines",
+          "flights": "HO1076 HO1669",
+          "depart": "2026-12-13 13:50",
+          "arrive": "2026-12-14 06:50",
+          "duration": "14h00m",
           "stops": 1,
-          "via": "PEK",
+          "via": "PVG",
           "self_transfer": false,
           "checked_baggage": true,
-          "seats_left": 9,
+          "seats_left": 5,
           "budget": false,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=tao&acity=syd&ddate=2026-12-13&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
@@ -87,7 +87,7 @@
       }
     },
     "a645b4": {
-      "checked_at": "2026-11-19T10:07",
+      "checked_at": "2026-11-19T11:08",
       "status": "ok",
       "best": {
         "date": "2026-12-03",
@@ -210,6 +210,6 @@
       "error": "45s 内没等到航班数据（收到 0 个 SSE 响应，页面标题: ''）。可能是被风控拦了、该日期无航班，或页面结构变了。"
     }
   },
-  "last_cycle": "2026-11-19T10:07:57",
+  "last_cycle": "2026-11-19T11:08:35",
   "report_sent": "2026-11-18"
 }

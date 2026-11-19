@@ -219,3 +219,4 @@ checked_at,entry_id,route,kind,price,depart_date,airlines,flights
 2026-11-19T07:01,a645b4,SYD-CNX,full_service,1230,2026-12-03,China Southern Airlines,CZ302 CZ3033
 2026-11-19T08:11,1f0f10,TAO-SYD,full_service,380,2026-12-13,Air China,CA1576 CA173
 2026-11-19T10:07,1f0f10,TAO-SYD,full_service,380,2026-12-13,Air China,CA1576 CA173
+2026-11-19T11:07,1f0f10,TAO-SYD,full_service,405,2026-12-13,Juneyao Airlines,HO1076 HO1669
