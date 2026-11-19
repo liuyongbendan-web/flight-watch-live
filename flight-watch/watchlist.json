@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T10:50:09",
+  "updated": "2026-11-19T22:25:26",
   "entries": [
     {
       "origin": "TAO",
@@ -27,35 +27,6 @@
       "stopover_max_h": 48,
       "note": "",
       "id": "1f0f10"
-    },
-    {
-      "origin": "SYD",
-      "destination": "CNX",
-      "from": "2026-12-03",
-      "to": "2026-12-03",
-      "max_price": 480,
-      "max_stops": 1,
-      "depart_slots": [
-        "evening"
-      ],
-      "allow_self_transfer": true,
-      "need_bag": false,
-      "auto_prepare": false,
-      "promo_code": "",
-      "snipe_at": "",
-      "arrive_by": "",
-      "adults": 1,
-      "note": "",
-      "transfer_pref": "cheap",
-      "low_margin": 2,
-      "max_duration_h": null,
-      "max_layover_h": null,
-      "stopover_city": "",
-      "stopover_min_h": 12,
-      "stopover_max_h": 48,
-      "id": "a645b4",
-      "enabled": true,
-      "exclude": []
     }
   ],
   "settings": {
