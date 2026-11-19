@@ -1,22 +1,22 @@
 {
   "entries": {
     "1f0f10": {
-      "checked_at": "2026-11-19T14:11",
+      "checked_at": "2026-11-19T16:04",
       "status": "ok",
       "best": {
         "date": "2026-12-13",
-        "price": 382,
+        "price": 404,
         "currency": "AUD",
-        "airlines": "Air China",
-        "flights": "CA1576 CA173",
-        "depart": "2026-12-13 11:25",
-        "arrive": "2026-12-14 08:05",
-        "duration": "17h40m",
+        "airlines": "Juneyao Airlines",
+        "flights": "HO1076 HO1669",
+        "depart": "2026-12-13 13:50",
+        "arrive": "2026-12-14 06:50",
+        "duration": "14h00m",
         "stops": 1,
-        "via": "PEK",
+        "via": "PVG",
         "self_transfer": false,
         "checked_baggage": true,
-        "seats_left": 9,
+        "seats_left": 5,
         "budget": false,
         "complete": true,
         "url": "https://au.trip.com/flights/showfarefirst?dcity=tao&acity=syd&ddate=2026-12-13&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
@@ -24,18 +24,18 @@
       "per_day": {
         "2026-12-13": {
           "date": "2026-12-13",
-          "price": 382,
+          "price": 404,
           "currency": "AUD",
-          "airlines": "Air China",
-          "flights": "CA1576 CA173",
-          "depart": "2026-12-13 11:25",
-          "arrive": "2026-12-14 08:05",
-          "duration": "17h40m",
+          "airlines": "Juneyao Airlines",
+          "flights": "HO1076 HO1669",
+          "depart": "2026-12-13 13:50",
+          "arrive": "2026-12-14 06:50",
+          "duration": "14h00m",
           "stops": 1,
-          "via": "PEK",
+          "via": "PVG",
           "self_transfer": false,
           "checked_baggage": true,
-          "seats_left": 9,
+          "seats_left": 5,
           "budget": false,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=tao&acity=syd&ddate=2026-12-13&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
@@ -50,36 +50,36 @@
       "by_type": {
         "connecting": {
           "date": "2026-12-13",
-          "price": 382,
+          "price": 404,
           "currency": "AUD",
-          "airlines": "Air China",
-          "flights": "CA1576 CA173",
-          "depart": "2026-12-13 11:25",
-          "arrive": "2026-12-14 08:05",
-          "duration": "17h40m",
+          "airlines": "Juneyao Airlines",
+          "flights": "HO1076 HO1669",
+          "depart": "2026-12-13 13:50",
+          "arrive": "2026-12-14 06:50",
+          "duration": "14h00m",
           "stops": 1,
-          "via": "PEK",
+          "via": "PVG",
           "self_transfer": false,
           "checked_baggage": true,
-          "seats_left": 9,
+          "seats_left": 5,
           "budget": false,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=tao&acity=syd&ddate=2026-12-13&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
         },
         "full_service": {
           "date": "2026-12-13",
-          "price": 382,
+          "price": 404,
           "currency": "AUD",
-          "airlines": "Air China",
-          "flights": "CA1576 CA173",
-          "depart": "2026-12-13 11:25",
-          "arrive": "2026-12-14 08:05",
-          "duration": "17h40m",
+          "airlines": "Juneyao Airlines",
+          "flights": "HO1076 HO1669",
+          "depart": "2026-12-13 13:50",
+          "arrive": "2026-12-14 06:50",
+          "duration": "14h00m",
           "stops": 1,
-          "via": "PEK",
+          "via": "PVG",
           "self_transfer": false,
           "checked_baggage": true,
-          "seats_left": 9,
+          "seats_left": 5,
           "budget": false,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=tao&acity=syd&ddate=2026-12-13&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
@@ -87,7 +87,7 @@
       }
     },
     "a645b4": {
-      "checked_at": "2026-11-19T14:12",
+      "checked_at": "2026-11-19T16:04",
       "status": "ok",
       "best": {
         "date": "2026-12-03",
@@ -130,7 +130,7 @@
       "calendar": [
         {
           "date": "2026-12-03",
-          "price": 725
+          "price": 724
         }
       ],
       "by_type": {
@@ -172,7 +172,7 @@
         },
         "full_service": {
           "date": "2026-12-03",
-          "price": 1290,
+          "price": 1288,
           "currency": "AUD",
           "airlines": "China Southern Airlines",
           "flights": "CZ302 CZ3033",
@@ -190,7 +190,7 @@
         },
         "self_transfer": {
           "date": "2026-12-03",
-          "price": 1694,
+          "price": 1652,
           "currency": "AUD",
           "airlines": "AirAsia Berhad (Malaysia)/Malaysia Airlines",
           "flights": "MH140 AK854",
@@ -201,7 +201,7 @@
           "via": "KUL",
           "self_transfer": true,
           "checked_baggage": false,
-          "seats_left": 8,
+          "seats_left": 3,
           "budget": true,
           "complete": true,
           "url": "https://au.trip.com/flights/showfarefirst?dcity=syd&acity=cnx&ddate=2026-12-03&triptype=ow&class=y&quantity=1&locale=en-AU&curr=AUD"
@@ -209,6 +209,6 @@
       }
     }
   },
-  "last_cycle": "2026-11-19T14:12:17",
+  "last_cycle": "2026-11-19T16:04:50",
   "report_sent": "2026-11-18"
 }
