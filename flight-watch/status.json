@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-28T12:29:45",
-  "source": "mac",
+  "generated_at": "2026-11-28T14:57:20",
+  "source": "cloud",
   "entries": {},
-  "last_cycle": "2026-11-28T12:29:43",
+  "last_cycle": "2026-11-28T14:57:20",
   "last_error": null,
   "trip_ok": true,
   "fp": "{\"err\": null, \"extra\": {\"trip_ok\": true}, \"prices\": {}}"
